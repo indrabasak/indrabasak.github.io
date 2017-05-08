@@ -1,0 +1,25 @@
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+## Gemfile
+Gemfile.lock
+node_modules
+package.json
+
+*.iml
+
+## Directory-based project format:
+.idea
+.idea/*.xml
+
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml

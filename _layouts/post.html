@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<article class="post">
+    <h1>{{ page.title }}</h1>
+
+    <div class="entry">
+        {{ content }}
+    </div>
+
+    <div class="date">
+        Posted
+        {% if page.tags.size > 0 %}
+        in {{ page.tags | sort | join: ", " }}
+        {% endif %}
+        on {{ page.date | date: "%B %e, %Y" }}
+    </div>
+
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="author">
+        <span class="date">{{ post.date }}</span>
+    </p>
+    <div class="content">
+        {{ post.content }}
+    </div>
+    {% endfor %}
+
+    {% include pagination.html %}
+
+    {% if page.share != false %}
+    {% include share.html %}
+    {% endif %}
+
+    {% include disqus.html %}
+</article>

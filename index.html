@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="posts">
+    {% for post in paginator.posts %}
+    <article class="post">
+        <img src="{{ site.baseurl }}{{ post.image }}" class="entry-img">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">(more...)</a>
+
+        <p class="entry-meta">Posted
+            {% if post.tags.size > 0 %}
+            in {{ post.tags | sort | join: ", " }}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="entry-meta"> on {{ post.date | date: "%B %-d, %Y" }}</a>
+        </p>
+    </article>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous"> ← </a>
+        {% else %}
+        <span class="previous">&nbsp;</span>
+        {% endif %}
+        <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next"> → </a>
+        {% else %}
+        <span class="next ">&nbsp;</span>
+        {% endif %}
+    </div>
+
+</div>

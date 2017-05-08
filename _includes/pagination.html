@@ -1,0 +1,16 @@
+<!-- Pagination links -->
+<div id="post-nav" class="clearfix nav-slide">
+    <div class="work">
+        {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">
+            <span class="slide-wrap">← {{page.previous.title}}</span>
+        </a>
+        {% endif %}
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">
+            <span class="slide-wrap">{{page.next.title}} →</span>
+        </a>
+        {% endif %}
+    </div>
+</div>
