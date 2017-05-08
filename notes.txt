@@ -1,0 +1,25 @@
+brew install ruby
+
+brew install rbenv
+
+gem install bundler
+
+brew install rbenv
+rbenv init
+vi .bash_profile
+gem install github-pages
+
+# create new jekyll project
+jekyll new jekyll-test
+
+
+#Nice Editor
+http://prose.io/
+
+
+#Start up jekyll server
+jekyll serve
+bundle exec jekyll server
+
+# View the website at
+http://127.0.0.1:4000/

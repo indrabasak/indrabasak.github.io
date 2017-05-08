@@ -95,9 +95,9 @@ whitelist:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
   - README.md
   - CNAME
+  - notes.txt
 
 theme: jekyll-theme-midnight
 
