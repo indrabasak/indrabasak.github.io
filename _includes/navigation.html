@@ -35,21 +35,20 @@
                             <li class="menu-item"><a href="{{ site.baseurl }}/blog/archives">Archives</a></li>
                         </ul>
                     </div>
-                    {% if site.simple_search %}
-                    <form class="search-form" role="search" method="get"  action="{{ site.simple_search }}">
-                        <label>
-                            <!--<span class="screen-reader-text">Search for:</span>-->
-                            <input class="search-field" type="search"  placeholder="Search &hellip;" value="" name="s"/>
-                        </label>
-                        <input class="search-submit" type="submit"  value="Search"/>
-                    </form>
-                    {% endif %}
+                    <!--{% if site.simple_search %}-->
+                    <!--<form class="search-form" role="search" method="get"  action="{{ site.simple_search }}">-->
+                        <!--<label>-->
+                            <!--<input class="search-field" type="search"  placeholder="Search &hellip;" value="" name="s"/>-->
+                        <!--</label>-->
+                        <!--<input class="search-submit" type="submit"  value="Search"/>-->
+                    <!--</form>-->
+                    <!--{% endif %}-->
 
                     {% if site.simple_search %}
-                    <form action="{{ site.simple_search }}" method="get">
+                    <form class="search-form" role="search" method="get" action="{{ site.simple_search }}">
                         <fieldset role="search">
                             <input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">
-                            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+                            <input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>
                         </fieldset>
                     </form>
                     {% endif %}

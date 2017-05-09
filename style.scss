@@ -549,10 +549,30 @@ ul.nav-menu li:hover > ul,
   width: 200px;
 }
 
+.site-header .search-text {
+  background-color: transparent;
+  background-image: url(/images/search-icon.png);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: 0;
+  cursor: pointer;
+  height: 36px;
+  margin: 0;
+  padding: 0 0 0 42px;
+  padding: 0 0 0 4.2rem;
+  position: relative;
+  -webkit-transition: width 0.2s ease, background 0.2s ease;
+  transition: width 0.2s ease, background 0.2s ease;
+  width: 0;
+}
+
 /* Search widget */
 .search-form .search-submit {
   display: none;
 }
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
