@@ -4,6 +4,7 @@ title: Exploring Fibonacci
 published: true
 comments: true
 tags: [Algorithm, Fibonacci]
+use_math: true
 ---
 
 We all are familiar with Fibonacci numbers in the field of computer science. It is a sequence of integers which follows the pattern:
@@ -12,7 +13,7 @@ We all are familiar with Fibonacci numbers in the field of computer science. It
 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 ```
 
-The first two numbers in the sequence are 0 and 1. Any other number in the sequence is defined as: H~2~O 
+The first two numbers in the sequence are 0 and 1. Any other number in the sequence is defined as:
 
 $$
 \begin{align*}
@@ -39,9 +40,8 @@ public int fib(int n) {
 #### Complexity Analysis of Fibonacci Recursion
 
 The time complexity of the Fibonacci recursive algorithm is measured by designating value of 1 to constant operations. 
-1 for comparing _(n <= 1)_; 1 for _fib1(n-1)_; 1 for _fib2(n-2)_; and 1 for addition operation - _fib1(n-1) + fib1(n-2)_.
-
-Here is equation (1), 
+1 for comparing $(n <= 1)$; 1 for $fib1(n-1)$; 1 for $fib2(n-2)$; and 1 for addition operation - $fib1(n-1) + fib1(n-2)$.
+Here is equation $(1)$, 
 
 $$
 \begin{equation}
@@ -62,7 +62,7 @@ T(n-1) ≈ T(n-2)
 \end{align*}
 $$
 
-then equation (1) can be simplified to equation (2),
+then equation (1) can be simplified to equation $(2)$,
 
 $$
 \begin{equation}
@@ -74,7 +74,7 @@ T(n) = 4T(n-4) + 3C
 \end{equation}
 $$   
 
-then equation (2) can be simplified to equation (3),
+then equation $(2)$ can be simplified to equation $(3)$,
 
 $$
 \begin{equation}
@@ -85,7 +85,7 @@ T(n) = 8T(n-6) + 7C
 \end{equation}
 $$
 
-then equation (3) can be simplified to equation (4),
+then equation $(3)$ can be simplified to equation $(4)$,
 
 $$
 \begin{equation}
@@ -95,7 +95,7 @@ T(n) = 16T(n-8) + 15C
 \end{equation}
 $$
 
-The equation (4) can be re-written as equation (5),
+The equation $(4)$ can be re-written as equation $(5)$,
 
 $$
 \begin{equation}
@@ -105,8 +105,8 @@ T(n) = 2^kT(n-2k) + (2^k-1)C
 \end{equation}
 $$
 
-Let's verify if the expression holds true for all cases. In equation(2), k = 2; in equation(3), k = 3. Now if we 
-want to apply equation (5) for n = 0:
+Let's verify if the expression holds true for all cases. In equation $(2)$, k = 2; in equation $(3)$, k = 3. Now if we 
+want to apply equation $(5)$ for $n = 0$:
 
 $$
 \begin{align*}
@@ -116,7 +116,7 @@ k = n/2
 \end{align*}
 $$
 
-Equation (5) can now be reduced to equation (6),
+Equation $(5)$ can now be reduced to equation $(6)$,
 
 $$
 \begin{equation}
@@ -127,7 +127,7 @@ T(n) = (1+C)2^{n/2} + C
 \end{equation}
 $$
 
-Now in equation (7), we can say that the _lower bound of time complexity_ is proportional to:
+Now in equation $(7)$, we can say that the _lower bound of time complexity_ is proportional to:
 
 $$
 \begin{equation}
@@ -145,7 +145,7 @@ T(n-2) ≈ T(n-1)
 \end{align*}
 $$
 
-then equation (7),
+then equation $(8)$,
 
 $$
 \begin{equation}
@@ -157,7 +157,7 @@ T(n) = 4T(n-2) + 3C
 \end{equation}
 $$
  
-equation (7) can be reduced to equation (8),
+equation $(8)$ can be reduced to equation $(9)$,
 
 $$
 \begin{equation}
@@ -168,7 +168,7 @@ T(n) = 8T(n-3) + 7C
 \end{equation}
 $$   
 
-The equation (8) can be re-written as equation (9),
+The equation $(9)$ can be re-written as equation $(10)$,
 
 $$
 \begin{equation}
@@ -188,7 +188,7 @@ k = n
 \end{align*}
 $$
 
-Equation (9) now can be reduced to equation (10),
+Equation $(10)$ now can be reduced to equation $(11)$,
 
 $$
 \begin{equation}
@@ -199,7 +199,7 @@ T(n) = (1+C)2^n - C
 \end{equation}
 $$ 
 
-Now we can say in equation (11) that the _upper bound of time complexity_ is proportional to:
+Now, we can say in equation $(11)$ that the _upper bound of time complexity_ is proportional to:
 
 $$
 \begin{equation}
@@ -221,11 +221,11 @@ The recursive algorithm takes exponential time to compute the value. That's a lo
 
 ### Dynamic Programming
 
-Dynamic Programming is a technique for solving problems which exhibit the characteristic of overlapping sub-problems. Let's take the example of Fibonacci numbers. _fib(n)_ is dependent on _fib(n-1)_ and _fib(n-2)_. To calculate _fib(5)_, here is the number of times fib is called:
+Dynamic Programming is a technique for solving problems which exhibit the characteristic of overlapping sub-problems. Let's take the example of Fibonacci numbers. $fib(n)$ is dependent on $fib(n-1)$ and $fib(n-2)$. To calculate $fib(5)$, here is the number of times $fib$ is called:
 
 ![fibonacci](https://indrabasak.files.wordpress.com/2016/04/fibonacci.png) 
 
-You noticed that _fib(3)_  and _fib(2)_ are called multiple times. We could have reused the value of _fib(3)_ and _fib(2)_ if we had stored the values during the first call. There are couple ways of storing the values. We will talk about it in the next couple of sections.
+You noticed that $fib(3)$  and $fib(2)$ are called multiple times. We could have reused the value of $fib(3)$ and $fib(2)$ if we had stored the values during the first call. There are couple ways of storing the values. We will talk about it in the next couple of sections.
 
 ### Memoization
 
