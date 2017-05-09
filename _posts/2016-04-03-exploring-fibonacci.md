@@ -12,13 +12,13 @@ We all are familiar with Fibonacci numbers in the field of computer science. It
 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
 ```
 
-The first two numbers in the sequence are 0 and 1. Any other number in the sequence is defined as:
+The first two numbers in the sequence are 0 and 1. Any other number in the sequence is defined as: H~2~O 
 
-F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>
-
-```
-F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>
-```
+$$
+\begin{align*}
+F_n = F_{n-1} + F_{n-2}
+\end{align*}
+$$
 
 Here, I will explore the different ways of solving the Fibonacci numbers and the complexity associated with each of the algorithm.
 
@@ -38,87 +38,184 @@ public int fib(int n) {
 
 #### Complexity Analysis of Fibonacci Recursion
 
-The time complexity of the Fibonacci recursive algorithm is measured by designating value of 1 to constant operations. 1 for comparing _(n <= 1)_; 1 for _fib1(n-1)_; 1 for _fib2(n-2)_; and 1 for addition operation - _fib1(n-1) + fib1(n-2)_.
+The time complexity of the Fibonacci recursive algorithm is measured by designating value of 1 to constant operations. 
+1 for comparing _(n <= 1)_; 1 for _fib1(n-1)_; 1 for _fib2(n-2)_; and 1 for addition operation - _fib1(n-1) + fib1(n-2)_.
 
-```
-T(0) = 1
-T(1) = 1
-T(n) = T(n-1) + T(n-2) + 4
-T(n) = T(n-1) + T(n-2) + C -- equation (1)
-```
+Here is equation (1), 
+
+$$
+\begin{equation}
+\begin{aligned}
+T(0) = 1 \\
+T(1) = 1 \\
+T(n) = T(n-1) + T(n-2) + 4 \\
+T(n) = T(n-1) + T(n-2) + C 
+\end{aligned}
+\end{equation}
+$$ 
 
 To find the _lower bound of time complexity_, let's assume
 
-```
+$$
+\begin{align*}
 T(n-1) ≈ T(n-2)
-```
+\end{align*}
+$$
 
-then,
+then equation (1) can be simplified to equation (2),
 
-```
-T(n) = 2T(n-2) + C
-     = 2{2T(n-4) + C} + C
-     = 4T(n-4) + 3C  -- equation (2)
-     = 4{2T(n-6) + C} + 3C
-     = 8T(n-6) + 7C -- equation (3) 
-     = 16T(n-8) + 15C -- equation (4)
-```     
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2T(n-2) + C \\
+T(n) = 2\{2T(n-4) + C\} + C \\
+T(n) = 4T(n-4) + 3C
+\end{aligned}
+\end{equation}
+$$   
 
-The equation can be re-written as,
+then equation (2) can be simplified to equation (3),
 
-<code>
-T(n) = 2<sup>k</sup>T(n-2k) + (2<sup>k</sup>-1)C  -- equation (5)
-</code>
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 4{2T(n-6) + C} + 3C \\
+T(n) = 8T(n-6) + 7C
+\end{aligned}
+\end{equation}
+$$
 
-Let's verify if the expression holds true for all cases. In equation(2), k = 2; in equation(3), k = 3. Now if we want to apply equation (5) for n = 0:
+then equation (3) can be simplified to equation (4),
 
-T(n-2k)= T(0)
-n-2k = 0
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 16T(n-8) + 15C
+\end{aligned}
+\end{equation}
+$$
+
+The equation (4) can be re-written as equation (5),
+
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2^kT(n-2k) + (2^k-1)C 
+\end{aligned}
+\end{equation}
+$$
+
+Let's verify if the expression holds true for all cases. In equation(2), k = 2; in equation(3), k = 3. Now if we 
+want to apply equation (5) for n = 0:
+
+$$
+\begin{align*}
+T(n-2k)= T(0) \\
+n-2k = 0 \\
 k = n/2
+\end{align*}
+$$
 
-Equation (5) can now be reduced to,
+Equation (5) can now be reduced to equation (6),
 
-T(n) = 2<sup>n/2</sup>T(0) + (2<sup>n/2</sup>-1)C
-T(n) = (1+C)2<sup>n/2</sup> + C -- equation (6)
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2^{n/2}T(0) + (2^{n/2}-1)C \\
+T(n) = (1+C)2^{n/2} + C
+\end{aligned}
+\end{equation}
+$$
 
-Now, we can say that the _lower bound of time complexity_ is proportional to:
+Now in equation (7), we can say that the _lower bound of time complexity_ is proportional to:
 
-T(n) ∝ 2<sup>n/2</sup> -- equation (7)
+$$
+\begin{equation}
+\begin{aligned}
+T(n) ∝ 2^{n/2}
+\end{aligned}
+\end{equation}
+$$
 
 Similarly, we can find the _upper bound of time complexity_ by assuming
 
+$$
+\begin{align*}
 T(n-2) ≈ T(n-1)
+\end{align*}
+$$
 
-then,
+then equation (7),
 
-T(n) = 2T(n-1) + C
-     = 2{2T(n-2) + C} + C
-     = 4T(n-2) + 3C  -- equation (7)
-     = 4{2T(n-3) + C} + 3C
-     = 8T(n-3) + 7C -- equation (8) 
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2T(n-1) + C \\
+T(n) = 2\{2T(n-2) + C\} + C \\
+T(n) = 4T(n-2) + 3C
+\end{aligned}
+\end{equation}
+$$
+ 
+equation (7) can be reduced to equation (8),
 
-The equation can be re-written as,
+$$
+\begin{equation}
+\begin{aligned}     
+T(n) = 4\{2T(n-3) + C\} + 3C \\
+T(n) = 8T(n-3) + 7C
+\end{aligned}
+\end{equation}
+$$   
 
-T(n) = 2<sup>k</sup>T(n-k) + (2<sup>k</sup>-1)C  -- equation(9)
+The equation (8) can be re-written as equation (9),
+
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2^kT(n-k) + (2^k-1)C 
+\end{aligned}
+\end{equation}
+$$  
 
 For ,
 
-T(n-k) = T(0)
-n-k = 0
+$$
+\begin{align*}
+T(n - k) = T(0) \\
+n - k = 0 \\
 k = n
+\end{align*}
+$$
 
-Equation (9) now can be reduced to,
+Equation (9) now can be reduced to equation (10),
 
-T(n) = 2<sup>n</sup>T(0) + (2<sup>n</sup>-1)C
-T(n) = (1+C)2<sup>n</sup> - C -- equation (10)
+$$
+\begin{equation}
+\begin{aligned}
+T(n) = 2^nT(0) + (2^n-1)C \\
+T(n) = (1+C)2^n - C 
+\end{aligned}
+\end{equation}
+$$ 
 
-Now, we can say that the _upper bound of time complexity_ is proportional to:
+Now we can say in equation (11) that the _upper bound of time complexity_ is proportional to:
 
-T(n) ∝ 2<sup>n</sup> -- equation (11)
+$$
+\begin{equation}
+\begin{aligned}
+T(n) ∝ 2^n
+\end{aligned}
+\end{equation}
+$$ 
 
 So the time complexity of recursive Fibonacci algorithm is somewhere is between lower and upper bound of time complexity. However in Big-O terms, it is the upper bound of time complexity. In Big-O notation, the complexity of recursive Fibonacci algorithm is:
 
-**O(2<sup>n</sup>)**
+$$
+\begin{align*}
+O(2^n)
+\end{align*}
+$$
 
 The recursive algorithm takes exponential time to compute the value. That's a lot of time to derive a value. The Fibonacci recursion algorithm can be improved upon by applying the principle of dynamic programming.
 
@@ -162,7 +259,7 @@ public class Fibonacci {
 
 #### Complexity Analysis of Fibonacci Memoization
 
-Though the complexity of memoized Fibonacci is still **O(2<sup>n</sup>)**, it is much faster than regular Fibonacci recursion since we have reduced the time by defining the recursive algorithm in terms of overlapping sub-problems.
+Though the complexity of memoized Fibonacci is still $$ \begin{align*} O(2^n) \end{align*} $$, it is much faster than regular Fibonacci recursion since we have reduced the time by defining the recursive algorithm in terms of overlapping sub-problems.
 
 ### Tabulation
 
