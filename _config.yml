@@ -20,6 +20,8 @@ timezone: America/Los Angeles
 paginate: 3
 paginate_path: "page:num"
 
+simple_search: https://www.google.com/search
+
 #
 # Flags below are optional
 #

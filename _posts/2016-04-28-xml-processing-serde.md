@@ -10,8 +10,9 @@ image: /images/entry/hive.png
 [Hive XML SerDe](https://github.com/dvasilen/Hive-XML-SerDe) is an XML processing library based on Hive 
 [SerDe](https://cwiki.apache.org/confluence/display/Hive/SerDe)  (serializer / deserializer) framework. It relies 
 on `XmlInputFormat` from Apache Mahout project to shred the input file into XML fragments based on specific start 
-and end tags. You can find more about `XmlInputFormat` in "Hadoop in Practice". The XML SerDe queries the XML fragments
-with XPath Processor to populate Hive tables. You can find the inner workings of this library 
+and end tags. You can find more about `XmlInputFormat` in "Hadoop in Practice". 
+
+The XML SerDe queries the XML fragments with XPath Processor to populate Hive tables. You can find the inner workings of this library 
 [here](http://www.enggjournals.com/ijcse/doc/IJCSE14-06-09-012.pdf). In this posting, I will go over an example of 
 XML processing in Hive using XML SerDe library. In our example, we will use the ebay data downloaded from University 
 of Washington's [XML Data Repository](http://www.cs.washington.edu/research/xmldatasets/) site. 

@@ -2,9 +2,9 @@
     <div class="container">
         <footer class="footer">
             {% include svg-icons.html %}
-            <p class="copyright">&#169; {{ site.time | date: '%Y' }} {{ site.author.name }} </p>
-        </footer>
-
+            <p class="copyright">&#169; {{ site.time | date: '%Y' }} - {{ site.author.name }} -
+                <span class="credit">Powered by <a href="https://jekyllrb.com/">Jekyll</a></span>
+            </p>
         </footer>
     </div>
 </div>
