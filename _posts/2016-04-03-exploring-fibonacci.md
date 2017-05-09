@@ -178,7 +178,7 @@ T(n) = 2^kT(n-k) + (2^k-1)C
 \end{equation}
 $$  
 
-For ,
+For,
 
 $$
 \begin{align*}
