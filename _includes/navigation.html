@@ -8,22 +8,6 @@
             <div class="site-info">
                 <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             </div>
-            <!--<nav>
-                <ul class="main-navigation">
-                    <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/about">About Me</a></li>
-                    <li><a href="{{ site.baseurl }}/blog/archives">Archives</a></li>
-                </ul>
-
-                {% if site.simple_search %}
-                <form action="{{ site.simple_search }}" method="get">
-                    <fieldset role="search">
-                        <input type="hidden" name="sitesearch" value="{{ site.baseurl | shorthand_url }}">
-                        <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-                    </fieldset>
-                </form>
-                {% endif %}
-            </nav>-->
 
             <div id = "navbar" class="header-navigation">
                 <nav class="main-navigation" role="navigation">
@@ -44,14 +28,14 @@
                     <!--</form>-->
                     <!--{% endif %}-->
 
-                    {% if site.simple_search %}
-                    <form class="search-form" role="search" method="get" action="{{ site.simple_search }}">
-                        <fieldset role="search">
-                            <input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">
-                            <input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>
-                        </fieldset>
-                    </form>
-                    {% endif %}
+                    <!--{% if site.simple_search %}-->
+                    <!--<form class="search-form" role="search" method="get" action="{{ site.simple_search }}">-->
+                        <!--<fieldset role="search">-->
+                            <!--<input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">-->
+                            <!--<input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>-->
+                        <!--</fieldset>-->
+                    <!--</form>-->
+                    <!--{% endif %}-->
                 </nav>
             </div>
         </header>
