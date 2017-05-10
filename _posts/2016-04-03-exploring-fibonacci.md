@@ -3,6 +3,7 @@ layout: post
 title: Exploring Fibonacci
 published: true
 comments: true
+category: Algorithm
 tags: [Algorithm, Fibonacci]
 use_math: true
 ---
