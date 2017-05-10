@@ -294,7 +294,7 @@ nav {
   }
 
   .entry-meta {
-    font-size: 12px;
+    font: 13px $libreBaskerville;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.45);;
     text-decoration-color: rgba(0, 0, 0, 0.45);
@@ -449,6 +449,7 @@ div.nav-menu > ul {
   font-family: Lato, sans-serif;
   font-size: 8px;
   font-size: 0.8rem;
+
   font-weight: 400;
   letter-spacing: 2px;
   line-height: 12px;
@@ -597,7 +598,6 @@ ul.nav-menu li:hover > ul,
 
 .site-header {
   //  background-color: #000;
-  //background-image: url(https://indrabasak.files.wordpress.com/2017/04/brick-bkg2.png);
   background-image: url('{{ site.baseurl }}/images/brick-bkg.png');
   background-position-x: center;
   background-position-y: top;
