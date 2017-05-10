@@ -158,7 +158,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -192,9 +192,11 @@ img {
     display: block;
     margin: 0 auto;
   }
-  //border-bottom-width: 2px;
-  //border-bottom-style: solid;
-  //border-bottom-color: rgb(0, 0, 0);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 0, 0);
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
 }
 
 .site-name {
@@ -216,7 +218,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 10px;
 
   @include mobile {
     margin: 3px 0;
@@ -427,6 +429,7 @@ form {
   min-height: 36px;
   position: relative;
 }
+
 ul.nav-menu,
 div.nav-menu > ul {
   margin: 0;
@@ -434,6 +437,7 @@ div.nav-menu > ul {
   padding: 0 4rem 0 0;
   list-style-type: none;
 }
+
 .nav-menu li {
   float: left;
   position: relative;
@@ -458,6 +462,7 @@ div.nav-menu > ul {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
   background-color: #303030;
@@ -465,6 +470,7 @@ div.nav-menu > ul {
   -webkit-transition: none;
   transition: none;
 }
+
 .nav-menu .sub-menu,
 .nav-menu .children {
   background-color: #404040;
@@ -478,30 +484,36 @@ div.nav-menu > ul {
   left: 0;
   z-index: 99999;
 }
-.nav-menu .sub-menu{
+
+.nav-menu .sub-menu {
   width: 200px;
 }
+
 .nav-menu .sub-menu ul,
 .nav-menu .children ul {
   border-left: 0;
   left: 100%;
   top: 0;
 }
+
 ul.nav-menu ul a,
 .nav-menu ul ul a {
   margin: 0;
   text-transform: none;
   width: 200px;
 }
+
 ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover {
   background-color: #303030;
 }
+
 ul.nav-menu li:hover > ul,
 .nav-menu ul li:hover > ul {
   display: block;
   opacity: 1;
 }
+
 //.nav-menu .current_page_item > a,
 //.nav-menu .current_page_ancestor > a,
 //.nav-menu .current-menu-item > a,
@@ -512,8 +524,9 @@ ul.nav-menu li:hover > ul,
 .menu-toggle {
   display: none;
 }
+
 #navbar {
-//  background-color: #404040;
+  //  background-color: #404040;
   margin: 0 auto;
   width: 100%;
 }
@@ -523,6 +536,7 @@ ul.nav-menu li:hover > ul,
   right: 0;
   top: 0;
 }
+
 .site-header .search-field {
   background-color: transparent;
   background-image: url(/images/search-icon.png);
@@ -540,11 +554,13 @@ ul.nav-menu li:hover > ul,
   transition: width 0.2s ease, background 0.2s ease;
   width: 0;
 }
+
 .site-header .search-field:hover {
   background-color: #303030;
   -webkit-transition: none;
   transition: none;
 }
+
 .site-header .search-field:focus {
   background-color: #f5f5f5;
   border: 0;
@@ -579,6 +595,41 @@ ul.nav-menu li:hover > ul,
   display: none;
 }
 
+.site-header {
+  //  background-color: #000;
+  //background-image: url(https://indrabasak.files.wordpress.com/2017/04/brick-bkg2.png);
+  background-image: url('{{ site.baseurl }}/images/brick-bkg.png');
+  background-position-x: center;
+  background-position-y: top;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+.site-header .home-link {
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+  min-height: 175px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.site-title {
+  //  color: #fff;
+  //font-family: Lato, sans-serif;
+  font-family: $libreBaskerville;
+  font-size: 35px;
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 1;
+  margin: 0;
+  padding: 40px 0 5px;
+  padding: 4rem 0 0.5rem;
+  //text-transform: uppercase;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

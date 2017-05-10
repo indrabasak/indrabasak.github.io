@@ -280,4 +280,4 @@ public int fib3(int n) {
 
 #### Complexity Analysis of Fibonacci Tabulation
 
-The complexity is linear time, i.e, the amount of times around the loop is equal to the size of number, n, we are trying to calculate. The complexity is shown as **O(n)**.
+The complexity is linear time, i.e, the amount of times around the loop is equal to the size of number, n, we are trying to calculate. The complexity is shown as $O(n)$.

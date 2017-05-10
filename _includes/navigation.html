@@ -1,15 +1,22 @@
 <div class="wrapper-masthead">
     <div class="container">
         <header class="masthead clearfix site-header">
-            <a href="{{ site.baseurl }}/" class="site-avatar">
-                <img src="{{ site.avatar }}"/>
-            </a>
+            <!--            <a href="{{ site.baseurl }}/" class="site-avatar">
+                            <img src="{{ site.avatar }}"/>
+                        </a>
+
+                        <div class="site-info">
+                            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                        </div>-->
 
             <div class="site-info">
-                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <a class="home-link" href="{{ site.baseurl }}/" title="{{ site.name }}">
+                    <h1 class="site-title">{{ site.name }}</h1>
+                    <h2 class="site-description">{{ site.time | date: "%A, %B %-d, %Y" }}</h2>
+                </a>
             </div>
 
-            <div id = "navbar" class="header-navigation">
+            <div id="navbar" class="header-navigation">
                 <nav class="main-navigation" role="navigation">
                     <div class="menu-menu-1-container">
                         <ul class="nav-menu">
@@ -20,19 +27,19 @@
                     </div>
                     <!--{% if site.simple_search %}-->
                     <!--<form class="search-form" role="search" method="get"  action="{{ site.simple_search }}">-->
-                        <!--<label>-->
-                            <!--<input class="search-field" type="search"  placeholder="Search &hellip;" value="" name="s"/>-->
-                        <!--</label>-->
-                        <!--<input class="search-submit" type="submit"  value="Search"/>-->
+                    <!--<label>-->
+                    <!--<input class="search-field" type="search"  placeholder="Search &hellip;" value="" name="s"/>-->
+                    <!--</label>-->
+                    <!--<input class="search-submit" type="submit"  value="Search"/>-->
                     <!--</form>-->
                     <!--{% endif %}-->
 
                     <!--{% if site.simple_search %}-->
                     <!--<form class="search-form" role="search" method="get" action="{{ site.simple_search }}">-->
-                        <!--<fieldset role="search">-->
-                            <!--<input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">-->
-                            <!--<input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>-->
-                        <!--</fieldset>-->
+                    <!--<fieldset role="search">-->
+                    <!--<input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">-->
+                    <!--<input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>-->
+                    <!--</fieldset>-->
                     <!--</form>-->
                     <!--{% endif %}-->
                 </nav>
