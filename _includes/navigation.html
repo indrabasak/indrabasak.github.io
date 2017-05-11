@@ -9,12 +9,17 @@
             </div>
 
             <div id="navbar" class="header-navigation">
-                <nav class="main-navigation" role="navigation">
+                <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+                    <h3 class="menu-toggle">Menu</h3>
                     <div class="menu-menu-1-container">
                         <ul class="nav-menu">
-                            <li class="menu-item"><a href="{{ site.baseurl }}/">Home</a></li>
-                            <li class="menu-item"><a href="{{ site.baseurl }}/about">About Me</a></li>
-                            <li class="menu-item"><a href="{{ site.baseurl }}/blog/archives">Archives</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom
+                                  current-menu-item current_page_item">
+                                <a href="{{ site.baseurl }}/">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    href="{{ site.baseurl }}/about">About Me</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    href="{{ site.baseurl }}/blog/archives">Archives</a></li>
                         </ul>
                     </div>
                     <!--{% if site.simple_search %}-->

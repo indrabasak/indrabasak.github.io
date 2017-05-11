@@ -14,12 +14,15 @@ layout: default
 
         <a href="{{ site.baseurl }}{{ post.url }}" class="more-link">(more...)</a>
 
-        <p class="entry-meta">Posted
+        <footer class="entry-meta">
+            Posted
             {% if post.tags.size > 0 %}
             in {{ post.tags | sort | join: ", " }}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="entry-meta"> on {{ post.date | date: "%B %-d, %Y" }}</a>
-        </p>
+            <span class="on-date"> on
+                <a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.date | date: "%B %-d, %Y" }}</a>
+            </span>
+        </footer>
     </article>
     {% endfor %}
 
