@@ -40,11 +40,11 @@ In a hardware-level virtualization such as _Type-1 Hypervisors_, the virtualiza
 
 For a OS-level virtualization, the virtualization layer runs on top of host OS. There is a few different ways on how the virtualization layer interacts with the VM and the underlying host OS.
 
-####  <span style="color:#3366ff;">Full VM</span>
+#### Full VM
 
 In a full featured OS-level virtualization, a VM can have its own guest OS which is completely independent from the host OS, e.g., _Type-2 Hypervisors_. The guest OS doesn't share any kernel or libraries with the host OS. Type-2 Hypervisors uses a combination of binary translation and direct execution techniques to achieve the virtualization. The virtualization layer replaces the sensitive instructions in guest OS kernel code with new instructions (emulated) that have the intended effect on the virtual hardware. The guest OS doesn't need any modification as the kernel instructions are replaced dynamically during the guest OS loading. Meanwhile, the user level code is directly executed by the virtualization layer on the host OS/processor. You can find more about hypervisor [here](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/techpaper/VMware_paravirtualization.pdf).
 
-####  <span style="color:#3366ff;">OS Container</span>
+#### OS Container
 
 OS Container is another type of  OS-level virtualization where multiples VM share a single host OS kernel. The VMs share the execution environment of the host but without any rights to modify them. Any changes to a VM, including any state or software changes, are confined to the VM's local environment. This helps OS containers to have lower resource requirements and higher scalability.
 
@@ -62,14 +62,14 @@ Docker initially used LXC but later switched to Open Containers Initiative ([OC
 
 You will find a good answer to the above question in [stackoverflow](http://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-normal-virtual-machine).  Both Docker container and full featured VM like Hypervisor are OS-level virtualization but unlike Docker, a full VM doesn't share kernel with host OS. This allows a full VM to run different OS on the same physical machine. Docker container sharing the host OS kernel prevents it from running an OS which is completely different from the container. For example, you will encounter errors (_exception caught: unknown blob_) if you try to create an image based on Windows OS or run a Windows based image on a Linux based Docker container. You can however create or run images based on different Linux distributions (distros) as they share the same kernel. To summarize, here are the pros and cons of Docker compare to a full VM:
 
-#### <span style="color:#3366ff;">Advantages</span>
+#### Advantages
 
 *   Since a Docker container takes _fewer resources_, you can run many more containers on one physical machine. Lower cost of ownership. A full VM has it own resources and does minimal sharing.
 *   Docker containers _share common read parts_ between them due to layered filesystem (more discussion later). So 1000 instances of a 1 GB Docker container image will take much less space than 1 Terabyte (1000 GB).
 *   _Faster startup time_ in the range of seconds compared to several minutes for a full VM.
 *   _Easy to deploy_.
 
-####  <span style="color:#3366ff;">Disadvantages</span>
+####  Disadvantages
 
 *   _Less isolation_.
 *   Cannot run a completely different OS than the container OS.
