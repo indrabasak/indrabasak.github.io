@@ -5,8 +5,11 @@ footer: false
 ---
 
 <section id="archive">
-    <h3>This year's posts</h3>
-    {%for post in site.posts %}
+    <!--<h3>This year's posts</h3>-->
+    {% for post in site.posts %}
+        {% if forloop.first == true %}
+            <h3>{{ post.date | date: '%Y' }}</h3>
+        {% endif %}
     {% unless post.next %}
     <ul class="post">
         {% else %}

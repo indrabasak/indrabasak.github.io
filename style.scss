@@ -21,6 +21,7 @@ body {
   font-size: 13px;
   text-align: justify;
   line-height: 2;
+  //line-height: 23px;
 }
 
 .container {
@@ -268,6 +269,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  margin: 0 0 3% 0;
 }
 
 .posts > .post:last-child {
@@ -654,6 +656,15 @@ ul.nav-menu li:hover > ul,
 
 /* Mobile (Portrait) */
 @media only screen and (max-width: 868px) {
+
+  body {
+    text-align: left;
+  }
+
+  h1 {
+    line-height: 100%;
+  }
+
   .wrapper-masthead {
     margin-bottom: 20px;
   }
@@ -674,6 +685,10 @@ ul.nav-menu li:hover > ul,
 
   .entry-meta {
     width: 100%;
+  }
+
+  .entry-img {
+    display: none;
   }
 
   .post .more-link {
