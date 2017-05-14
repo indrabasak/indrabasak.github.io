@@ -7,7 +7,7 @@ tags: [Docker]
 image: /images/entry/docker.png
 ---
 
-Over the past one year, I posted a couple of blogs on Docker. I am not fully convinced that I have fully grasped or explained what is Docker. This is another attempt to fully understand and explain the basic concepts of Docker and the evolution of virtualization.
+Over the past one year, I posted a couple of blogs on Docker. I am not fully convinced that I have fully grasped or explained what Docker is. This is another attempt to fully understand and explain the basic concepts of Docker and the evolution of virtualization.
 
 ### Pre-Virtualization
 
