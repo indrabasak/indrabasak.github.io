@@ -20,8 +20,8 @@ body {
   //font-size: 81%;
   font-size: 13px;
   text-align: justify;
-  line-height: 2;
-  //line-height: 23px;
+  //line-height: 2;
+  line-height: 23px;
 }
 
 .container {
@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 80%;
+  line-height: 100%;
   margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
     //line-height: 1.4;
-    line-height: 70%;
+    line-height: 100%;
   }
 }
 
@@ -458,7 +458,7 @@ div.nav-menu > ul {
 .nav-menu li a {
   color: #ccc;
   display: block;
-  font-family: Lato, sans-serif;
+  font-family: $libreBaskerville;
   font-size: 8px;
   font-size: 0.8rem;
   font-weight: 300;
@@ -481,7 +481,9 @@ div.nav-menu > ul {
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover {
-  background-color: #303030;
+//  background-color: #303030;
+//  color: #fff;
+  background-color: #ccc;
   color: #fff;
   -webkit-transition: none;
   transition: none;
@@ -656,13 +658,8 @@ ul.nav-menu li:hover > ul,
 
 /* Mobile (Portrait) */
 @media only screen and (max-width: 868px) {
-
   body {
     text-align: left;
-  }
-
-  h1 {
-    line-height: 100%;
   }
 
   .wrapper-masthead {
@@ -752,11 +749,7 @@ ul.nav-menu li:hover > ul,
     // margin: 0;
   }
 
-  .post h1 {
-    font-size: 15px;
-    font-size: 1.5rem;
-  }
-
+  .post h1,
   .page h1 {
     font-size: 15px;
     font-size: 1.5rem;
@@ -767,54 +760,12 @@ ul.nav-menu li:hover > ul,
     font-size: 1.1rem;
   }
 
-
   .container {
     //border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
     margin-bottom: 1rem;
     padding-bottom: 10px;
     padding-bottom: 1rem;
-  }
-
-  .menu-button {
-    display: block;
-    position: absolute;
-    //    top: 15px;
-    //    right: 15px;
-    border: 0;
-    text-indent: 200%;
-    overflow: hidden;
-    background: rgba(255, 255, 255, .8) url(/images/hamburger.png) center no-repeat;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    background-size: 80%;
-    width: 30px;
-    height: 30px;
-    outline: none;
-    transition: all 400ms ease;
-    //   &.expanded
-    //   transform: rotate(90deg);
-    background-color: transparent;
-    border: 0;
-  }
-
-  /* Small menu */
-  .menu-togglex {
-    //   background-color: #303030;
-    color: #888;
-    //    color: #303030;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Lato, sans-serif;
-    font-size: 11px;
-    font-size: 1.1rem;
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 1;
-    margin: 0;
-    padding: 12px 20px;
-    padding: 1.2rem 2rem;
-    text-transform: uppercase;
   }
 
   .menu-toggle {
@@ -843,8 +794,12 @@ ul.nav-menu li:hover > ul,
     margin: 2px 0 0 0;
   }
 
-  .menu-toggle.expanded {
+  .expanded {
     transform: rotate(90deg);
+  }
+
+  .nav-menu li a {
+    font-size: 70%;
   }
 
   .toggled-on .nav-menu,
@@ -854,11 +809,13 @@ ul.nav-menu li:hover > ul,
     padding: 0;
     width: 100%;
   }
+
   .toggled-on li,
   .toggled-on .children {
     display: block;
     float: none;
   }
+
   .toggled-on .nav-menu li > ul {
     background-color: rgba(255, 255, 255, 0.05);
     box-shadow: none;
@@ -870,20 +827,25 @@ ul.nav-menu li:hover > ul,
     position: relative;
     top: auto;
   }
+
   .toggled-on .nav-menu li > ul a {
     text-transform: uppercase;
     width: auto;
   }
+
   .toggled-on .nav-menu li:hover > a,
   .toggled-on .nav-menu .children a {
     background-color: transparent;
     color: #ccc;
   }
+
   .toggled-on .nav-menu li a:hover,
   .toggled-on .nav-menu ul a:hover {
-    background-color: #303030;
+    background-color: #ccc;
     color: #fff;
+    //font-size: 80%;
   }
+
   ul.nav-menu,
   div.nav-menu > ul {
     display: none;
