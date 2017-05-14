@@ -139,18 +139,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
 /*************************************/
 /*        LAYOUT / SECTIONS          */
 /*************************************/
@@ -164,7 +152,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -641,7 +629,7 @@ ul.nav-menu li:hover > ul,
   //font-size: 40px;
   //font-size: 4rem;
   font-size: 492%;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 5px;
   line-height: 1;
   margin: 0;
@@ -667,13 +655,13 @@ ul.nav-menu li:hover > ul,
   }
 
   .site-header {
-    //background-image: none;
-    background-size: 100%;
+    background-size: 90%;
   }
 
   .site-info {
     //margin: 0 0 10px 0;
     padding: 0 0 0 0;
+    width: 100%;
   }
 
   .site-header .home-link {
@@ -681,15 +669,11 @@ ul.nav-menu li:hover > ul,
   }
 
   .entry-meta {
-    width: 100%;
+    width: 90%;
   }
 
   .entry-img {
     display: none;
-  }
-
-  .post .more-link {
-    width: 100%;
   }
 
   //.site-header .home-link,
@@ -701,12 +685,11 @@ ul.nav-menu li:hover > ul,
   .post h1,
   .entry-img,
   .entry,
-    // .post .more-link,
+  .post .more-link,
     //  .post .entry-meta,
   .pagination,
   .site-main,
   .site-footer .sidebar-inner,
-  .site-info,
   .site-main .sidebar-container,
   .one-footer-sidebar .site-footer .widget-area,
   .two-footer-sidebars .site-footer .widget-area,
