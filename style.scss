@@ -676,6 +676,16 @@ ul.nav-menu li:hover > ul,
     display: none;
   }
 
+  a .post {
+    width: 90%;
+  }
+
+  .post a.more-link {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+
   //.site-header .home-link,
   //.home-link,
   .masthead,
@@ -685,8 +695,6 @@ ul.nav-menu li:hover > ul,
   .post h1,
   .entry-img,
   .entry,
-  .post .more-link,
-    //  .post .entry-meta,
   .pagination,
   .site-main,
   .site-footer .sidebar-inner,
