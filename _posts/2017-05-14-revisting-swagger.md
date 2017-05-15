@@ -49,7 +49,7 @@ tags:[
 ```
 
 {:.image-caption}
-  Figure 2. Changes to Swagger to Elephant model from custom API Listing Plugin
+  Figure 2. Changes to Elephant Swagger model from custom API Listing Plugin
   
 A [wiki](https://github.com/indrabasak/swagger-deepdive/wiki) exists for the `menagerie` project where I explain each of the Swagger customizations in detail. Incorporating these ideas into your project is a great way to increase the usability of your REST APIs. 
 

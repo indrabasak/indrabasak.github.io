@@ -4,7 +4,7 @@ title: About Indra
 permalink: /about/
 ---
 
-Hey there. I’m **Indra**. I am the author of [One Brick at a Time...]({{ site.url }})
+Hey there! I’m **Indra**. I am the author of [One Brick at a Time...]({{ site.url }})
 
 I am a software engineer and I work mostly on Java related technologies. I maintain a mirror blog [here](https://indrabasak.wordpress.com). 
 
