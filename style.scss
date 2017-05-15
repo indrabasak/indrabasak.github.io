@@ -292,6 +292,12 @@ nav {
   }
 }
 
+.image-caption {
+  text-align: center;
+  font-size: 80%;
+  color: $gray;
+}
+
 .entry-meta {
   font: 12px $libreBaskerville;
   line-height: 20px;
@@ -316,7 +322,9 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+//  background-color: $lightGray;
+  background-color: $black;
+  color: $gray;
 }
 
 footer {
@@ -864,4 +872,5 @@ ul.nav-menu li:hover > ul,
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
+//@import "darkly";
 @import "svg-icons";
