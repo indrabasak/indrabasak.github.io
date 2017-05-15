@@ -27,7 +27,7 @@ The customization of Springfox and Swagger in the `menagerie` example can be bro
   {:.image-caption}
   Figure 1. Skinned Swagger UI
   
-* **Springfox Extensions:** Sprigfox provides hooks, i.e., _plugins_, to extend Swagger functionality. Creating a Springfox extension primarily consists of writing a Java class extending a known class or interface. An extension usually affects the Swagger model and in some cases UI as well. In the `menagerie` project, a few of the Swagger plugins are explored. 
+* **Springfox Extensions:** Springfox provides hooks, i.e., _plugins_, to extend Swagger functionality. Creating a Springfox extension primarily consists of writing a Java class extending a known class or interface. An extension usually affects the Swagger model and in some cases UI as well. In the `menagerie` project, a few of the Swagger plugins are explored. 
 
 ```json
 tags:[  
@@ -51,7 +51,7 @@ tags:[
 {:.image-caption}
   Figure 2. Changes to Swagger to Elephant model from custom API Listing Plugin
   
-A [wiki](https://github.com/indrabasak/swagger-deepdive/wiki) exists for the `menagerie` project where I explain each of the Swagger customizations in detail. Incorporating these ideas into your project is a great way to increase the usabilty of your REST APIs. 
+A [wiki](https://github.com/indrabasak/swagger-deepdive/wiki) exists for the `menagerie` project where I explain each of the Swagger customizations in detail. Incorporating these ideas into your project is a great way to increase the usability of your REST APIs. 
 
 
 
