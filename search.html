@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+
+<section class="section">
+    <div class="container">
+        <article>
+            <header>
+                <h1 class="title">Search all published articles</h1>
+            </header>
+            <hr/>
+            <div class="content is-medium">
+                <div class="container">
+                    <div id="search-results" style="display:none"></div>
+                    {% raw %}
+                    <script id="search-results-template" type="text/mustache">
+                        {{#entries}}
+                            <article>
+                                <h3>
+                                   {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+                                   <a href="{{url}}">{{title}}</a>
+                                </h3>
+                                {{#is_post}}
+                                    <ul>
+                                        {{#tags}}<li>{{.}} </li>{{/tags}}
+                                    </ul>
+                                {{/is_post}}
+                            </article>
+                        {{/entries}}
+
+                    </script>
+                    {% endraw %}
+                </div>
+
+                <style type="text/css">
+                    #search {
+                        float: none;
+                        margin-left: 40%;
+                        margin-right: 0;
+                        margin-bottom: 1em;
+                    }
+                </style>
+            </div>
+        </article>
+    </div>
+</section>

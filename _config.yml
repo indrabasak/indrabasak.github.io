@@ -90,6 +90,7 @@ gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-lunr-js-search
 
 whitelist:
   - jekyll-paginate

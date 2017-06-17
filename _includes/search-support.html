@@ -1,0 +1,20 @@
+<!--<script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="/js/mustache.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>-->
+
+<!--<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>-->
+<script src="/js/search.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+    $(function() {
+        $('#search-query').lunrSearch({
+            indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+            results   : '#search-results',          // selector for containing search results element
+            template  : '#search-results-template', // selector for Mustache.js template
+            titleMsg  : '<h1>Search results<h1>',   // message attached in front of results (can be empty)
+            emptyMsg  : '<p>Nothing found.</p>'     // shown message if search returns no results
+        });
+    });
+</script>

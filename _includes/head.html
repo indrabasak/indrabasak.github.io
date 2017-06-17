@@ -7,6 +7,12 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    {% if page.use_math %}
+        {% include mathjax-support.html %}
+    {% endif %}
+
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
           href="{{ site.baseurl }}/feed.xml"/>
@@ -17,14 +23,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    {% if page.use_math %}
-    {% include mathjax-support.html %}
-    {% endif %}
 
-    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-icon.png"/>
-    <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-icon.png"/>
 
-    <!--<script src='{{ site.baseurl }}/js/jquery-1.11.3.min.js'></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--<script src='{{ site.baseurl }}/js/menu.js'></script>-->
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
+    <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
 </head>

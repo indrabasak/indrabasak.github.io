@@ -18,7 +18,7 @@ http://prose.io/
 
 
 #Start up jekyll server
-jekyll serve
+jekyll server
 bundle exec jekyll server
 
 # View the website at
