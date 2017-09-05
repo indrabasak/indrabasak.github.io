@@ -116,7 +116,7 @@ _2017-08-30 09:25:30_ which was slightly older than the request log entry _2017-
 According to [Log4j documentation](https://logging.apache.org/log4j/2.0/manual/appenders.html#BlockingQueueFactory) on _AsyncAppender_, 
 the default size of the blocking queue is 128 which matched the size in the MBean.
 
-This led to a couple of intial hypothesis as to why the offending thread with id _455344ba_ was not returning:
+This led to a couple of initial hypothesis as to why the offending thread with id _455344ba_ was not returning:
 
 #### 1. Waiting for a Lock
 **The offending thread was waiting to acquire a write lock to the response log file.**
@@ -174,7 +174,7 @@ It approximately matched the last entry in the response log at _2017-08-30 09:25
 This confirmed that the **Log4J _AsyncAppender-asyncResponseLog_ thread died at 
 _Aug 30 09:25:33_ due to memory starvation**.
 
-Here is the exception entry in the system log:
+Here was the exception entry in the system log:
 
 ```bash
 Aug 30 09:25:33 pdxzuul02 java[30667]: Exception in thread "AsyncAppender-asyncResponseLog" java.lang.OutOfMemoryError: Java heap space
