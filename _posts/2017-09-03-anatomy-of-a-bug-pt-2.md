@@ -1,0 +1,127 @@
+---
+layout: post
+title: Anatomy of a Bug - Part II
+published: true
+comments: true
+tags:
+  - Zuul
+  - Log4J
+  - Bug
+image: /images/entry/bug-anatomy.png
+---
+
+This is the continuation of [Anatomy of a Bug - Part I]({{ site.baseurl }}/anatomy-of-a-bug/). 
+The main goal is to arrive at a solution that prevents a [_Zuul_](https://github.com/Netflix/zuul/wiki)
+ service to become unresponsive from the death of a Log4J thread. 
+
+### Bug Reproduction
+
+Fixing a bug starts with reproducing it. If a bug cannot be reproduced, then it can't be fixed.
+A bug reproduction starts with repeating the steps which led to the problem in the first place.
+
+The process started with checking the source code out, which matched the version deployed in production, 
+from the code repository. 
+To reproduce the bug faster, _log4j2.xml_ file was modified to reduce the size of response appender from 128 to 5. 
+The changes to the _log4j2.xml_ file is shown below:
+
+{% gist 8694890e9d01a81ce945acc51669350b %}
+
+For debugging the application, the IDE of choice was [IntelliJ](https://www.jetbrains.com/idea/). 
+Once the Zuul application started in debug mode, the response queue capacities were monitored
+ using VisualVM. As expected, the queue's total and remaining capacities were 5 and 5 respectively.
+If you recall from the previous post, the name of the MBean was _asyncResponseLog_ and
+the corresponding attributes were _QueueCapacity_ and _QueueRemaingCapacity_.
+
+![mbean browser](/images/buganatomy/mbean-browser.png)
+
+To ensure the application was working properly, a Zuul endpoint was invoked a few times 
+from [Postman](https://www.getpostman.com/). Postman is a GUI tool for testing REST endpoints.
+The response logger MBean was monitored continuosly while the endpoint was exercised. As expected, 
+the response queue wasn't backing up.
+
+To recreate the unresponsive Zuul scenario, the _AsyncAppender-asyncResponseLog_ thread
+was suspended from IntelliJ. This is the thread responsible for dequeing the response log
+message queue and writing it to a file. From the application perspective, the suspended thread
+might as well be dead.
+
+![suspended thread](/images/buganatomy/suspended-thread.png) 
+
+The same Zuul endpoint was exercised once more. 
+After each invocation, the response logger queue's remaining capacity decremented by one until
+it became completely full. Remember, the queue size was set at 5. 
+Once the queue was full, the Zuul service stopped responding to any further requests.
+
+### Search for a Resolution
+
+#### Log4J Upgrade
+
+The next step was to find a resolution for the bug. A quick search on Google, 
+led us to a [LOG4J2-1324 issue](https://issues.apache.org/jira/browse/LOG4J2-1324) which seemed similar
+to the problem in hand. It mentioned a asynchronous Log4J thread dying 
+after encountering an exception. The issue was encountered in Log4J _2.2.0_ version and 
+resolved in version _2.6.0_.
+
+After the upgrade of Log4J version to _2.6.2_, the Zuul service exhibited same behavior as earlier.
+As the simulation of a _java.lang.OutOfMemoryError_ wasn't feasible, 
+a _java.lang.NullPointerException_ was thrown in the IntelliJ debugger to mimic the out of memory exception. The
+nuul pointer exception didn't have any implications on both versions of Log4J. Any further consideration of 
+**upgrading the Log4J library was dropped.**
+
+#### Log4J Appender Changes
+ 
+As shown below, Log4J allows for an asynchronous appender to be non-blocking by changing its 
+[_blocking_](https://logging.apache.org/log4j/2.0/manual/appenders.html#BlockingQueueFactory) property. 
+If the blocking property is set to false, the messages will be written to an error appender if present.
+
+{% gist 8a936bb15e920572060c0e21647b91ef %}
+ 
+Following the same testing steps discussed earlier, the _AsyncAppender-asyncResponseLog_ thread
+was suspended once the Zuul application was started in debug mode. 
+Invoking the Zuul endpoint multiple times didn't have any adverse effect even after the 
+response logger queue was full. As expected, entries were missing in the response log file.
+ 
+If one wishes to avoid missing any log entries when the response appender queue is full, one can add add an error appender. 
+The response entries will be logged in the error log once the response log appender queue fills up.
+ 
+ {% gist a785a74ceb5692236603ff64019a2454 %}
+ 
+### Validation
+
+Once it was proved that a non-blocking Log4J asynchronous appender will resolve the 
+unresponsive Zuul issue, we went forward with validating the changes in a non-prod environment. 
+The Zuul service was restarted after making changes to `log4J2.xml`.
+As shown below, JVM flags were also changed to attach a remote debugger 
+from IntelliJ:
+
+
+From IntelliJ, a remote debugger was started to connect with the remote JVM. Once the debugger
+was attached, the _AsyncAppender-asyncResponseLog_ thread was suspended. Same tests were repeated 
+as earlier while monitoring the _asyncResponseLog_ MBean from the VisualVM. The validation was successful in the 
+non-prod environment. Here is an example of IntelliJ remote debug configuration: 
+
+![remote config](/images/buganatomy/intellij-remote-debug.png) 
+
+### Resolution
+
+#### Heap Size Increase
+
+Since the initial cause of Zuul service failure was memory starvation, increasing the 
+heap size was an obvious choice. The follwoing changes were made to the heap
+sizes:
+
+| Heap  Size         | JVM Flag       | New Value     | Old Value  |
+| ------------------ | :-------------:| -------------:| ----------:|
+| Initial            | -Xms           | 2 GB          | 256 MB     |
+| Maximun            | -Xmx           | 2 GB          | 512 MB     |
+| Young Generation   | -Xmn           | 512 MB        | 200 MB     |
+
+#### Non-Blocking Log4J Appender
+
+Increasing the heap size is not a guarantee that the asynchronous Log4J appender will not encounter an out of memory
+exception in the future. To mitigate this scenario, it prudent to make the 
+**asynchronous Log4J appender non-blocking** for both request and response. 
+
+If the queue is full, the Jetty thread will return immediately without writing any message to the queue. 
+This would help the Zuul service to respond even if any of the aynchronous logger threads dies.
+
+{% gist 5f2233827e66228caecbb58b182b82a4 %}

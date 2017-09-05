@@ -25,28 +25,44 @@
                         </ul>
                     </div>
 
-                    <!-- search -->
-                    <!--{% if site.simple_search %}-->
-                    <!--<form class="search-form" role="search" method="get"  action="{{ site.simple_search }}">-->
-                    <!--<label>-->
-                    <!--<input class="search-field" type="search"  placeholder="Search &hellip;" value="" name="s"/>-->
-                    <!--</label>-->
-                    <!--<input class="search-submit" type="submit"  value="Search"/>-->
-                    <!--</form>-->
-                    <!--{% endif %}-->
+                    <!-- social links -->
+                    <div class="menu-menu-2-container">
+                        <ul class="nav-social-menu">
+                            {% if site.footer-links.github %}
+                            <li>
+                                <a href="https://github.com/{{ site.footer-links.github }}" class="a-github">
+                                    <i class="fa fa-github"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.instagram %}
+                            <li>
+                                <a href="https://instagram.com/{{ site.footer-links.instagram }}" class="a-instagram">
+                                    <i class="fa fa-instagram"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.linkedin %}
+                            <li>
+                                <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
+                                   class="a-linkedin">
+                                    <i class="fa fa-linkedin"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.pinterest %}
+                            <li>
+                                <a href="https://www.pinterest.com/{{ site.footer-links.pinterest }}"
+                                   class="a-pinterest"><i
+                                        class="fa fa-pinterest"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.twitter %}
+                            <li>
+                                <a href="https://www.twitter.com/{{ site.footer-links.twitter }}" class="a-twitter"><i
+                                        class="fa fa-twitter"></i></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
 
-                    <!--<form action="/search" method="get">-->
-                        <!--<input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">-->
-                    <!--</form>-->
-
-                    <!--{% if site.simple_search %}-->
-                    <!--<form class="search-form" role="search" method="get" action="{{ site.simple_search }}">-->
-                    <!--<fieldset role="search">-->
-                    <!--<input type="hidden" name="sitesearch" value="{{ site.url | shorthand_url }}">-->
-                    <!--<input class="search" type="text" name="q" results="0" placeholder="Search &hellip;"/>-->
-                    <!--</fieldset>-->
-                    <!--</form>-->
-                    <!--{% endif %}-->
                 </nav>
             </div>
         </header>

@@ -244,6 +244,14 @@ nav {
   }
 }
 
+.header-info-text {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 5px;
+  border-left: 1px solid #eeeeee;
+  padding-left: 30px;
+}
+
 /////////////////////////////
 // MAIN
 /////////////////////////////
@@ -438,6 +446,47 @@ form {
   position: relative;
   overflow: auto;
 }
+
+///////////////////////////////////////////////////////////
+ul.nav-social-menu,
+div.nav-social-menu > ul {
+  margin: 0;
+  padding: 0 10px 0 0;
+  padding: 0 3rem 0 0;
+  list-style-type: none;
+}
+
+.nav-social-menu li {
+  float: right;
+  position: relative;
+}
+
+.nav-social-menu li a {
+  color: $text-color;
+  display: block;
+  font-family: $libreBaskerville;
+  font-size: 8px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 12px;
+  line-height: 1.2rem;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-social-menu li:hover > a,
+.nav-social-menu li a:hover {
+  background-color: #ccc;
+  color: #fff;
+  -webkit-transition: none;
+  transition: none;
+}
+///////////////////////////////////////////////////////////
+
 
 ul.nav-menu,
 div.nav-menu > ul {
