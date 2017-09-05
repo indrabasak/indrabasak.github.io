@@ -10,37 +10,39 @@ tags:
 image: /images/entry/bug-anatomy.png
 ---
 
-This is the continuation of [Anatomy of a Bug - Part I]({{ site.baseurl }}/anatomy-of-a-bug/). 
-The main goal is to arrive at a solution that prevents a [_Zuul_](https://github.com/Netflix/zuul/wiki)
- service to become unresponsive from the death of a Log4J thread. 
+In my last [posting]({{ site.baseurl }}/anatomy-of-a-bug/), I wrote about a
+[_Zuul_](https://github.com/Netflix/zuul/wiki) service which became unresponsive 
+due to the death of a Log4J thread.
+Here, I will continue our discussion and try to arrive at a resolution that will prevent the reoccurence
+of the bug in the future.
 
 ### Bug Reproduction
 
 Fixing a bug starts with reproducing it. If a bug cannot be reproduced, then it can't be fixed.
 A bug reproduction starts with repeating the steps which led to the problem in the first place.
 
-The process started with checking the source code out, which matched the version deployed in production, 
+The process started with checking the source code out, matching the version in production, 
 from the code repository. 
-To reproduce the bug faster, _log4j2.xml_ file was modified to reduce the size of response appender from 128 to 5. 
-The changes to the _log4j2.xml_ file is shown below:
+To reproduce the bug faster, _log4j2.xml_ file was modified to reduce the size of response appender
+ blocking queue from 128 to 5. The changes to the _log4j2.xml_ file is shown below:
 
 {% gist 8694890e9d01a81ce945acc51669350b %}
 
 For debugging the application, the IDE of choice was [IntelliJ](https://www.jetbrains.com/idea/). 
 Once the Zuul application started in debug mode, the response queue capacities were monitored
  using VisualVM. As expected, the queue's total and remaining capacities were 5 and 5 respectively.
-If you recall from the previous post, the name of the MBean was _asyncResponseLog_ and
+If you recall from the previous post, the name of the log appender MBean was _asyncResponseLog_ and
 the corresponding attributes were _QueueCapacity_ and _QueueRemaingCapacity_.
 
 ![mbean browser](/images/buganatomy/mbean-browser.png)
 
 To ensure the application was working properly, a Zuul endpoint was invoked a few times 
 from [Postman](https://www.getpostman.com/). Postman is a GUI tool for testing REST endpoints.
-The response logger MBean was monitored continuosly while the endpoint was exercised. As expected, 
+Kept a close eye on the response logger MBean while the endpoint was exercised. As expected, 
 the response queue wasn't backing up.
 
 To recreate the unresponsive Zuul scenario, the _AsyncAppender-asyncResponseLog_ thread
-was suspended from IntelliJ. This is the thread responsible for dequeing the response log
+was suspended from IntelliJ. This thread is responsible for dequeing the response log
 message queue and writing it to a file. From the application perspective, the suspended thread
 might as well be dead.
 
@@ -48,8 +50,9 @@ might as well be dead.
 
 The same Zuul endpoint was exercised once more. 
 After each invocation, the response logger queue's remaining capacity decremented by one until
-it became completely full. Remember, the queue size was set at 5. 
-Once the queue was full, the Zuul service stopped responding to any further requests.
+it was completely full. Remember, the queue size was set to 5. 
+Once the queue was full, the Zuul service stopped responding to any further requests. 
+As a result, the bug was successfully reproduced in the dev environment.
 
 ### Search for a Resolution
 
@@ -61,10 +64,10 @@ to the problem in hand. It mentioned a asynchronous Log4J thread dying
 after encountering an exception. The issue was encountered in Log4J _2.2.0_ version and 
 resolved in version _2.6.0_.
 
-After the upgrade of Log4J version to _2.6.2_, the Zuul service exhibited same behavior as earlier.
-As the simulation of a _java.lang.OutOfMemoryError_ wasn't feasible, 
-a _java.lang.NullPointerException_ was thrown in the IntelliJ debugger to mimic the out of memory exception. The
-nuul pointer exception didn't have any implications on both versions of Log4J. Any further consideration of 
+After the upgrade of Log4J version to _2.6.2_, there was no change in the behavior of the Zuul service.
+As the simulation of _java.lang.OutOfMemoryError_ wasn't feasible, the exeption behavior was mimicked in 
+the IntelliJ debug mode by throwing a _java.lang.NullPointerException_. The
+null pointer exception didn't have any implications on both versions of Log4J. Any further consideration of 
 **upgrading the Log4J library was dropped.**
 
 #### Log4J Appender Changes
@@ -75,21 +78,22 @@ If the blocking property is set to false, the messages will be written to an err
 
 {% gist 8a936bb15e920572060c0e21647b91ef %}
  
-Following the same testing steps discussed earlier, the _AsyncAppender-asyncResponseLog_ thread
+Following the same testing steps as discussed earlier, the _AsyncAppender-asyncResponseLog_ thread
 was suspended once the Zuul application was started in debug mode. 
 Invoking the Zuul endpoint multiple times didn't have any adverse effect even after the 
 response logger queue was full. As expected, entries were missing in the response log file.
  
-If one wishes to avoid missing any log entries when the response appender queue is full, one can add add an error appender. 
+If one wishes to avoid missing any log entries when the response appender queue is full, one can add an error appender. 
 The response entries will be logged in the error log once the response log appender queue fills up.
+An example of a Log4J configuration with an error appender is shown below:
  
  {% gist a785a74ceb5692236603ff64019a2454 %}
  
 ### Validation
 
 Once it was proved that a non-blocking Log4J asynchronous appender will resolve the 
-unresponsive Zuul issue, we went forward with validating the changes in a non-prod environment. 
-The Zuul service was restarted after making changes to `log4J2.xml`.
+unresponsive Zuul issue, we went forward with validating the changes in a non-production environment. 
+The Zuul service was restarted after making changes to _log4j2.xml_.
 As shown below, JVM flags were also changed to attach a remote debugger 
 from IntelliJ:
 
@@ -106,7 +110,7 @@ non-prod environment. Here is an example of IntelliJ remote debug configuration:
 #### Heap Size Increase
 
 Since the initial cause of Zuul service failure was memory starvation, increasing the 
-heap size was an obvious choice. The follwoing changes were made to the heap
+heap size was an obvious choice. The following changes were made to the heap
 sizes:
 
 | Heap  Size         | JVM Flag       | New Value     | Old Value  |
@@ -118,7 +122,7 @@ sizes:
 #### Non-Blocking Log4J Appender
 
 Increasing the heap size is not a guarantee that the asynchronous Log4J appender will not encounter an out of memory
-exception in the future. To mitigate this scenario, it prudent to make the 
+exception in the future. To mitigate this scenario, it is prudent to make the 
 **asynchronous Log4J appender non-blocking** for both request and response. 
 
 If the queue is full, the Jetty thread will return immediately without writing any message to the queue. 
