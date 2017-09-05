@@ -29,7 +29,7 @@ JVM statistics including CPU, memory, and thread usage.
 
 The _heap dump_, which was collected with VisualVM, didn't show anything out of the ordinary. The _CPU_ and 
 _memory usage_ were normal and on the lower side. A separate heap dump was also collected using the _jmap_ tool
-by exeuting the following command:
+by executing the following command:
 
 `sudo jmap -F -dump:format=b,file=/tmp/zuul_heapdump <pid>`
 
@@ -38,7 +38,7 @@ daemon threads and most of the Jetty QTP threads were in _parked_ state.
 Upon close inspection of the thread dumps, it was observed that 198 of the Jetty threads were in waiting state. 
 All were waiting for the same thread id _455344ba_.  The following command was used to count the number of threads:
 
-`cat threaddump_1_pre-restart.log | grep '<455344ba>' | wc -l`. 
+`cat threaddump_1_pre-restart.log | grep '<455344ba>' | wc -l` 
 
 Yet, no information on the thread with id _455344ba_ was found in the thread dumps.
 Note, the thread dumps were captured using VisualVM and _jstack_ tool. Here is an example of a
@@ -77,7 +77,7 @@ Here is a partial stack trace from the thread dump collected with VisualVM:
 	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:112)
 ```
 
-While comparing the thread usage of the uresponsive service with an unaffected Zuul service, it was noticed that 
+While comparing the thread usage of the unresponsive service with an unaffected Zuul service, it was noticed that 
  the live thread usage of the latter was substantially lower. The unaffected service had 88 live and 63 daemon threads
  compared to 285 live and 68 daemon threads for the unresponsive one.
  
@@ -93,11 +93,11 @@ blocked while trying to log a response.
 
 {% gist 909e85ce95c5bc3481aeb2134675f8b8 %}
 
-When a thread tries to write to an asynchronous Log4J logger, the log message is serialized and inserted into a `BlockingQueue`. 
-An blocking queue is a bounded (fixed size) queue where a new message is inserted at the tail. Any attempt to insert a message in a 
+When a thread tries to write to an asynchronous Log4J logger, the log message is serialized and inserted into a _BlockingQueue_. 
+A blocking queue is a bounded (fixed size) queue where a new message is inserted at the tail. Any attempt to insert a message in a 
 queue, when it is full, will result in a thread being blocked until there is adequate space available in the queue. 
 In the case of a Zuul service, one of the Jetty threads is responsible for inserting a message in the blocking queue. 
-A second Log4J logger thread `AsyncThread` is responsible for dequeuing the message and writing it to a log file. There is 
+A second Log4J logger thread _AsyncThread_ is responsible for dequeuing the message and writing it to a log file. There is 
 one thread for each asynchronous Log4J appender. The version of Log4J library used in the Zuul application was _2.4.1_.
 
 It was suspected that the Jetty threads were in _waiting_ state due to the Log4J response queue being full.
@@ -123,7 +123,7 @@ This led to a couple of intial hypothesis as to why the offending thread with id
 To confirm that the response log file descriptor (handle) was still open, _lsof_ tool was used
 to obtain a of open files in the unresponsive Zuul server. Here is an usage of _lsof_ command: 
 
-`sudo lsof -i | grep java | grep -v TCP`. 
+`sudo lsof -i | grep java | grep -v TCP`
 
 Since application name was known, the following command was executed to narrow down the list of
 open files. The output was piped to a file for further evaluation.
@@ -163,7 +163,7 @@ No deadlocks found.
 **The offending thread died upon encountering an exception.** First, the threads of both responsive and 
 unresponsive Zuul services were compared in the VisualVM. Other than the obvious difference in the thread count, 
 a thread named _AsyncAppender-asyncResponseLog_ was found missing in the unresponsive Zuul JVM.
-The thread suffix (_asyncResponseLog_) matched the asynchronous name of log appender in the Log4J configuration file.
+The thread suffix, _asyncResponseLog_, matched the asynchronous name of log appender in the Log4J configuration file.
 It led to the conclusion that **the response log blocking queue was filled due to the death of
  _AsyncAppender-asyncResponseLog_** thread. **It also confirmed the death thread hypothesis**. 
 
@@ -193,7 +193,7 @@ Note _-A30_ prints 30 lines of trailing context after the matching line.
 ### Summary
 
 The Log4J _AsyncAppender-asyncResponseLog_ thread died approximately at _Aug 30 09:25:33_ due to memory starvation. 
-As the dead thread was responsible for dequeing, it resulted in the response blocking queue to fill up.
+As the dead thread was responsible for dequeuing, it resulted in the response blocking queue to fill up.
 Once the response blocking queue was full, all subsequent Jetty HTTP request threads were blocked and were put in waiting state. 
 It resulted in the Zuul service becoming unresponsive. The version of Log4J library having the issue was _2.4.1_.
 Overall, **the Zuul service failed to respond to 198 client requests**.
@@ -205,7 +205,7 @@ In the case of unresponsive Zuul service, it recovered from the memory exception
 Log4J asynchronous log appender thread.
  
 Even after the Zuul service became unresponsive, it was still able to accept incoming HTTP requests and route them to internal 
-services. It was still able to comunicate with the Eureka server. It broadcasted the _UP_ status without being aware of 
+services. It was still able to communicate with the Eureka server. It broadcasted the _UP_ status without being aware of 
 the response logging thread's demise. 
 
 To be continued...
