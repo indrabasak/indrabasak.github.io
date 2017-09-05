@@ -116,9 +116,9 @@ sizes:
 
 | Heap  Size         | JVM Flag       | New Value     | Old Value  |
 | ------------------ | :-------------:| -------------:| ----------:|
-| Initial            | -Xms           | 2 GB          | 256 MB     |
-| Maximun            | -Xmx           | 2 GB          | 512 MB     |
-| Young Generation   | -Xmn           | 512 MB        | 200 MB     |
+| Initial            | Xms           | 2 GB          | 256 MB     |
+| Maximun            | Xmx           | 2 GB          | 512 MB     |
+| Young Generation   | Xmn           | 512 MB        | 200 MB     |
 
 #### Non-Blocking Log4J Appender
 
