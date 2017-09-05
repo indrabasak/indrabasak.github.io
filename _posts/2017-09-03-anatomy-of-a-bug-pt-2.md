@@ -11,9 +11,9 @@ image: /images/entry/bug-anatomy.png
 ---
 
 In my last [posting]({{ site.baseurl }}/anatomy-of-a-bug/), I wrote about a
-[_Zuul_](https://github.com/Netflix/zuul/wiki) service which became unresponsive 
+[_Zuul_](https://github.com/Netflix/zuul/wiki) service becoming unresponsive 
 due to the death of a Log4J thread.
-Here, I will continue our discussion and try to arrive at a resolution that will prevent the reoccurence
+Here, I will continue our discussion and try to arrive at a resolution to prevent the reoccurence
 of the bug in the future.
 
 ### Bug Reproduction
@@ -36,9 +36,9 @@ the corresponding attributes were _QueueCapacity_ and _QueueRemaingCapacity_.
 
 ![mbean browser](/images/buganatomy/mbean-browser.png)
 
-To ensure the application was working properly, a Zuul endpoint was invoked a few times 
+To ensure the application was working properly, a Zuul endpoint was invoked several times 
 from [Postman](https://www.getpostman.com/). Postman is a GUI tool for testing REST endpoints.
-Kept a close eye on the response logger MBean while the endpoint was exercised. As expected, 
+While the endpoint was exercised , a close eye was kept on the response logger MBean. As expected, 
 the response queue wasn't backing up.
 
 To recreate the unresponsive Zuul scenario, the _AsyncAppender-asyncResponseLog_ thread
@@ -52,7 +52,7 @@ The same Zuul endpoint was exercised once more.
 After each invocation, the response logger queue's remaining capacity decremented by one until
 it was completely full. Remember, the queue size was set to 5. 
 Once the queue was full, the Zuul service stopped responding to any further requests. 
-As a result, the bug was successfully reproduced in the dev environment.
+This helped us to successfully reproduce the bug in the dev environment.
 
 ### Search for a Resolution
 
@@ -97,6 +97,7 @@ The Zuul service was restarted after making changes to _log4j2.xml_.
 As shown below, JVM flags were also changed to attach a remote debugger 
 from IntelliJ:
 
+`-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005`
 
 From IntelliJ, a remote debugger was started to connect with the remote JVM. Once the debugger
 was attached, the _AsyncAppender-asyncResponseLog_ thread was suspended. Same tests were repeated 
