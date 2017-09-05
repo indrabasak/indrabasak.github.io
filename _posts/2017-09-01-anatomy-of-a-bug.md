@@ -7,7 +7,7 @@ tags:
   - Zuul
   - Log4J
   - Bug
-image: /images/entry/bug-anatomy.png
+image: /images/entry/bug-anatomy2.png
 ---
 
 Recently, I came across a production issue where a [_Zuul_](https://github.com/Netflix/zuul/wiki) (Spring Cloud Brixton.SR3)

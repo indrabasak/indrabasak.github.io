@@ -7,7 +7,7 @@ tags:
   - Zuul
   - Log4J
   - Bug
-image: /images/entry/bug-anatomy.png
+image: /images/entry/bug-anatomy2.png
 ---
 
 In my last [posting]({{ site.baseurl }}/anatomy-of-a-bug/), I wrote about a
