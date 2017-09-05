@@ -13,7 +13,7 @@ image: /images/entry/bug-anatomy2.png
 In my last [posting]({{ site.baseurl }}/anatomy-of-a-bug/), I wrote about a
 [_Zuul_](https://github.com/Netflix/zuul/wiki) service becoming unresponsive 
 due to the death of a Log4J thread.
-Here, I will continue our discussion and try to arrive at a resolution to prevent the reoccurence
+Here, I will continue our discussion and try to arrive at a resolution to prevent the reoccurrence
 of the bug in the future.
 
 ### Bug Reproduction
@@ -38,7 +38,7 @@ the corresponding attributes were _QueueCapacity_ and _QueueRemaingCapacity_.
 
 To ensure the application was working properly, a Zuul endpoint was invoked several times 
 from [Postman](https://www.getpostman.com/). Postman is a GUI tool for testing REST endpoints.
-While the endpoint was exercised , a close eye was kept on the response logger MBean. As expected, 
+While the endpoint was exercised, a close eye was kept on the response logger MBean. As expected, 
 the response queue wasn't backing up.
 
 To recreate the unresponsive Zuul scenario, the _AsyncAppender-asyncResponseLog_ thread
@@ -65,7 +65,7 @@ after encountering an exception. The issue was encountered in Log4J _2.2.0_ vers
 resolved in version _2.6.0_.
 
 After the upgrade of Log4J version to _2.6.2_, there was no change in the behavior of the Zuul service.
-As the simulation of _java.lang.OutOfMemoryError_ wasn't feasible, the exeption behavior was mimicked in 
+As the simulation of _java.lang.OutOfMemoryError_ wasn't feasible, the exception behavior was mimicked in 
 the IntelliJ debug mode by throwing a _java.lang.NullPointerException_. The
 null pointer exception didn't have any implications on both versions of Log4J. Any further consideration of 
 **upgrading the Log4J library was dropped.**
@@ -127,6 +127,6 @@ exception in the future. To mitigate this scenario, it is prudent to make the
 **asynchronous Log4J appender non-blocking** for both request and response. 
 
 If the queue is full, the Jetty thread will return immediately without writing any message to the queue. 
-This would help the Zuul service to respond even if any of the aynchronous logger threads dies.
+This would help the Zuul service to respond even if any of the asynchronous logger threads dies.
 
 {% gist 5f2233827e66228caecbb58b182b82a4 %}
