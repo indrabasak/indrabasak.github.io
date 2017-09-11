@@ -952,6 +952,19 @@ table#t01 th {
   color: white;
 }
 ////////////////////////////////////////////////////////////////////////
+.image-caption {
+  text-align: center;
+  font-size: 11px;
+  font-weight:bold;
+  color: light-grey;
+}
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
+
+///////////////////////////////////////////////////////////////////////
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
