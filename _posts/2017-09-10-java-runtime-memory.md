@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Walk through Java Runtime Memory
+title: A Walk through the Java Runtime Memory
 published: true
 comments: true
 tags:
