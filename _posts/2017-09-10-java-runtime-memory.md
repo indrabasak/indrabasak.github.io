@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JVM Runtime Memory
+title: A Walk through Java Runtime Memory
 published: true
 comments: true
 tags:
@@ -10,15 +10,15 @@ tags:
 image: /images/entry/jvm-runtime.png
 ---
 
-It has been a while since I thought of studying Java Virtual Machine (JVM) 
-in-depth to get a better understanding of its inner working. I plan to post
+It has been a while since I thought of writing  about Java Virtual Machine (JVM) 
+to get a better understanding of its inner working. I plan to post
 a series of articles exploring different aspects of JVM. The Java memory seems 
 to be the part which trips most folks. What better way to 
 start than exploring the JVM's runtime memory? 
 
 The JVM runtime memory can be broadly classified into two 
-groups: _commom memory areas_ and _exclusive areas_. The common memory areas are 
-created during JVM start-up and shared across all threads. 
+groups: _common memory areas_ and _exclusive areas_. The common memory areas are 
+created during JVM startup and shared across all threads. 
 They are destroyed during JVM exit.
 
 Exclusive areas are created during new thread instantiations. A thread 
@@ -33,14 +33,14 @@ Figure 1. JVM runtime memory
 
 The _method area_ and _heap_ falls under common memory areas while _JVM stack_, 
 _stack frame_, _operand stack_, _native stack_, _local variables_, and 
-_progam counter (PC) register_ are grouped under thread specific memory areas.
+_program counter (PC) register_ are grouped under thread specific memory areas.
 
 ### Common Memory Areas
 
 #### Method Area
 
 Once a class bytecode is loaded by a JVM class loader, it's passed to the JVM 
-for further proceesing. The JVM creates an internal representation of the class and 
+for further processing. The JVM creates an internal representation of the class and 
 stores it in the _method area_. An example of a class method area is shown in 
 Figure 2. The following data areas are contained within 
 the internal representation of a class:
@@ -88,7 +88,7 @@ start-up time and its size can be static or dynamic. A JVM stack is used
 for storing _stack frames_ as shown in Figure 4. A new stack frame is created 
 and pushed into a thread stack every time a method is invoked. A frame is popped 
 when a method returns. Thought there may be multiple frames on a stack from nested 
-method calls, only one frame is active at a give time for a thread.
+method calls, only one frame is active at a given time for a thread.
 
 ![memory model](/images/jvmruntime/jvm-stack.png?style=centerme)
 
@@ -126,10 +126,10 @@ always refers to _this_ object. Subsequent indexes, starting at position 1,
 stores method parameters.
 
 * **Operand Stack**: Each frame contains an operand stack and the stack's 
-maximum depth is determined at compile time. An operand stack consist of 
+maximum depth is determined at compile time. An operand stack consists of 
 JVM instructions (opcodes) to load local or field variables. The JVM may also
 instruct to take operands from the operand stack, operate on them, and 
-push the result back in the operand stack. An operand stack is used for preparing
+push the result back on the operand stack. An operand stack is used for preparing
 parameters required to invoke a method. It's also used for receiving the
  result back from an invoked method.
 						
@@ -138,15 +138,14 @@ pool of the method’s class which is stored in the method area.
 
 #### PC Register
 
-Each thread has its own pc (program counter) register. If the method is non-native, 
+Each thread has its own pc (program counter) register. If the method is nonnative, 
 a pc register points to the address of the JVM instruction currently being executed
  by the thread. The content of a PC register is not defined for a native method.
 
 
 #### Native Method Stack
 
-A native method get its own stack called _C-Stack_.
+A native method gets its own stack called _C-Stack_.
 
-In my nesting posting, I will go over the Java class file layout.
-
-To be continued...
+In my future postings, I plan to address memory model and management of 
+Java.
