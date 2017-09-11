@@ -147,5 +147,4 @@ a pc register points to the address of the JVM instruction currently being execu
 
 A native method gets its own stack called _C-Stack_.
 
-In my future postings, I plan to address memory model and management of 
-Java.
+In my future postings, I plan to address Java memory model and its management.
