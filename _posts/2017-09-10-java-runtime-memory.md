@@ -67,12 +67,12 @@ A JVM throws a _OutofMemoryError_ if the method area runs out of allocation spac
 
 #### Heap
 
-A heap, shown in Figure 3, is created during JVM start-up time and used for 
+A heap, shown in Figure 3, is created during JVM startup time and used for 
 storing instances of classes and arrays. The size of a heap can be fixed or dynamic. 
 A heap must provide _garbage collection_ mechanism to reclaim unused space.
 However, a garbage collection implementation scheme is not specified and
 it is configurable. A heap area is shared across all threads.
-A JVM throws a _OutofMemoryError_ if the heap runs out of allocation space.
+A JVM throws an _OutofMemoryError_ if the heap runs out of allocation space.
 
 ![memory model](/images/jvmruntime/jvm-heap.png?style=centerme)
 
@@ -84,7 +84,7 @@ Figure 3. JVM heap
 #### JVM Stack
 
 Every thread has a private JVM stack. A stack is created during a thread 
-start-up time and its size can be static or dynamic. A JVM stack is used 
+startup time and its size can be static or dynamic. A JVM stack is used 
 for storing _stack frames_ as shown in Figure 4. A new stack frame is created 
 and pushed into a thread stack every time a method is invoked. A frame is popped 
 when a method returns. Thought there may be multiple frames on a stack from nested 
@@ -97,7 +97,7 @@ Figure 4. JVM stack
 
 A JVM throws a _StackOverflowError_ when a thread needs a stack area larger
 than permitted or memory available. If a JVM stack is dynamically allocated, 
-a JVM may throw a _OutofMemoryError_ if insufficient memory is available to 
+a JVM may throw an _OutofMemoryError_ if insufficient memory is available to 
 meet stack size increase request. It may also throw a _OutofMemoryError_ if 
 insufficient memory is available during initial stack allocation.
 
