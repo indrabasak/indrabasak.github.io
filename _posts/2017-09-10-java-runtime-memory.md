@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Walk through the Java Runtime Memory
+title: Memories of a Java Runtime
 published: true
 comments: true
 tags:
@@ -9,17 +9,18 @@ tags:
   - Memory
 image: /images/entry/jvm-runtime.png
 ---
+ 
+It's been a while since I wrote anything about Java Virtual Machine (JVM). 
+I have been using Java for quite some time, yet my understanding of the inner 
+workings of JVM seems to fade if I don't refresh it once in a while. This 
+posting is an attempt to renew my memories while trying to add something new. 
+I plan to post a series of articles exploring different aspects of JVM.
 
-It has been a while since I thought of writing  about Java Virtual Machine (JVM) 
-to get a better understanding of its inner working. I plan to post
-a series of articles exploring different aspects of JVM. The Java memory seems 
-to be the part which trips most folks. What better way to 
-start than exploring the JVM's runtime memory? 
-
-The JVM runtime memory can be broadly classified into two 
-groups: _common memory areas_ and _exclusive areas_. The common memory areas are 
-created during JVM startup and shared across all threads. 
-They are destroyed during JVM exit.
+The Java memory seems to be the part which trips most folks. What better way 
+to start than exploring the JVM’s runtime memory? The JVM runtime memory can be 
+broadly classified into two groups: _common memory areas_ and _exclusive areas_. 
+The common memory areas are created during JVM startup and shared across all 
+threads. They are destroyed during JVM exit.
 
 Exclusive areas are created during new thread instantiations. A thread 
 specific area is only accessible by the thread responsible for its creation.
