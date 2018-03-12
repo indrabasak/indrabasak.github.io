@@ -88,7 +88,7 @@ Every thread has a private JVM stack. A stack is created during a thread
 startup time and its size can be static or dynamic. A JVM stack is used 
 for storing _stack frames_ as shown in Figure 4. A new stack frame is created 
 and pushed into a thread stack every time a method is invoked. A frame is popped 
-when a method returns. Thought there may be multiple frames on a stack from nested 
+when a method returns. Though there may be multiple frames on a stack from nested 
 method calls, only one frame is active at a given time for a thread.
 
 ![memory model](/images/jvmruntime/jvm-stack.png?style=centerme)
