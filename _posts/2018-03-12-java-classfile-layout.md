@@ -22,7 +22,7 @@ in a class file follows a strict format described in the JVM specification.
 Figure 1. A class file layout
 
 In this posting, I will be exploring different aspects of a Java class file. 
-The best way to get familar with the class file is to start with an
+The best way to get familiar with the class file is to start with an
 example, `ClassA.java`, as shown in Figure 2. It's a very simple example where 
 `methodX` of `ClassA` combines the two input parameters and return them as a
 string. Once you compile the class, you will be getting the `ClassA.class` file.
@@ -36,7 +36,7 @@ Our next step is to investigate the bytecode inside the class file.
 Java provides a `javap` command line utility to disassemble a class file.
 Its output is dependent on the options used during its usage. In the current example,
 `'javap -c -verbose'` command is used to generate the content of the class file
-including the constant pool, stack size, etc. You can find the disasembled 
+including the constant pool, stack size, etc. You can find the disassembled 
 class file [here](https://gist.github.com/indrabasak/22fd48ea12f5acc224482d2c2278c391).
 I will be using the disassembled `ClassA.class` as a reference to explain different
 parts of a Java class file. So, let's start from the very beginning which is the
@@ -131,9 +131,9 @@ a bitwise AND operation with various bit masks, e.g., `ACC_PUBLIC`, `ACC_SUPER`,
 Figure 5. Access Flags
 
 In Figure 5, the `ACC_PUBLIC` flag signals that it's a `public` class. The `ACC_SUPER` 
-flag is slightly confusing. Let's say a class named, `AnyClass`
- overrides a method named `anyMethod()` from it's super class, `AnySuperClass`. 
- If the `ACC_SUPER` is not set, the JVM can skip `AnyClass.anyMethod()` and call
+flag is slightly confusing. Let's say a class named, `AnyClass` overrides a 
+method named `anyMethod()` from it's super class, `AnySuperClass`. If the 
+`ACC_SUPER` is not set, the JVM can skip `AnyClass.anyMethod()` and call
  `AnySuperClass.anyMethod()`. The absence of the `ACC_SUPER` flag is no longer
  honored by the JVM after `Java 7u13` security update. 
 
