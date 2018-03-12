@@ -6,7 +6,6 @@ comments: true
 tags:
   - JVM
   - Java
-  - Memory
 # use_math: true  
 image: /images/entry/classfile-duke.svg
 ---
