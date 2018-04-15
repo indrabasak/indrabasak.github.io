@@ -19,10 +19,10 @@ any sense of blockchain, the technology at the heart of bitcoins.
 
 Before we dig too deep into blockchain, we need to understand the problem
 blockchain is trying to solve. Let's take the example of money transfer where 
-an entity sends a certain amount of money to a designated receiver through a 
-trusted third parties (middleman), e.g., Western Union or any bank. In Figure 1, 
-the trusted third party charges a fee of $5 for transferring $100 and it 
-takes a couple of days to transfer the fund.
+an entity sends a certain amount of money to a designated receiver through a
+trusted third party, e.g., Western Union or any bank. In Figure 1, 
+the trusted third party charges a fee of $5 for transferring $100 and takes a 
+couple of days to transfer the fund.
 
 ![money transfer](/images/blockchain-concept/money-transfer.svg?style=centerme)
 
@@ -54,10 +54,10 @@ between two parties in an **open**, **efficient**, **verifiable**, and
 #### Open Ledger
 
 The blockchain solves the problem of money transfer by introducing the concept of an
-**open ledger**. An open ledger keeps track of all money transfers and make it
+**open ledger**. An open ledger keeps track of all money transfers and make them
  **visible** to everyone. Let's take an example where four parties _A_,
  _B_, _C_, and _D_ are in a blockchain network. At the beginning, 
- there is a single entry (_A = $100_), in the ledger where _A_ has _$100_. 
+ there is a single entry (_A = $100_) in the ledger where _A_ has _$100_. 
  The first entry in the ledger is called the **genesis** entry. In plain 
  english, genesis means start or origin. 
  
@@ -74,7 +74,7 @@ The blockchain solves the problem of money transfer by introducing the concept o
  the previous transaction (_A &rarr; B = $30_).
  
  Now if you look at Figure 3(c) again, you will notice the open ledger is just a 
- **chain** of transactions that is visible to every node in the blockchain
+ **chain** of transactions visible to every node in the blockchain
  network. Every node knows the balance of every node, i.e., how much digital
  currency each node has. They can also determine the **validity of a transaction**.
  Let's take the case where  _C_ tries to transfer _$40_ to _D_. Everyone in
@@ -90,7 +90,7 @@ The blockchain solves the problem of money transfer by introducing the concept o
   
 #### Distributed Open Ledger
 
-You will notice a centralized ledger if you refer to Figure. However, a 
+You will notice a centralized ledger if you refer to Figure 3. However, a 
 blockchain's goal is a decentralized open ledger in order to remove any single 
 point of failure and also to do away with any central authority (big brother). 
 The blockchain achieves this goal by **distributing** copies of open ledger 
@@ -136,7 +136,7 @@ Once a miner records the transaction, it publishes the result to the
 network. The result includes the key used for linking the new transaction. Once
 the other nodes see the result, they add the new entry to their own ledgers 
 after verifying the entry. Any tampering of the entry will be rejected. 
-This way a consensus is created among different nodes about the new ledger 
+This way a consensus is reached among different nodes about the new ledger 
 entry. Other miners find no incentive in wasting computational resources in 
 recreating the key of this verified transaction. The miners now 
 wait for the next unvalidated transaction and a chance to win digital coins.
@@ -164,7 +164,7 @@ termed as **hash** and can be considered as the **fingerprint** of an entry
 in the ledger entry but also on the hash of the previous entry. Not only 
 this makes all ledger entries **chronological** in order but also makes 
 them **tamperproof**. Any change in a ledger entry will result in redoing
-the proof-of-work. It will result in a new hash which in turn will have a 
+the proof-of-work. It will generate a new hash which in turn will have a 
 cascading effect of recalculating subsequent entries' hash. Since proof-of-work
 is an expensive process, it makes open ledger virtually immune to modifications.  
 
@@ -180,8 +180,8 @@ thus preventing a single entity (think government) from manipulating the ledger.
 
 Blockchain takes advantage of **asymmetric-key encryption** which is also
 known as **public-key encryption**. In this type of encryption, there is a 
- **public key** and a **private key**. The public key is used for
-encryption while the private key is used for decryption.
+ **public key** and a **private key**. The private key is used to create
+ a digital signature while public key is used to verify a digital signature.
 
 In blockchain, each node has a public and a private key. The public key serves
  as the address of a node and is visible to everyone. Every ledger entry has a 
@@ -205,5 +205,5 @@ According to ["The Truth About Blockchain"](https://hbr.org/2017/01/the-truth-ab
  process of adoption will be slow. Beyond cryptocurrency, blockchain can be used
  in electronic medical records, notary, real estate, etc.
  
- I hope you have a slightly better idea about blockchain after reading this 
- blog. I plan to address other aspects of blockchain in my next few postings. 
+ I hope you have a slightly better understanding of blockchain now. I plan 
+ to address other aspects of blockchain in my next few postings. 
