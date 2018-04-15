@@ -5,6 +5,9 @@ published: false
 comments: true
 tags: [Blockchain, Java]
 
+image: /images/entry/classfile-duke.svg
+---
+
 ### Blockchain Implementation
 
 Now that the concept of blockchain is a little bit clear, we'll take a closer 
