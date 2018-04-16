@@ -118,7 +118,7 @@ The challenge of keeping nodes in sync is mitigated by advancing the concept
 of **miners**. A miner is a special node in a blockchain network which has 
 access to the ledger. Any node can be a potential miner.
 
-Let's take the earlier example of _B_ transfering _$20_
+Let's take the earlier example of _B_ transferring _$20_
 to _C_. The transaction (_B &rarr; C = $20_) is not entered in the 
 distributed open ledger until it's validated. The blockchain network makes the new 
 transaction available to all its nodes. Miners nodes then compete 
@@ -149,9 +149,9 @@ wait for the next unvalidated transaction and a chance to win digital coins.
 
 To reiterate, a distributed open ledger is replicated across many nodes in a 
 blockchain network. Any new entry in one ledger results in simultaneous
-updates in other ledgers. An ledger entry is recorded by a miner with the
+updates in other ledgers. A ledger entry is recorded by a miner with the
 incentive of receiving financial rewards in the form of digital currency. The
-cost of entering an ledger entry is computationally expensive and is termed
+cost of entering a ledger entry is computationally expensive and is termed
  **proof-of-work**. 
 
 ### Blockchain Security
