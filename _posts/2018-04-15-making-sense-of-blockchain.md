@@ -152,7 +152,7 @@ blockchain network. Any new entry in one ledger results in simultaneous
 updates in other ledgers. A ledger entry is recorded by a miner with the
 incentive of receiving financial rewards in the form of digital currency. The
 cost of entering a ledger entry is computationally expensive and is termed
- **proof-of-work**. 
+ **proof-of-work** or **mining**. 
 
 ### Blockchain Security
 
