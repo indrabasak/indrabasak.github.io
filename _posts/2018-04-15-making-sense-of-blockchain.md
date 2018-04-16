@@ -12,7 +12,7 @@ I got a call from my friend, a few Sundays back, and he started
 asking me about bitcoin and mining. Though I had a vague notion of bitcoins
 and the technology behind it, I wasn't overly familiar with all the terms. 
 As you've probably guessed, I wasn't able to carry out any meaningful 
-discussion in the bitcoin topic. This post is my first attempt at making 
+discussion on the bitcoin topic. This post is my first attempt at making 
 sense of blockchain, the technology at the heart of digital currency.
 
 ### Why Blockchain?
@@ -48,18 +48,18 @@ of blockchain technology by [Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf).
 
 The broader aim of blockchain is to provide a platform for recording transactions
 between two parties in an **open**, **efficient**, **verifiable**, and 
- **secured** manner. In the next few sections, I will go over the basic concepts
+ **secure** manner. In the next few sections, I will go over the basic concepts
  of blockchain and how it achieves the aforementioned goals.
 
 #### Open Ledger
 
 The blockchain solves the problem of money transfer by introducing the concept of an
-**open ledger**. An open ledger keeps track of all money transfers and make them
+**open ledger**. An open ledger keeps track of all money transfers and makes them
  **visible** to everyone. Let's take an example where four parties _A_,
  _B_, _C_, and _D_ are in a blockchain network. At the beginning, 
  there is a single entry (_A = $100_) in the ledger where _A_ has _$100_. 
  The first entry in the ledger is called the **genesis** entry. In plain 
- english, genesis means start or origin. 
+ English, genesis means start or origin. 
  
  ![open ledger](/images/blockchain-concept/open-ledger.svg?style=centerme)
  
@@ -207,7 +207,7 @@ According to ["The Truth About Blockchain"](https://hbr.org/2017/01/the-truth-ab
  considered more of a **foundational** technology. It's not disruptive 
  in the sense of cell phones replacing landline telephones or the take over of 
  35mm film cameras by digital cameras. The blockchain technology
- has the potential to have enormous effect on societies and economies but the 
+ has the potential to have an enormous effect on societies and economies but the 
  process of adoption will be slow. Beyond cryptocurrency, blockchain can be used
  in electronic medical records, notary, real estate, etc.
  
