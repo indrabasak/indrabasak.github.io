@@ -139,9 +139,8 @@ first ensure that _B_ has enough funds. The miner has to then find a
 takes a lot of computational power and time. 
 
 Once a miner records the transaction, it publishes the result to the 
-network. The result includes the key used for linking the new transaction. Once
-the other nodes see the result, they add the new entry to their own ledgers 
-after verifying the entry. Any tampering of the entry will be rejected. 
+network. Once the other nodes see the result, they add the new entry to their 
+own ledgers after verifying the entry. Any tampering of the entry will be rejected. 
 This way a consensus is reached among different nodes about the new ledger 
 entry. Other miners find no incentive in wasting computational resources in 
 recreating the key of this verified transaction. The miners now 
@@ -164,9 +163,8 @@ recorded transaction in the ledger.
 
 **Q. How's the permanency of open ledger entry achieved?**
 
-We briefly touched upon the subject of **key** earlier. The key is also
-termed as **hash** and can be considered as the **fingerprint** of an entry
- which is unique to the entry. Each hash depends not only on the data contained 
+Each entry has a **hash** which can be considered as a **fingerprint** 
+and is unique to the entry. Each hash depends not only on the data contained 
 in the ledger entry but also on the hash of the previous entry. This makes all 
 ledger entries **chronological** in order and **tamperproof**. 
 Any change in a ledger entry will result in redoing
