@@ -5,5 +5,5 @@ published: false
 comments: true
 tags: [Blockchain, Ethereum, Java]
   
-image: /images/entry/classfile-duke.svg
+image: /images/entry/blockchain-ethereum-logo.svg
 ---
