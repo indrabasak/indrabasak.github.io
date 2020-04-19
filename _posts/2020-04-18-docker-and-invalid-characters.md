@@ -71,7 +71,7 @@ sh-4.2#
 If you compare the two locale outputs, you will notice that the variables in my old KVM are set to `en_US.UTF-8` while
 the same variables in the kubernetes container are set to `POSIX` locale, also known as C locale. To match the locale of
 the kubernetes with the KVM, I had to set the locale environment variables in my application's `Dockerfile`. Here are 
-the changes I made to my application's Dockerfile set the locale environment.
+the changes I made to my application's Dockerfile to set the locale environment.
 
 ```dockerfile
 FROM docker-registry.iovationnp.com/iovation/java:11
