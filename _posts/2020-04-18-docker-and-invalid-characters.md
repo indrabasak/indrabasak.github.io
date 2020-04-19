@@ -52,7 +52,6 @@ To check the docker container locale, I got a shell to a running container of my
 locale output of my application's k8s container,
 
 ```bash
-sh-4.2# locale
 LANG=
 LC_CTYPE="POSIX"
 LC_NUMERIC="POSIX"
