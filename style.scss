@@ -77,12 +77,16 @@ p {
 
 a {
   //color: $blue;
-  color: $red;
+  //color: $red;
+  //color: $darkerGray;
+  color: $navyBlue;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
     //color: $blue;
-    color: $red;
+    //color: $red;
+    //color: $darkerGray;
+    color: $navyBlue;
   }
 }
 
@@ -125,8 +129,9 @@ img {
 }
 
 .date {
-  font-style: italic;
+#  font-style: italic;
   color: $gray;
+  margin-top: 1em;
 }
 
 // Specify the color of the selection
@@ -967,6 +972,7 @@ img[src$="centerme"] {
 ///////////////////////////////////////////////////////////////////////
 
 @import "toc";
+@import "tags";
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
