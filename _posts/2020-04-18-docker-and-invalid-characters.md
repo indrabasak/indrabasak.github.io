@@ -75,7 +75,11 @@ the k8s with the KVM, I had to set the locale environment variables in my applic
 the changes I made to my application's Dockerfile to set the locale environment,
 
 ```dockerfile
-FROM docker-registry.iovationnp.com/iovation/java:11
+FROM centos:7
+
+# Install java 11
+RUN yum -q -y install java-11-openjdk && \
+    yum clean all
 
 # Set the locale
 ENV LANG en_US.UTF-8
