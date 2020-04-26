@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom Logging In Jetty
+title: Custom Logging in Jetty
 published: true
 comments: true
 tags: [Spring Boot, Jetty, Log]
