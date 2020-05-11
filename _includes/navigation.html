@@ -30,23 +30,16 @@
                     <!-- social links -->
                     <div class="menu-menu-2-container">
                         <ul class="nav-social-menu">
-                            {% if site.footer-links.github %}
+                            {% if site.footer-links.stackoverflow %}
                             <li>
-                                <a href="https://github.com/{{ site.footer-links.github }}" class="a-github">
-                                    <i class="fa fa-github"></i></a>
+                                <a href="https://stackoverflow.com/{{ site.footer-links.stackoverflow }}" class="a-twitter"><i
+                                        class="fa fa-stack-overflow"></i></a>
                             </li>
                             {% endif %}
-                            {% if site.footer-links.instagram %}
+                            {% if site.footer-links.twitter %}
                             <li>
-                                <a href="https://instagram.com/{{ site.footer-links.instagram }}" class="a-instagram">
-                                    <i class="fa fa-instagram"></i></a>
-                            </li>
-                            {% endif %}
-                            {% if site.footer-links.linkedin %}
-                            <li>
-                                <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
-                                   class="a-linkedin">
-                                    <i class="fa fa-linkedin"></i></a>
+                                <a href="https://www.twitter.com/{{ site.footer-links.twitter }}" class="a-twitter"><i
+                                        class="fa fa-twitter"></i></a>
                             </li>
                             {% endif %}
                             {% if site.footer-links.pinterest %}
@@ -56,10 +49,23 @@
                                         class="fa fa-pinterest"></i></a>
                             </li>
                             {% endif %}
-                            {% if site.footer-links.twitter %}
+                            {% if site.footer-links.linkedin %}
                             <li>
-                                <a href="https://www.twitter.com/{{ site.footer-links.twitter }}" class="a-twitter"><i
-                                        class="fa fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"
+                                   class="a-linkedin">
+                                    <i class="fa fa-linkedin"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.instagram %}
+                            <li>
+                                <a href="https://instagram.com/{{ site.footer-links.instagram }}" class="a-instagram">
+                                    <i class="fa fa-instagram"></i></a>
+                            </li>
+                            {% endif %}
+                            {% if site.footer-links.github %}
+                            <li>
+                                <a href="https://github.com/{{ site.footer-links.github }}" class="a-github">
+                                    <i class="fa fa-github"></i></a>
                             </li>
                             {% endif %}
                         </ul>
