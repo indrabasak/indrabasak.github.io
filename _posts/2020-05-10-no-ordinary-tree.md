@@ -23,7 +23,7 @@ The famous apple tree (Hines, 1896)
 Around 1892, the tree made its first appearance in Pacific Christian Advocate, 
 a Methodist newspaper. I have seen a photocopy of this issue, but  not able to 
 locate a copy in its entirety. It’s only available in 
-microfiche. The tree again showed up in Hines’(1896) book on Jason Lee, 
+microfiche. The tree again showed up in Hines’ (1896) book on Jason Lee, 
 with the original photo and description from the Advocate. There’s even a 
 passing reference of the tree with an illustration in Fletcher’s (1902) book 
 on the history of Methodism.
@@ -143,7 +143,7 @@ location. A few different black and white pictures of the church, at its
 second location, is floating around the internet. The most frequently 
 cited picture comes from the collection of Oregon State University.
 
-The only colorized photo of the M. E.Church that I came across was in a 
+The only colorized photo of the M. E.Church that I have across was in a 
 slide series titled “The Indian Trail” put out by M. E. Church.  
 
 ![M. E. Church in 1855](/images/no-ordinary-tree/first-church-and-parsonage-oregon-city.png?style=centerme)
