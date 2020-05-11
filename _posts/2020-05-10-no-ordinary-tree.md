@@ -170,7 +170,7 @@ Schwan advertisement from 1893. Note the location of the old church building on 
 The old building even showed up in the Sanborn fire insurance map from 1892. 
 However, the old parsonage was missing from the map. No one is 
 sure as to what happened to the old parsonage. The apple tree was still 
-around in 1894 (Hines, 1893) and was probably dug up around 1900. The Oregon 
+around in 1896 (Hines, 1896) and was probably dug up around 1900. The Oregon 
 City Enterprise (June 20, 1902) made a reference to the tree while reporting 
 on pioneers reunion - “In a lot adjoining the Methodist church in Oregon City 
 there stood until a few years ago, when it was cut down and sold for souvenirs, 
@@ -212,13 +212,12 @@ Oregon Territory, Oregon City.
 {:.image-caption}
 M. E. Church was completely destroyed by fire on Nov 15, 1991 (The Sunday Oregonian)
 
-I mentioned earlier that the apple tree was cut down and sold as souvenirs. 
-A few of these wood pieces were repurposed for making gavels. One of the 
-gavels was presented to Abernethy Grange, in Oregon City, by Captain J. T. 
-Apperson (Oregon City Enterprise, November 18, 1904). I was given the 
-impression that the gavel belonging to Abernethy Grange survives to this day. As
-to what happened to the old church and parsonage buildings is still a mystery.
-
+The apple tree was cut down and sold as keepsakes. A few of those wood pieces 
+were turned into gavels. One of the gavels was presented to Abernethy 
+Grange, in Oregon City, by Captain John T. Apperson of [Unio](https://en.wikipedia.org/wiki/Unio_(sternwheeler)) 
+fame (Oregon City Enterprise, November 18, 1904). I was given the impression t
+hat the gavel belonging to Abernethy Grange survives to this day. As to what 
+happened to the old church and parsonage buildings is still a mystery.
 
 ## References
 
