@@ -215,8 +215,8 @@ M. E. Church was completely destroyed by fire on Nov 15, 1991 (The Sunday Oregon
 The apple tree was cut down and sold as keepsakes. A few of those wood pieces 
 were turned into gavels. One of the gavels was presented to Abernethy 
 Grange, in Oregon City, by Captain John T. Apperson of [Unio](https://en.wikipedia.org/wiki/Unio_(sternwheeler)) 
-fame (Oregon City Enterprise, November 18, 1904). I was given the impression t
-hat the gavel belonging to Abernethy Grange survives to this day. As to what 
+fame (Oregon City Enterprise, November 18, 1904). I was given the impression 
+that the gavel belonging to Abernethy Grange survives to this day. As to what 
 happened to the old church and parsonage buildings is still a mystery.
 
 ## References
