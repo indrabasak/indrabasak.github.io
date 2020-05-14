@@ -8,10 +8,12 @@ tags: [History, Oregon, Oregon City, Apple, Church]
 image: /images/entry/no-ordinary-tree.png
 ---
 
+_This post was originally published on May 10, 2020 and updated on May 13, 2020._
+
 The first time I laid my eyes on that pamphlet, turned slightly yellow from its age, 
 I was intrigued by the image of a leafless apple tree. It was no ordinary tree, 
 but the first apple tree ever grown on the Pacific Coast and it was right here 
-in Oregon City; not far from where I was standing. The tree stood on the yard 
+in Oregon City; not far from where I stood. The tree stood on the yard 
 of the first ever protestant church built in North America, west of the Rockies. 
 That’s a couple of firsts.
 
@@ -33,17 +35,17 @@ on the history of Methodism.
 {:.image-caption}
 A sketch of the famous apple tree (Fletcher, 1902)
 
-This tree started its life as a sapling from a seed taken from apples shipped 
-all the way from the east coast (Hines, 1896). It’s unusual to grow apple trees 
-from seeds as they are genetically unpredictable. Then again the apple trees
- weren’t common in the Pacific Coast, the only option left for Rev. Alvin (Alvan) 
- F. Waller, a Methodist minister, was to germinate a seed. Rev. Waller left a 
- mark in early Oregon history due to his dispute with Dr. John McLoughlin over 
- land claims at the Willamette Falls, the present day Oregon City. His main 
- legacy, however, was the establishment of Willamette Falls Methodist Mission 
- and the Willamette University. The Waller Hall at the Willamette University is 
- named after him.
-
+This tree started its life in late 1840 as a sapling from seeds thrown away by 
+Rev. Alvin (Alvan) F. Waller’s wife. The seeds from dried apples were 
+brought from New York during Waller family’s long trip to Oregon Territory 
+(Hines, 1896). It’s unusual to grow apple trees from seeds as they are 
+genetically unpredictable but in this case it turned out to be a great fruit 
+bearing tree. Rev. Waller, a Methodist minister, left a mark in early Oregon 
+history due to his dispute with Dr. John McLoughlin over land claims at the 
+Willamette Falls, the present day Oregon City. His main legacy, however, 
+was the establishment of Willamette Falls Methodist Mission and the 
+Willamette University.  The Waller Hall at the Willamette University is 
+named after him.
 
 In December 1842, Rev. Waller was the main force behind the subscription 
 drive to fund the construction of the first protestant church, west of the 
@@ -59,6 +61,16 @@ planted the young tree near the parsonage, where he was residing. The building
 of the Methodist Episcopal (M. E.) Church which started during Rev. Waller’s 
 time was completed in 1843 at the corner of Third and Main Street. The dedicatory 
 sermon was given by Rev. Hines (Lockley, 1928). 
+
+Getting back to the apple tree, it didn’t appear in any of the church drawings 
+or photograph(s) at its first location. This is where it gets interesting. The Oregon City 
+Enterprise (Nov 18, 1904) mentioned the tree was planted - “in front and near 
+the corner of the parsonage, that was situated just south of the present day 
+Methodist church, on Main street in Oregon City.” The newspaper was referring 
+to the second location of the church at the corner of Seventh and Main Street. 
+However, the church and the parsonage wasn’t moved from its original location 
+at Third and Main Street until the winter of 1855. I believe the tree was 
+initially planted in the Third Street location and later replanted in Seventh Street.
 
 ![Oregon City Map, 1846](/images/no-ordinary-tree/1846-oc-map-warre.png?style=centerme)
 
@@ -105,24 +117,34 @@ at its first location that I’ve come across.
 {:.image-caption}
 The first church building erected in old Oregon, by the Methodists in 1842 
 
+A model of the old church building is displayed at the Oregon City Methodist 
+United Church, the present day  M. E. Church. Notice the wood shingles
+and the green shutters. The old church building would make a very nice Lego model.
+Maybe I'll try it one day. 
+
+![Model of old M. E. Church](/images/no-ordinary-tree/1842-me-church-model.jpg?style=centerme)
+
+{:.image-caption}
+A model of the first church building (author)
+
 The M. E. Church on Third Street holds a special place in Oregon history. 
 Oregon’s provisional legislature met here in 1847. The first meeting of the 
 Oregon’s Territorial Legislature took place here on July 16, 1849. This was 
 the meeting where the legislative body decided to change “the names of Champoeg, 
 Tualatin, and Vancouver counties respectively to Marion Washington and Clark” 
 (Gaston, 1912). George Abernethy, the first Governor Oregon under the provisional 
-government, even donated the church bell.
+government, even donated the church bell. 
 
-Getting back to the apple tree, it didn’t appear in any of the church drawings 
-at its first location. This is where it gets interesting. The Oregon City 
-Enterprise (Nov 18, 1904) mentioned the tree was planted - “in front and near 
-the corner of the parsonage, that was situated just south of the present day 
-Methodist church, on Main street in Oregon City.” The newspaper was referring 
-to the second location of the church at the corner of Seventh and Main Street. 
-However, the church and the parsonage wasn’t moved from its original location 
-at Third and Main Street until the winter of 1855. I believe the tree 
-was initially planted in the Third Street location and later replanted in the 
-Seventh Street.
+![Third Annual Oregon Conference, 1855](/images/no-ordinary-tree/1855-me-church.jpg?style=centerme)
+
+{:.image-caption}
+Third Annual Oregon Methodist Conference at the Third Street location, Oregon City, 1855 
+
+In 1855, the third annual Oregon Methodist conference was held in Oregon City. 
+It attracted all types of missionaries and church clergy men from the Oregon 
+territory. The only known photograph of the M. E. Church at the Third Street 
+location was taken during this occasion. If you look at the picture carefully, 
+the church building doesn't look that small anymore.
 
 In 1855, the church was moved to its second location at the corner of Seventh 
 and Main Street. According to Lynch (1973), “it seemed profitable to move to 
@@ -141,10 +163,9 @@ the apple tree behind the church building.
 The apple tree made an appearance in most of the church pictures at the second 
 location. A few different black and white pictures of the church, at its 
 second location, is floating around the internet. The most frequently 
-cited picture comes from the collection of Oregon State University.
-
-The only colorized photo of the M. E.Church that I have across was in a 
-slide series titled “The Indian Trail” put out by M. E. Church.  
+cited picture comes from the collection of Oregon State University. The only 
+colorized photo of the M. E.Church that I have across was in a slide series 
+titled “The Indian Trail” put out by M. E. Church.  
 
 ![M. E. Church in 1855](/images/no-ordinary-tree/first-church-and-parsonage-oregon-city.png?style=centerme)
 
@@ -153,14 +174,24 @@ M. E. Church at its second location, corner of Seventh and Main Street (The Indi
 
 By 1890, the church became too small for its growing congregation and was 
 replaced by “a handsome modern structure with gothic windows and a tall 
-spire was erected on the front” (Lynch, 1973). The original church building 
-was moved to the back of the property, facing Seventh Street and 
-close to the train depot. As per Muno (1975), “the original church building 
-on the back of the lot was leased to A.W. Schwan in 1891 and permission 
-was given to repair and remodel the structure for business purposes by 
-removing the belfry, erecting a square front and making the room suitable for 
-display of goods”. Schwan set up a tinning and plumbing shop in the old building 
-and frequently advertised in local newspapers.
+spire was erected on the front” (Lynch, 1973). The architecture of this
+particular building reminds me of the churches designed by Architect Benjamin 
+D. Price. Price’s plans were sold by the Methodist Episcopal Church Board to 
+its congregations to discourage them from building churches of their own design.
+
+![M. E. Church in 1890](/images/no-ordinary-tree/1890-me-church.jpg?style=centerme)
+
+{:.image-caption}
+Second M. E. Church building with gothic windows and a tall spire, 1890 
+
+The original church building was moved to the back of the property, 
+facing Seventh Street and close to the train depot. As per Muno (1975), 
+“the original church building on the back of the lot was leased to 
+A.W. Schwan in 1891 and permission was given to repair and remodel the 
+structure for business purposes by removing the belfry, erecting a square 
+front and making the room suitable for display of goods”. Schwan set up a 
+tinning and plumbing shop in the old building and frequently advertised in 
+local newspapers.
 
 ![Schwan Adv. 1893](/images/no-ordinary-tree/1893-schwan-adv.png?style=centerme)
 
@@ -170,18 +201,17 @@ Schwan advertisement from 1893. Note the location of the old church building on 
 The old building even showed up in the Sanborn fire insurance map from 1892. 
 However, the old parsonage was missing from the map. No one is 
 sure as to what happened to the old parsonage. The apple tree was still 
-around in 1896 (Hines, 1896) and was probably dug up around 1900. The Oregon 
-City Enterprise (June 20, 1902) made a reference to the tree while reporting 
-on pioneers reunion - “In a lot adjoining the Methodist church in Oregon City 
-there stood until a few years ago, when it was cut down and sold for souvenirs, 
-an old apple tree, the first tree of its kind in Oregon, now so famous for 
-its apples.”
+around in 1896 (Hines, 1896) and was probably cut down in 1900 when new buildings
+were built beside the church. The Oregon City Enterprise (June 20, 1902) made a 
+reference to the tree while reporting on pioneers reunion - “In a lot adjoining 
+the Methodist church in Oregon City there stood until a few years ago, when it 
+was cut down and sold for souvenirs, an old apple tree, the first tree of its 
+kind in Oregon, now so famous for its apples.”
 
 ![Sanborn Fire Insurance Map 1888 and 1892](/images/no-ordinary-tree/1888-1892-sanborn-fire-insurance-map-oregon-city.png?style=centerme)
 
 {:.image-caption}
 Note the locations of the old church building in 1888 and 1892 (right) Sanborn Fire Insurance Maps
-
 
 The old church building showed up again in the fire insurance map from 1900 
 but was no longer present in the 1911 map. The building was probably relocated 
@@ -212,12 +242,45 @@ Oregon Territory, Oregon City.
 {:.image-caption}
 M. E. Church was completely destroyed by fire on Nov 15, 1991 (The Sunday Oregonian)
 
-The apple tree was cut down and sold as keepsakes. A few of those wood pieces 
-were turned into gavels. One of the gavels was presented to Abernethy 
-Grange, in Oregon City, by Captain John T. Apperson of [Unio](https://en.wikipedia.org/wiki/Unio_(sternwheeler)) 
-fame (Oregon City Enterprise, November 18, 1904). I was given the impression 
-that the gavel belonging to Abernethy Grange survives to this day. As to what 
-happened to the old church and parsonage buildings is still a mystery.
+The apple tree was cut down and sold as keepsakes. Some wooden pieces were 
+turned into plaques and others into gavels.  A few of the historic artifacts are 
+in display at the Methodist United Church. Two of the gavels, displayed at the church,
+ were used at the Willamette Mission School near Salem.
+
+![Apple Tree Cross-section](/images/no-ordinary-tree/apple-tree-slice-1.jpg?style=centerme)                                               
+
+{:.image-caption}
+A cross-section of the apple tree displayed at Oregon City Methodist United church  (author) 
+
+![Decorated Plaque](/images/no-ordinary-tree/apple-tree-slice-2.jpg?style=centerme)                                               
+
+{:.image-caption}
+A plaque made from the apple tree with a picture of the old church from the first location (author) 
+
+![Oregon Map Plaque](/images/no-ordinary-tree/apple-tree-slice-3.jpg?style=centerme)                                               
+
+{:.image-caption}
+A plaque shaped as a Oregon map with a picture of the old church from the second location (author) 
+
+![Gavels from Willamette Mission](/images/no-ordinary-tree/gavels-willamette-mission.jpg?style=centerme)                                               
+
+{:.image-caption}
+Gavels from Willamette Mission School (author) 
+
+One such gavel was presented to Abernethy Grange (Oregon City) by Captain 
+John T. Apperson of [Unio](https://en.wikipedia.org/wiki/Unio_(sternwheeler)) 
+fame. It was fashioned from the apple tree and the handle carved from another 
+historic tree, this time a cherry, planted by [Seth Luelling](https://en.wikipedia.org/wiki/Seth_Lewelling)
+(Oregon City Enterprise, November 18, 1904). Luelling, a horticulturist, known 
+for creating the Bing cherry. This particular gavel had an engraved silver 
+band around it. I was given the impression that the gavel is still in use by the 
+grange. As to what happened to the old church building, and the parsonage is 
+still a mystery.
+
+![Abernethy Gacel](/images/no-ordinary-tree/1904-abernethy-gavel.jpg?style=centerme)                                               
+
+{:.image-caption}
+Gravel presented to Abernethy Grange (author) 
 
 ## References
 
@@ -316,4 +379,3 @@ Canada, Ottawa, 1976
 1. Friedman, Ralph, _In Search of Western Oregon_, Caxton Press, 1990
 
 1. Fuller, Tom, _Oregon’s Capitol Buildings_, Arcadia Publishing, 2013
-
