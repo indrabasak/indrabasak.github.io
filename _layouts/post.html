@@ -12,6 +12,8 @@ layout: default
         {% for tag in page.tags %}
         <a href="/blog/tags/#{{ tag | slugify }}" class="post-tag"> {{ tag }} </a>
         {% endfor %}
+        <p/>
+        {{ page.edited }}
     </div>
 
     <div class="entry">

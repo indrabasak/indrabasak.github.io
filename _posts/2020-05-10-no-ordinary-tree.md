@@ -3,12 +3,10 @@ layout: post
 title: No Ordinary Tree
 published: true
 comments: true
+edited: This post was originally published on May 10, 2020 and updated on May 13, 2020.
 tags: [History, Oregon, Oregon City, Apple, Church]
-
 image: /images/entry/no-ordinary-tree.png
 ---
-
-_This post was originally published on May 10, 2020 and updated on May 13, 2020._
 
 The first time I laid my eyes on that pamphlet, turned slightly yellow from its age, 
 I was intrigued by the image of a leafless apple tree. It was no ordinary tree, 
