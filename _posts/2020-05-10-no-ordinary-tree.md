@@ -3,7 +3,7 @@ layout: post
 title: No Ordinary Tree
 published: true
 comments: true
-edited: This post was originally published on May 10, 2020 and updated on May 13, 2020.
+edited: This post was originally published on May 10, 2020 and updated on May 16, 2020.
 tags: [History, Oregon, Oregon City, Apple, Church]
 image: /images/entry/no-ordinary-tree.png
 ---
@@ -15,10 +15,13 @@ in Oregon City; not far from where I stood. The tree stood on the yard
 of the first ever protestant church built in North America, west of the Rockies. 
 That’s a couple of firsts.
 
-![famous apple tree](/images/no-ordinary-tree/1896-famous-apple-tree.png?style=centerme)
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/apple-tree/index.html"
+style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-The famous apple tree (Hines, 1896)
+The famous apple tree
 
 Around 1892, the tree made its first appearance in Pacific Christian Advocate, 
 a Methodist newspaper. I have seen a photocopy of this issue, but  not able to 
@@ -27,11 +30,6 @@ microfiche. The tree again showed up in Hines’ (1896) book on Jason Lee,
 with the original photo and description from the Advocate. There’s even a 
 passing reference of the tree with an illustration in Fletcher’s (1902) book 
 on the history of Methodism.
-
-![famous apple tree](/images/no-ordinary-tree/1902-famous-apple-tree.png?style=centerme)
-
-{:.image-caption}
-A sketch of the famous apple tree (Fletcher, 1902)
 
 This tree started its life in late 1840 as a sapling from seeds thrown away by 
 Rev. Alvin (Alvan) F. Waller’s wife. The seeds from dried apples were 
@@ -82,48 +80,21 @@ He even had the good fortune of dining at the house of Dr. McLoughlin’s son.
 (Major-Frégeau, 1976). During his visit, he drew a detailed hand-drawn map of 
 Oregon City where he showed the location of the church (Rich, 1944).
 
-![The Amercian Village](/images/no-ordinary-tree/1846-village-at-the-american-settlement-wallamatta-river-warre.jpg?style=centerme)
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/oc-paintings/index.html"
+style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-Village at the American Settlement – Wallamatta River, Jan 1846 by Henry J. Warre. 
+Paintings of the Oregon City
 
 Though lithographs (Warre, 1848) of Warre’s paintings are common, I am including 
 both his painting and lithograph to illustrate the difference between the 
 artist's original intention and a lithographer's interpretation. The M. E. 
 Church is in the middle of the picture. The St. John the Apostle Church appears 
-on the extreme left.  
-
-![The Amercian Village](/images/no-ordinary-tree/1846-the-american-village-warre-litho.png?style=centerme)
-
-{:.image-caption}
-Lithograph of The American Village by Henry J. Warre (Warre, 1848)
-
-The church was again captured in John Mix Stanley’s painting from 1850. 
-Stanley’s painting portrays the church from the bluff on the Oregon City side.
-
-![Oregon City on the Willamette River](/images/no-ordinary-tree/1850-oc-john-mix-stanley.jpg?style=centerme)
-
-{:.image-caption}
-Oregon City on the Willamette River (1850) by John Mix Stanley
-
-A detailed sketch of the church appeared in a couple of Gaston’s books on Oregon 
-(Gaston, 1911 and 1912). It’s the clearest illustration of the M. E. Church 
-at its first location that I’ve come across.
-
-![M. E. Church in 1842](/images/no-ordinary-tree/1842-methodist-episcopal-church-2.png?style=centerme)
-
-{:.image-caption}
-The first church building erected in old Oregon, by the Methodists in 1842 
-
-A model of the old church building is displayed at the Oregon City Methodist 
-United Church, the present day  M. E. Church. Notice the wood shingles
-and the green shutters. The old church building would make a very nice Lego model.
-Maybe I'll try it one day. 
-
-![Model of old M. E. Church](/images/no-ordinary-tree/1842-me-church-model.jpg?style=centerme)
-
-{:.image-caption}
-A model of the first church building (author)
+on the extreme left. The church was again captured in John Mix Stanley’s 
+painting from 1850. Stanley’s painting portrays the church from the bluff on 
+the Oregon City side.
 
 The M. E. Church on Third Street holds a special place in Oregon history. 
 Oregon’s provisional legislature met here in 1847. The first meeting of the 
@@ -133,16 +104,26 @@ Tualatin, and Vancouver counties respectively to Marion Washington and Clark”
 (Gaston, 1912). George Abernethy, the first Governor Oregon under the provisional 
 government, even donated the church bell. 
 
-![Third Annual Oregon Conference, 1855](/images/no-ordinary-tree/1855-me-church.jpg?style=centerme)
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location1/index.html"
+style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-Third Annual Oregon Methodist Conference at the Third Street location, Oregon City, 1855 
+Images of the M. E. Church at its first location at Third and Main Street
 
 In 1855, the third annual Oregon Methodist conference was held in Oregon City. 
 It attracted all types of missionaries and church clergy men from the Oregon 
 territory. The only known photograph of the M. E. Church at the Third Street 
 location was taken during this occasion. If you look at the picture carefully, 
 the church building doesn't look that small anymore.
+
+A sketch of the church appeared in a couple of Gaston’s books on Oregon 
+(Gaston, 1911 and 1912). It’s the clearest illustration of the M. E. Church 
+at its first location that I’ve come across. A model of the old church building 
+is displayed at the Oregon City Methodist United Church, the present day 
+M. E. Church. Notice the wood shingles and the green shutters. The old church 
+building would make a very nice Lego model. Maybe I'll try it one day.
 
 In 1855, the church was moved to its second location at the corner of Seventh 
 and Main Street. According to Lynch (1973), “it seemed profitable to move to 
@@ -152,11 +133,13 @@ took his ox-team and moved the church and parsonage down the street”.
 Elias W. Swafford was an early pioneer at Oregon City and at one time held 
 the office of Steward in the M. E. Church (Hines, 1893). 
 
-![M. E. Church in 1855](/images/no-ordinary-tree/oregon-city-methodist-church-7th-main.jpg?style=centerme)
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location2/index.html"
+style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-The M. E. Church at its second location, corner of Seventh and Main Street. Note
-the apple tree behind the church building.
+Images of the M. E. Church at its second location at Seventh and Main Street
 
 The apple tree made an appearance in most of the church pictures at the second 
 location. A few different black and white pictures of the church, at its 
@@ -165,11 +148,6 @@ cited picture comes from the collection of Oregon State University. The only
 colorized photo of the M. E.Church that I have across was in a slide series 
 titled “The Indian Trail” put out by M. E. Church.  
 
-![M. E. Church in 1855](/images/no-ordinary-tree/first-church-and-parsonage-oregon-city.png?style=centerme)
-
-{:.image-caption}
-M. E. Church at its second location, corner of Seventh and Main Street (The Indian Trail slide series)
-
 By 1890, the church became too small for its growing congregation and was 
 replaced by “a handsome modern structure with gothic windows and a tall 
 spire was erected on the front” (Lynch, 1973). The architecture of this
@@ -177,10 +155,13 @@ particular building reminds me of the churches designed by Architect Benjamin
 D. Price. Price’s plans were sold by the Methodist Episcopal Church Board to 
 its congregations to discourage them from building churches of their own design.
 
-![M. E. Church in 1890](/images/no-ordinary-tree/1890-me-church.jpg?style=centerme)
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-second/index.html"
+style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-Second M. E. Church building with gothic windows and a tall spire, 1890 
+Images of the second M. E. Church building at Seventh and Main Street
 
 The original church building was moved to the back of the property, 
 facing Seventh Street and close to the train depot. As per Muno (1975), 
@@ -190,11 +171,6 @@ structure for business purposes by removing the belfry, erecting a square
 front and making the room suitable for display of goods”. Schwan set up a 
 tinning and plumbing shop in the old building and frequently advertised in 
 local newspapers.
-
-![Schwan Adv. 1893](/images/no-ordinary-tree/1893-schwan-adv.png?style=centerme)
-
-{:.image-caption}
-Schwan advertisement from 1893. Note the location of the old church building on Seventh Street. (Oregon City Enterprise)
 
 The old building even showed up in the Sanborn fire insurance map from 1892. 
 However, the old parsonage was missing from the map. No one is 
@@ -206,7 +182,7 @@ the Methodist church in Oregon City there stood until a few years ago, when it
 was cut down and sold for souvenirs, an old apple tree, the first tree of its 
 kind in Oregon, now so famous for its apples.”
 
-![Sanborn Fire Insurance Map 1888 and 1892](/images/no-ordinary-tree/1888-1892-sanborn-fire-insurance-map-oregon-city.png?style=centerme)
+![Sanborn Fire Insurance Map 1888 and 1892](/images/no-ordinary-tree/1888-1892-sanborn-fire-insurance-map-oregon-city.png?style=centerme;max-width:50%)
 
 {:.image-caption}
 Note the locations of the old church building in 1888 and 1892 (right) Sanborn Fire Insurance Maps
@@ -218,10 +194,13 @@ renovations including hoisting the church to make it a second story, and
 adding the L. Adams Department store at the street level (Oregon City Enterprise, June 
 26, 1903). 
 
-![M. E. Church in 1914](/images/no-ordinary-tree/1914-main-st-7th-oregon-city.jpg?style=centerme)                                               
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-third/index.html"
+style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 {:.image-caption}
-M. E. Church in 1914 with Adams department store on the first floor  (RPPC)
+Images of the third M. E. Church building at Seventh and Main Street
 
 The last time there was any reference to the old church building was when the 
 1909 Methodist Conference, held at Cottage Grove, discussed moving the 
@@ -235,37 +214,11 @@ November 16, 1919). I heard the corner post of the old church building was
 saved as a memorial and currently displayed at the Museum of the 
 Oregon Territory, Oregon City.
 
-![Church Fire in 1919](/images/no-ordinary-tree/1919-church-fire.png?style=centerme)                                               
-
-{:.image-caption}
-M. E. Church was completely destroyed by fire on Nov 15, 1991 (The Sunday Oregonian)
-
 The apple tree was cut down and sold as keepsakes. Some wooden pieces were 
 turned into plaques and others into gavels.  A few of the historic artifacts are 
 in display at the Methodist United Church. Two of the gavels, displayed at the church,
- were used at the Willamette Mission School near Salem.
-
-![Apple Tree Cross-section](/images/no-ordinary-tree/apple-tree-slice-1.jpg?style=centerme)                                               
-
-{:.image-caption}
-A cross-section of the apple tree displayed at Oregon City Methodist United church  (author) 
-
-![Decorated Plaque](/images/no-ordinary-tree/apple-tree-slice-2.jpg?style=centerme)                                               
-
-{:.image-caption}
-A plaque made from the apple tree with a picture of the old church from the first location (author) 
-
-![Oregon Map Plaque](/images/no-ordinary-tree/apple-tree-slice-3.jpg?style=centerme)                                               
-
-{:.image-caption}
-A plaque shaped as a Oregon map with a picture of the old church from the second location (author) 
-
-![Gavels from Willamette Mission](/images/no-ordinary-tree/gavels-willamette-mission.jpg?style=centerme)                                               
-
-{:.image-caption}
-Gavels from Willamette Mission School (author) 
-
-One such gavel was presented to Abernethy Grange (Oregon City) by Captain 
+ were used at the Willamette Mission School near Salem. One such gavel was 
+ presented to Abernethy Grange (Oregon City) by Captain 
 John T. Apperson of [Unio](https://en.wikipedia.org/wiki/Unio_(sternwheeler)) 
 fame. It was fashioned from the apple tree and the handle carved from another 
 historic tree, this time a cherry, planted by [Seth Luelling](https://en.wikipedia.org/wiki/Seth_Lewelling)
@@ -275,10 +228,10 @@ band around it. I was given the impression that the gavel is still in use by the
 grange. As to what happened to the old church building, and the parsonage is 
 still a mystery.
 
-![Abernethy Gacel](/images/no-ordinary-tree/1904-abernethy-gavel.jpg?style=centerme)                                               
-
-{:.image-caption}
-Gravel presented to Abernethy Grange (author) 
+<div align="center">
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-artifacts/index.html"
+style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 
 ## References
 

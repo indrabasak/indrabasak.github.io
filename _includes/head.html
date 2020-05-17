@@ -15,6 +15,13 @@
     <script src="{{ site.baseurl }}/js/jquery.toc.js"></script>
     <script src="{{ site.baseurl }}/js/custom.js"></script>
 
+    <!-- Slide Show -->
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+
     {% if page.use_math %}
         {% include mathjax-support.html %}
     {% endif %}
@@ -30,6 +37,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
 
-    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
-    <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
+    {% if page.image %}
+      <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}{{ page.image }}"/>
+      <link rel="shortcut" type="image/png" href="{{ site.baseurl }}{{ page.image }}"/>
+    {% else %}
+      <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
+      <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
+    {% endif %}
 </head>
