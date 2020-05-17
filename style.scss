@@ -923,6 +923,10 @@ ul.nav-menu li:hover > ul,
     max-width: -webkit-calc(33% - 4px);
     max-width: calc(33% - 4px);
   }
+
+  .lSSlideWrapper .caption {
+    display: none;
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////
