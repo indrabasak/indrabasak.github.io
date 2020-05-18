@@ -4,6 +4,7 @@ title: M. E. Church - First Location
 item: 1
 auto: false
 loop: false
+permalink: /slides/no-ordinary-tree/me-church-location1.html
 ---                                           
 
 * ![Third Annual Oregon Conference, 1855](/images/no-ordinary-tree/1855-me-church.jpg?style=centerme)

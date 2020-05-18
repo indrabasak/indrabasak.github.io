@@ -4,6 +4,7 @@ title: Second M. E. Church
 item: 1
 auto: false
 loop: false
+permalink: /slides/no-ordinary-tree/me-church-second.html
 ---                                           
 
 * ![M. E. Church in 1890](/images/no-ordinary-tree/1890-me-church.jpg?style=centerme)

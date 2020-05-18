@@ -4,6 +4,7 @@ title: M. E. Church - Second Location
 item: 1
 auto: false
 loop: false
+permalink: /slides/no-ordinary-tree/me-church-location2.html
 ---                                           
 
 * ![M. E. Church in 1855](/images/no-ordinary-tree/oregon-city-methodist-church-7th-main.jpg?style=centerme)

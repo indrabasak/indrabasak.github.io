@@ -16,7 +16,7 @@ of the first ever protestant church built in North America, west of the Rockies.
 That’s a couple of firsts.
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/apple-tree/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/apple-tree"
 style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -81,7 +81,7 @@ He even had the good fortune of dining at the house of Dr. McLoughlin’s son.
 Oregon City where he showed the location of the church (Rich, 1944).
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/oc-paintings/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/oc-paintings.html"
 style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -105,7 +105,7 @@ Tualatin, and Vancouver counties respectively to Marion Washington and Clark”
 government, even donated the church bell. 
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location1/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location1.html"
 style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -134,7 +134,7 @@ Elias W. Swafford was an early pioneer at Oregon City and at one time held
 the office of Steward in the M. E. Church (Hines, 1893). 
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location2/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location2.html"
 style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -156,7 +156,7 @@ D. Price. Price’s plans were sold by the Methodist Episcopal Church Board to
 its congregations to discourage them from building churches of their own design.
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-second/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-second.html"
 style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -195,7 +195,7 @@ adding the L. Adams Department store at the street level (Oregon City Enterprise
 26, 1903). 
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-third/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-third.html"
 style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
 
@@ -229,9 +229,12 @@ grange. As to what happened to the old church building, and the parsonage is
 still a mystery.
 
 <div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-artifacts/index.html"
+<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-artifacts.html"
 style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
 </div>
+
+{:.image-caption}
+Keepsakes made out of the apple tree
 
 ## References
 

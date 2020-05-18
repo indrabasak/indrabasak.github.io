@@ -4,6 +4,7 @@ title: Third M. E. Church
 item: 1
 auto: false
 loop: false
+permalink: /slides/no-ordinary-tree/me-church-third.html
 ---                                           
 
 * ![M. E. Church in 1914](/images/no-ordinary-tree/1914-main-st-7th-oregon-city.jpg?style=centerme) 

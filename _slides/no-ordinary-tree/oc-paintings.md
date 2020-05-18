@@ -4,6 +4,7 @@ title: Oregon City Paintings
 item: 1
 auto: false
 loop: false
+permalink: /slides/no-ordinary-tree/oc-paintings.html
 ---                                           
 
 * ![The Amercian Village](/images/no-ordinary-tree/1846-the-american-village-warre-litho.png?style=centerme)
