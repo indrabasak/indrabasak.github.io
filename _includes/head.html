@@ -1,6 +1,11 @@
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
-    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-bkg-black-0.40.png">
+
+    {% if page.image %}
+        <link rel="shortcut icon" type="image/png" href="{{{ site.baseurl }}{{ page.image }}">
+    {% else %}
+        <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-bkg-black-0.40.png">
+    {% endif %}
 
     {% include meta.html %}
 
@@ -40,8 +45,8 @@
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
 
     {% if page.image %}
-      <link rel="shortcut" type="image/png" href="{{ site.baseurl }}{{ page.image }}"/>
+        <link rel="shortcut" type="image/png" href="{{ site.baseurl }}{{ page.image }}"/>
     {% else %}
-      <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
+        <link rel="shortcut" type="image/png" href="{{ site.baseurl }}/images/brick-red-v3-113px.png"/>
     {% endif %}
 </head>
