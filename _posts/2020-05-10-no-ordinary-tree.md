@@ -15,13 +15,7 @@ in Oregon City; not far from where I stood. The tree stood on the yard
 of the first ever protestant church built in North America, west of the Rockies. 
 That’s a couple of firsts.
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/apple-tree"
-style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-The famous apple tree
+{% include carousel.html name="famous-apple-tree" data=site.data.no-ordinary-tree.apple-tree %}
 
 Around 1892, the tree made its first appearance in Pacific Christian Advocate, 
 a Methodist newspaper. I have seen a photocopy of this issue, but  not able to 
@@ -80,13 +74,7 @@ He even had the good fortune of dining at the house of Dr. McLoughlin’s son.
 (Major-Frégeau, 1976). During his visit, he drew a detailed hand-drawn map of 
 Oregon City where he showed the location of the church (Rich, 1944).
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/oc-paintings.html"
-style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Paintings of the Oregon City
+{% include carousel.html name="oc-paintings" data=site.data.no-ordinary-tree.oc-paintings %}
 
 Though lithographs (Warre, 1848) of Warre’s paintings are common, I am including 
 both his painting and lithograph to illustrate the difference between the 
@@ -104,13 +92,7 @@ Tualatin, and Vancouver counties respectively to Marion Washington and Clark”
 (Gaston, 1912). George Abernethy, the first Governor Oregon under the provisional 
 government, even donated the church bell. 
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location1.html"
-style="height:40%;width:40%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Images of the M. E. Church at its first location at Third and Main Street
+{% include carousel.html name="me-church-location1" data=site.data.no-ordinary-tree.me-church-location1 %}
 
 In 1855, the third annual Oregon Methodist conference was held in Oregon City. 
 It attracted all types of missionaries and church clergy men from the Oregon 
@@ -133,13 +115,7 @@ took his ox-team and moved the church and parsonage down the street”.
 Elias W. Swafford was an early pioneer at Oregon City and at one time held 
 the office of Steward in the M. E. Church (Hines, 1893). 
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-location2.html"
-style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Images of the M. E. Church at its second location at Seventh and Main Street
+{% include carousel.html name="me-church-location2" data=site.data.no-ordinary-tree.me-church-location2 %}
 
 The apple tree made an appearance in most of the church pictures at the second 
 location. A few different black and white pictures of the church, at its 
@@ -155,13 +131,7 @@ particular building reminds me of the churches designed by Architect Benjamin
 D. Price. Price’s plans were sold by the Methodist Episcopal Church Board to 
 its congregations to discourage them from building churches of their own design.
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-second.html"
-style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Images of the second M. E. Church building at Seventh and Main Street
+{% include carousel.html name="me-church-second" data=site.data.no-ordinary-tree.me-church-second %}
 
 The original church building was moved to the back of the property, 
 facing Seventh Street and close to the train depot. As per Muno (1975), 
@@ -194,13 +164,7 @@ renovations including hoisting the church to make it a second story, and
 adding the L. Adams Department store at the street level (Oregon City Enterprise, June 
 26, 1903). 
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-church-third.html"
-style="height:60%;width:60%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Images of the third M. E. Church building at Seventh and Main Street
+{% include carousel.html name="me-church-third" data=site.data.no-ordinary-tree.me-church-third %}
 
 The last time there was any reference to the old church building was when the 
 1909 Methodist Conference, held at Cottage Grove, discussed moving the 
@@ -228,13 +192,7 @@ band around it. I was given the impression that the gavel is still in use by the
 grange. As to what happened to the old church building, and the parsonage is 
 still a mystery.
 
-<div align="center">
-<iframe class="slideshow-iframe" src="/slides/no-ordinary-tree/me-artifacts.html"
-style="height:50%;width:50%" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
-</div>
-
-{:.image-caption}
-Keepsakes made out of the apple tree
+{% include carousel.html name="me-artifacts" data=site.data.no-ordinary-tree.me-artifacts %}
 
 ## References
 

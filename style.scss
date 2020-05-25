@@ -974,6 +974,33 @@ img[src$="centerme"] {
 }
 
 ///////////////////////////////////////////////////////////////////////
+// bootstrap carousel (slides)
+
+// center image
+.carousel img {
+  margin: auto;
+}
+
+// works - position caption below the image
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+// caption text size, color, etc.
+.carousel-caption {
+  font-size: 11px;
+  word-wrap: break-word;
+  color: black;
+}
+
+.carousel-indicators li {
+  color: gray;
+  background-color: gray;
+}
+
+////////////////////////////////////////////////////////////////////////
 
 @import "toc";
 @import "tags";
