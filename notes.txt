@@ -23,3 +23,10 @@ bundle exec jekyll server
 
 # View the website at
 http://127.0.0.1:4000/
+
+/////////////////////////////////////
+If you are facing this issue in Mac Big Sur, reinstalling CommandLineTools can fix this issue.
+
+sudo rm -rf /Library/Developer/CommandLineTools
+
+xcode-select --install
