@@ -57,11 +57,11 @@ What stayed with me most about these Sunday newspaper ads,
 
 One can notice the influence of Ray's days at Santiniketan in the
 brush drawings of Jabakusum hair oil ads. The ads were making fun of
-modern women avoiding combing hair or showers to stop hair loss. Like
+modern women hesitancy to comb hair or take showers in order to prevent hair loss. Like
 Ray's sketches in his short stories, one gets the underlying message of these ads
 without even reading the accompanied text.
 
-The ad campaign for the Indian Tea Board was more infographic in nature
+The ad campaign for the Indian Tea Board was more infographic in nature -
 telling us the five rules for making good tea.
 
 ![Indian Tea Board Ad](/images/ray-adv/ray-tea-board.jpg?style=centerme)
