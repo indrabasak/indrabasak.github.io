@@ -8,19 +8,19 @@ image: /images/entry/satyajit-ray-22.jpg
 ---
 
 Growing up in Calcutta, Satyajit Ray, the famous Indian movie director,
-had an iconic presence in my life through his many movies and short
+had a silent presence in my life through his many movies and short
 stories. [Feluda](https://en.wikipedia.org/wiki/Feluda), one of his creations,
-was one of the few fictional characters who captured my childhood imagination
+was one of the fictional characters who captured my childhood imagination
 along with the Belgian teenager, [Tintin](https://www.tintin.com/en).
 Ray's sketches almost always accompanied his stories. Come to think
 of it, his sketches were the first thing that attracted me to his writings.
-His sketches always seemed to capture the essence of the story plot. So,
-I wasn't surprised to learn that his illustration career began much before
-his start in movies and writings. He mastered his craft at different
-advertising houses.
+His drawings always seemed to capture the essence of the story plot. So,
+I wasn't surprised to learn that his career as an illustrator began much before
+his start in movies and writings. He mastered his craft as an illustrator and
+story teller from his stints at advertising houses.
 
 In June 1943, Ray got his break as a visual artist with the British advertising firm,
-D. J. Keymer (the present-day Ogilvy and Mather). He landed this job after
+D. J. Keymer (the present-day Ogilvy and Mather). He landed his first job after
 sitting idle for nearly six months after his sudden departure from
 [Santiniketan](https://whc.unesco.org/en/tentativelists/5495/). Ray went to
 Santiniketan to study art after completing his undergraduate studies from the
@@ -28,12 +28,12 @@ Santiniketan to study art after completing his undergraduate studies from the
 under the tutelage of [Nandalal Bose](https://www.wikiart.org/en/nandalal-bose),
 one of the pioneers of the Bengal School of Art. I'm not sure why he quit
 Santiniketan before completing his training. One speculation was that he
-wanted to support his mother financially by finding a job.
+wanted to finacillay support his mother.
 
 {% include carousel.html name="paludrine-adv" data=site.data.ray-adv.ray-paludrine %}
 
 Ray's starting salary with Keymer was 85 Indian rupees per month (approximately
-US $1.20). His time at Keymer was a productive one as he was behind some
+US $1.20). His time at Keymer was a productive one as he was behind some of the
 popular advertising campaigns from this time. One of his more famous advertising
 campaigns was for Paludrine, an anti-malarial drug, made by
 Imperial Chemical Industries (ICI). I was only aware of ICI as a paint and
@@ -56,8 +56,8 @@ What stayed with me most about these Sunday newspaper ads,
 {% include carousel.html name="jabakusum-adv" data=site.data.ray-adv.ray-jabakusum %}
 
 One can notice the influence of Ray's days at Santiniketan in the
-brush drawings of Jabakusum hair oil ads. The ads were making fun of
-modern women's hesitancy to comb hair or take showers in order to prevent hair loss. Like
+brush drawings of Jabakusum hair oil ads. The ads made fun of
+modern women's hesitancy to comb hair or take showers in order to prevent hair loss. Similar to
 Ray's sketches in his short stories, one gets the underlying message of these ads
 without even reading the accompanied text.
 
@@ -68,3 +68,7 @@ telling us the five rules for making good tea.
 
 {:.image-caption}
 Infographic Ad for Indian Tea Board
+
+Though Ray took part in various other ad campaigns from his time at Keymer, it's
+difficult to pinpoint his exact contribution for every single ad since they
+were mostly fruition of a collective effort of different members of a team.
