@@ -20,21 +20,21 @@ his start in movies and writings. He mastered his craft as an illustrator and
 story teller from his stints at advertising houses.
 
 In June 1943, Ray got his break as a visual artist with the British advertising firm,
-D. J. Keymer (the present-day Ogilvy and Mather). He landed his first job after
-sitting idle for nearly six months since his sudden departure from
+D. J. Keymer (the present-day Ogilvy and Mather) with a starting salary of
+85 Indian rupees per month (approximately US $26 in early 40's exchange rate).
+He landed this first job after sitting idle for nearly six months since his sudden departure from
 [Santiniketan](https://whc.unesco.org/en/tentativelists/5495/). Ray went to
 Santiniketan to study art and calligraphy after completing his undergraduate studies from the
 [Presidency College](https://www.presiuniv.ac.in/). At Santiniketan, he trained
 under the tutelage of [Nandalal Bose](https://www.wikiart.org/en/nandalal-bose),
 one of the pioneers of the Bengal School of Art. I'm not sure why he quit
-Santiniketan before completing his training. One speculation was that he
+Santiniketan before completing his training. Though I read in a book that he
 wanted to financially support his mother.
 
 {% include carousel.html name="paludrine-adv" data=site.data.ray-adv.ray-paludrine %}
 
-Ray's starting salary with Keymer was 85 Indian rupees per month (approximately
-US $1.20). His time at Keymer was a productive one as he was behind some of the
-popular advertising campaigns from this time. One of his more famous advertising
+Ray's time at Keymer was a productive one. He was behind some of the
+popular advertising campaigns from that time. One of his more famous ad
 campaigns was for Paludrine, an anti-malarial drug, made by
 Imperial Chemical Industries (ICI). I was only aware of ICI as a paint and
 chemical company with its Indian head office in Chowringhee. I didn't have a
@@ -59,16 +59,17 @@ One can notice the influence of Ray's days at Santiniketan in the
 brush drawings of Jabakusum hair oil ads. The ads made fun of
 modern women's hesitancy to comb hair or take showers in order to prevent hair loss. Similar to
 Ray's sketches in his short stories, one gets the underlying message of these ads
-without even reading the accompanied text.
+without even reading the accompanied text. Jabakusum brings back memories of
+my grandfather using the red scented oil. It came in a red and white packaging
+with old style illustrations of women putting oil on their hair.
 
 The ad campaign for the Indian Tea Board was more infographic in nature -
-telling us the five rules for making good tea.
+telling us the five rules for making good tea. Though Ray took part in various
+other ad campaigns from his time at Keymer, it's difficult to pinpoint his exact
+contribution for every single ad since they were the fruition of a collective
+effort of different members of a team.
 
 ![Indian Tea Board Ad](/images/ray-adv/ray-tea-board.jpg?style=centerme)
 
 {:.image-caption}
 Infographic Ad for Indian Tea Board
-
-Though Ray took part in various other ad campaigns from his time at Keymer, it's
-difficult to pinpoint his exact contribution for every single ad since they
-were mostly fruition of a collective effort of different members of a team.
