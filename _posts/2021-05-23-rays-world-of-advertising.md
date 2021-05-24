@@ -57,7 +57,7 @@ What stayed with me most about these Sunday newspaper ads,
 
 One can notice the influence of Ray's days at Santiniketan in the
 brush drawings of Jabakusum hair oil ads. The ads were making fun of
-modern women hesitancy to comb hair or take showers in order to prevent hair loss. Like
+modern women's hesitancy to comb hair or take showers in order to prevent hair loss. Like
 Ray's sketches in his short stories, one gets the underlying message of these ads
 without even reading the accompanied text.
 
