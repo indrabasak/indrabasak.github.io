@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From a Seed to a Magnum Opus
-published: false
+published: true
 comments: true
 tags: [History, Satyajit Ray]
 image: /images/entry/aam-antir-bhepu.png
@@ -28,7 +28,7 @@ working for D. J. Kaymer, the British advertising agency, while also
 freelancing on the side for Signet Press designing book covers. D. K. Gupta, 
 who went by DK, started the small publishing house while he was one of the 
 heads at Kaymer. Ray owed a great deal to DK, for not only giving him his 
-first job but also for suggesting that the shortened version would make 
+first job but also for suggesting that the abridged version would make 
 a great movie.
 
 {% include carousel.html name="antir-bhepu-01" data=site.data.seed-to-magnum-opus.aam-antir-bhepu-01 %}
@@ -61,6 +61,8 @@ Bibhuti Bhushan’s widow, remained a steadfast supporter of Ray even
 when another producer, who Ray approached earlier for financing, tried to 
 snag the film rights under him.
 
+{% include carousel.html name="pather-panchali-skecthes" data=site.data.seed-to-magnum-opus.pather-panchali %}
+
 It was the spring of 1950 when the idea of turning the story into a movie started
 taking serious roots. Rays started writing down his initials thoughts of the film 
 during his long voyage to London on an assignment 
@@ -69,10 +71,39 @@ home after a five months stays in London. Though few of the final wash-sketches
 of the movie actually line up with his original illustrations, you still 
 get the feeling it all started with the lonely mango seed.
 
+<div align="center">
+<iframe width="725" height="380" frameborder="0" src="//player.vimeo.com/video/192472480" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+</div>
+<div align="center">Birth of Apu</div>
+
 After going through his illustrations and wash sketches for _Panther Panchali_, 
 I get the impression that the movie was just a live re-enactment of his 
 drawings where nature was brought to life. The dialogs and the screenplay 
 were just an afterthought - the magic of the movie lies in its shot composition, 
 photography, editing, and Ravi Shankar’s evocative music. The scenes in
 the movie looked so natural that they reminded me of the photography of 
-Henri Cartier-Bresson. The rest as they say is history.
+Henri Cartier-Bresson and the rest is history.
+
+<div align="center">
+<iframe width="725" height="380" frameborder="0" src="//player.vimeo.com/video/192472482" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+</div>
+<div align="center">Apu and alarm clock</div>
+<p/>
+
+<div align="center">
+<iframe width="725" height="380" frameborder="0" src="//player.vimeo.com/video/192472478" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+</div>
+<div align="center">Apu at school</div>
+<p/>
+
+<div align="center">
+<iframe width="725" height="380" frameborder="0" src="//player.vimeo.com/video/192472483" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe>
+</div>
+<div align="center">First sight of train</div>
+<p/>
+
+<div align="center">
+<iframe width="725" height="380" frameborder="0" src="//player.vimeo.com/video/192472481" webkitallowfullscreen="1" mozallowfullscreen="1" allowfullscreen="1"></iframe> 
+</div>
+<div align="center">Durga in the rain</div>
+
