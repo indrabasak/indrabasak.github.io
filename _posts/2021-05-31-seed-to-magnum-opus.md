@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From a Seed to a Magnum Opus
+title: From a Seed to Magnum Opus
 published: true
 comments: true
 tags: [History, Satyajit Ray]
