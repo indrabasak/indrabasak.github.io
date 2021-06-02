@@ -61,7 +61,7 @@ Bibhuti Bhushan’s widow, remained a steadfast supporter of Ray even
 when another producer, who Ray approached earlier for financing, tried to 
 snag the film rights under him.
 
-{% include carousel.html name="pather-panchali-skecthes" data=site.data.seed-to-magnum-opus.pather-panchali %}
+{% include carousel.html name="pather-panchali-sketches" data=site.data.seed-to-magnum-opus.pather-panchali %}
 
 It was the spring of 1950 when the idea of turning the story into a movie started
 taking serious roots. Rays started writing down his initials thoughts of the film 
