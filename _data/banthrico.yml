@@ -1,0 +1,80 @@
+lastupdate: June 10, 2021
+list:
+  - category: People
+    items:
+      - name: Theodore Roosevelt
+        manufacturer: Bankers' Thrift Corporation, Chicago
+        material: Metal
+        year: 1922
+        image: banthrico/people/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+
+      - name: John F. Kennedy
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: Merchants Co-operative Bank, Boston
+        image: banthrico/people/john-f-kennedy-01.jpeg
+
+      - name: Dwight Eisenhower
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: United Insurance Co., Chicago, IL
+        image: banthrico/people/eisenhower-01.jpeg
+
+      - name: Robert E. Lee
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: The Lee County Bank, Fort Myers, FL
+        image: banthrico/people/robert-e-lee-01.jpeg
+
+      - name: Douglas MacArthur
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: The Lee County Bank, Fort Myers, FL
+        image: banthrico/people/douglas-macarthur-01.jpeg
+
+  - category: Mascot
+    items:
+      - name: Univeristy of Oregon Duck
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1960s
+        issuer: Citizen Bank of Oregon, OR
+        image: banthrico/mascot/oregon-duck-01.jpeg
+
+      - name: Oregon State University Beavers
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1960s
+        issuer: Citizen Bank of Corvallis, OR
+        image: banthrico/mascot/oregon-state-beavers-01.jpeg
+
+      - name: Michigan State University Spartan
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1960s
+        issuer: East Lansing State Bank, MI;  Ioter City Bank, MI
+        image: banthrico/mascot/mich-state-spartans-01.jpeg
+
+      - name: University of Missouri Tigers
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 2021
+        issuer: Kansas City Bank & Trust Co., MO
+        image: banthrico/mascot/missouri-tigers-01.jpeg
+
+      - name: Purdue University Boilermakers
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 2021
+        issuer: Lafayette National Bank, IN
+        image: banthrico/mascot/purdue-boilermakers-01.jpeg
+
+      - name: University of Wisconsin Badgers
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 2021
+        image: banthrico/mascot/wisconsin-badgers-01.jpeg

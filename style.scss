@@ -1001,6 +1001,37 @@ img[src$="centerme"] {
 }
 
 ////////////////////////////////////////////////////////////////////////
+// Banthrico
+.book_info {
+  margin-bottom: 30px;
+  word-wrap: normal;
+}
+
+.book_cover {
+  width: 30%;
+  display: inline-block;
+}
+
+.book_meta {
+  width:65%;
+  margin-left: 4%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post-teaser .book_cover {
+  width: 25%;
+  display: inline-block;
+}
+
+.post-teaser .book_meta {
+  width:70%;
+  margin-left: 4%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+////////////////////////////////////////////////////////////////////////
 
 @import "toc";
 @import "tags";

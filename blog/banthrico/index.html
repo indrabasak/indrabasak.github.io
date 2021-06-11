@@ -1,0 +1,32 @@
+---
+layout: page
+title: Banthrico
+footer: false
+---
+
+<section id="banthrico">
+    <div class="container">
+        {% for entry in site.data.banthrico.list %}
+            {% assign sorted_items = entry.items | sort:'name' %}
+            {% for item in sorted_items %}
+            <div class="post-teaser">
+                <div class="book_info">
+                    {% if item.image %}
+                        <div class="book_cover"><a href="{{ prepend: site.baseurl }}"><img src="/images/{{ item.image }}"/></a></div>
+                    {% endif %}
+                    <div class="book_meta">
+                        <h3>{{ item.name }}</h3>
+                        <p>Category: {{ entry.category }}</p>
+                        <p>Manufacturer: {{ item.manufacturer }}</p>
+                        {% if item.material %}<p>Material: {{ item.material }}</p>{% endif %}
+                        {% if item.year %}<p>Year: {{ item.year }}</p>{% endif %}
+                        {% if item.issuer %}<p>Issuer: {{ item.issuer }}</p>{% endif %}
+                        {% if item.note %}<p>{{ item.note }}</p>{% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+</section>
