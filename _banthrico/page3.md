@@ -1,42 +1,20 @@
 ---
 layout: inventory-template
-title: Mascot ~ Michigan State University Spartan - University of Missouri Tigers
+title: People ~ Theodore Roosevelt - Thomas A. Edison
 index: 3
-category: Mascot
+category: People
 items:
-  - name: Michigan State University Spartan
-    category: Mascot
+  - name: Theodore Roosevelt
+    category: People
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: Metal
+    year: 1922
+    image: /images/banthrico/people/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+  - name: Thomas A. Edison
+    category: People
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    issuer: East Lansing State Bank, MI;  Ioter City Bank, MI
-    image: /images/banthrico/mascot/mich-state-spartans-01.jpeg
-  - name: Oregon State University Beavers
-    category: Mascot
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: 1960s
-    issuer: Citizen Bank of Corvallis, OR
-    image: /images/banthrico/mascot/oregon-state-beavers-01.jpeg
-  - name: Purdue University Boilermakers
-    category: Mascot
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: 2021
-    issuer: Lafayette National Bank, IN
-    image: /images/banthrico/mascot/purdue-boilermakers-01.jpeg
-  - name: Univeristy of Oregon Duck
-    category: Mascot
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: 1960s
-    issuer: Citizen Bank of Oregon, OR
-    image: /images/banthrico/mascot/oregon-duck-01.jpeg
-  - name: University of Missouri Tigers
-    category: Mascot
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: 2021
-    issuer: Kansas City Bank & Trust Co., MO
-    image: /images/banthrico/mascot/missouri-tigers-01.jpeg
+    year: None
+    issuer: The Lee County Bank, Fort Myers, FL
+    image: /images/banthrico/people/edison-01.jpeg
 ---
