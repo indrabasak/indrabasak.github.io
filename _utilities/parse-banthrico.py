@@ -26,7 +26,7 @@ def print_item(category, item, file_out):
     if "year" in item.keys():
         file_out.write("    year: " + str(item["year"]) + "\n")
     if "issuer" in item.keys():
-        file_out.write("    issuer: " + item["issuer"] + "\n")
+        file_out.write("    issuer: " + str(item["issuer"]) + "\n")
     if "image" in item.keys():
         file_out.write("    image: " + item["image"] + "\n")
     if "note" in item.keys():
