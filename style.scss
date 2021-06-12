@@ -1002,33 +1002,81 @@ img[src$="centerme"] {
 
 ////////////////////////////////////////////////////////////////////////
 // Banthrico
-.book_info {
+.inventory_info {
   margin-bottom: 30px;
   word-wrap: normal;
 }
 
-.book_cover {
+.inventory_image {
   width: 30%;
   display: inline-block;
 }
 
-.book_meta {
+.inventory_image img {
+  max-width: 80%;
+}
+
+.inventory_meta {
   width:65%;
   margin-left: 4%;
   display: inline-block;
   vertical-align: top;
 }
 
-.post-teaser .book_cover {
+.inventory_meta p {
+  margin: 5px 0;
+  margin-bottom: 5px; /* between paragraphs */
+}
+
+.post-teaser .inventory_image {
   width: 25%;
   display: inline-block;
 }
 
-.post-teaser .book_meta {
+.post-teaser .inventory_meta {
   width:70%;
   margin-left: 4%;
   display: inline-block;
   vertical-align: top;
+}
+
+.inventories > .inventory {
+//  padding-bottom: 2em;
+  padding-bottom: 0.5em;
+//   border-bottom: 1px solid $lightGray;
+  margin: 0 0 3% 0;
+}
+
+.inventories > .inventory:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.inventory{
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  .more-link {
+    font-size: 13px;
+    line-height: 23px;
+    color: $red;
+    text-decoration-color: $red;
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////

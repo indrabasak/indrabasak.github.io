@@ -126,3 +126,7 @@ defaults:
 collections:
   slides:
     output: true
+  banthrico:
+    output: true
+    output_ext: .html
+    permalink: /banthrico/:path/

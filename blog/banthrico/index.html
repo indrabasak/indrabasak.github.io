@@ -10,11 +10,11 @@ footer: false
             {% assign sorted_items = entry.items | sort:'name' %}
             {% for item in sorted_items %}
             <div class="post-teaser">
-                <div class="book_info">
+                <div class="inventory_info">
                     {% if item.image %}
-                        <div class="book_cover"><a href="{{ prepend: site.baseurl }}"><img src="/images/{{ item.image }}"/></a></div>
+                        <div class="inventory_image"><a href="{{site.baseurl }}"><img src="{{ item.image }}"/></a></div>
                     {% endif %}
-                    <div class="book_meta">
+                    <div class="inventory_meta">
                         <h3>{{ item.name }}</h3>
                         <p>Category: {{ entry.category }}</p>
                         <p>Manufacturer: {{ item.manufacturer }}</p>
