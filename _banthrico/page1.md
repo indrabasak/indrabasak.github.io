@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: People ~ Benjamin Franklin - George Washinghton (1)
+title: People ~ Be - Ge
 index: 1
 category: People
 items:
@@ -22,7 +22,7 @@ items:
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: None
+    year: 1946
     issuer: The Lee County Bank, Fort Myers, FL
     image: /images/banthrico/people/douglas-macarthur-01.jpeg
   - name: Dwight Eisenhower

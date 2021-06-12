@@ -37,9 +37,9 @@ def print_page(category, items, start_index, end_index, index, file_out):
     file_out.write("---\n")
     file_out.write("layout: inventory-template\n")
     if start_index == end_index - 1:
-        file_out.write("title: " + category + " ~ " + items[start_index]["name"] + "\n")
+        file_out.write("title: " + category + " ~ " + items[start_index]["name"][:2] + "\n")
     else:
-        file_out.write("title: " + category + " ~ " + items[start_index]["name"] + " - " + items[end_index - 1]["name"] + "\n")
+        file_out.write("title: " + category + " ~ " + items[start_index]["name"][:2] + " - " + items[end_index - 1]["name"][:2] + "\n")
     file_out.write("index: " + str(index) + "\n")
     file_out.write("category: " + category + "\n")
     file_out.write("items:\n")

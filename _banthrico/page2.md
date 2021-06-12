@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: People ~ George Washinghton (2) - Robert E. Lee
+title: People ~ Ge - Ro
 index: 2
 category: People
 items:
@@ -29,7 +29,7 @@ items:
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: None
+    year: 1950s
     issuer: The National Shawmut Bank, Boston, MA
     image: /images/banthrico/people/native-american-man-01.jpeg
   - name: Robert E. Lee

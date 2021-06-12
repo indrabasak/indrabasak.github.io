@@ -9,12 +9,12 @@ layout: default
             <div class="inventory_info">
                 {% if item.image %}
                 <div class="inventory_image">
-                    <a href="{{ site.baseurl }}"><img src="{{ item.image }}"/></a>
+                    <a href="{{ item.image }}" data-lightbox="{{ item.image }}"><img src="{{ item.image }}"/></a>
                 </div>
                 {% endif %}
                 <div class="inventory_meta">
                     <h3>{{ item.name }}</h3>
-                    <p>Category: {{ entry.category }}</p>
+                    <p>Category: {{ item.category }}</p>
                     <p>Manufacturer: {{ item.manufacturer }}</p>
                     {% if item.material %}<p>Material: {{ item.material }}</p>{% endif %}
                     {% if item.year %}<p>Year: {{ item.year }}</p>{% endif %}
@@ -27,15 +27,15 @@ layout: default
     </div>
 
     <!-- This loops through the paginated posts -->
-    {% for post in paginator.posts %}
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="author">
-        <span class="date">{{ post.date }}</span>
-    </p>
-    <div class="content">
-        {{ post.content }}
-    </div>
-    {% endfor %}
+<!--    {% for post in paginator.posts %}-->
+<!--    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>-->
+<!--    <p class="author">-->
+<!--        <span class="date">{{ post.date }}</span>-->
+<!--    </p>-->
+<!--    <div class="content">-->
+<!--        {{ post.content }}-->
+<!--    </div>-->
+<!--    {% endfor %}-->
 
     {% include pagination.html %}
 </article>

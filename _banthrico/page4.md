@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: Mascot ~ Auburn University Tigers - Oregon State University Beavers
+title: Mascot ~ Au - Or
 index: 4
 category: Mascot
 items:

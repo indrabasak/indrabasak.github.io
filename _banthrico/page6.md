@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: Mascot ~ University of Missouri Tigers - University of Wisconsin Badgers
+title: Mascot ~ Un - Un
 index: 6
 category: Mascot
 items:

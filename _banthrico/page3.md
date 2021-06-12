@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: People ~ Theodore Roosevelt - Thomas A. Edison
+title: People ~ Th - Th
 index: 3
 category: People
 items:

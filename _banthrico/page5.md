@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: Mascot ~ Purdue University Boilermakers - University of Michigan Wolverines
+title: Mascot ~ Pu - Un
 index: 5
 category: Mascot
 items:
