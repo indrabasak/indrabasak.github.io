@@ -120,14 +120,14 @@ list:
         material: Metal
         year: 1960s
         issuer: East Lansing State Bank, MI;  Ioter City Bank, MI
-        image: /images/banthrico/mascot/minnesota-gophers-01.jpeg
+        image: /images/banthrico/mascot/mich-state-spartans-01.jpeg
 
       - name: Minnesota Gophers
         manufacturer: Banthrico, Chicago
         material: Metal
         year: 1960s
         issuer:
-        image: /images/banthrico/mascot/mich-state-spartans-01.jpeg
+        image: /images/banthrico/mascot/minnesota-gophers-01.jpeg
 
       - name: Missouri Tiger
         manufacturer: Banthrico, Chicago
@@ -142,6 +142,13 @@ list:
         year: 1960s
         issuer: Lafayette National Bank, IN
         image: /images/banthrico/mascot/purdue-boilermakers-01.jpeg
+
+      - name: Notre Dame Fighting Irish
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1960s
+        issuer: Branch County Bank, Coldwater, MI
+        image: /images/banthrico/mascot/notre-dame-fighting-irish-01.jpeg
 
       - name: Wisconsin Badgers
         manufacturer: Banthrico, Chicago
@@ -205,13 +212,26 @@ list:
         manufacturer: Banthrico, Chicago
         material: Metal
         year: 1960s
-        image: /images/banthrico/mascot/texas-longhorns-01.jpeg
+        image: /images/banthrico/mascot/texas-bevo-01.jpeg
 
       - name: Baylor Bears
         manufacturer: Banthrico, Chicago
         material: Metal
         year: 1960s
         image: /images/banthrico/mascot/baylor-bears-01.jpeg
+
+      - name: Rice Owl
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1962
+        image: /images/banthrico/mascot/rice-owl-1962-01.jpeg
+
+      - name: Conroe High School Tigers
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1960s
+        issuer: First National Bank, Conroe, TX
+        image: /images/banthrico/mascot/conroe-hs-tigers-01.jpeg
 
       - name: Okhlahoma Sooners
         manufacturer: Banthrico, Chicago

@@ -1,9 +1,16 @@
 ---
 layout: inventory-template
-title: Mascot ~ Ge - Lo
+title: Mascot ~ Co - Io
 index: 5
 category: Mascot
 items:
+  - name: Conroe High School Tigers
+    category: Mascot
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1960s
+    issuer: First National Bank, Conroe, TX
+    image: /images/banthrico/mascot/conroe-hs-tigers-01.jpeg
   - name: Georgia Bulldogs
     category: Mascot
     manufacturer: Banthrico, Chicago
@@ -29,11 +36,4 @@ items:
     material: Metal
     year: 1960s
     image: /images/banthrico/mascot/iowa-state-cyclones-01.jpeg
-  - name: Louisiana State University Tigers
-    category: Mascot
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: 1960s
-    issuer: American Bank & Trust Co., Baton Rouge, LA
-    image: /images/banthrico/mascot/lsu-tigers-01.jpeg
 ---
