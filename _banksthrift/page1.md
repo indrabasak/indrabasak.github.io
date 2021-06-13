@@ -1,9 +1,15 @@
 ---
 layout: inventory-template
-title: Bank ~ Fe - Th
+title: Bank ~ Ba - Th
 index: 1
 category: Bank
 items:
+  - name: Barrel Bank
+    category: Bank
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: Wood, Metal
+    year: 1920s
+    image: /images/banthrico/banksthrift/barrel-wood-01.jpeg
   - name: Feed The Goose
     category: Bank
     manufacturer: Bankers' Thrift Corporation, Chicago
@@ -15,6 +21,36 @@ items:
       - Manufactured by Grannis & Tolton, Inc., Detroit
       - Made for the Bankers Thrift Corp. of Chicago, IL
       - A bank premium given to children to teach the value in saving.
+  - name: Horse Shoe Pocket Savings Bank
+    category: Bank
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: Nickel Plated Steel
+    year: 1920s
+    issuer: Union National Bank, Eau Claire, WI
+    image: /images/banthrico/banksthrift/horseshoe-01.jpeg
+    note: 
+      - Embossed in the back with <a href="/images/banthrico/banksthrift/horseshoe-02.jpeg" data-lightbox="luck-follows">"Luck Follows Anyone Who Saves"</a>
+      - Approximately - 3.125" L x 2.5" W
+      - Ad from <a href="/images/banthrico/banksthrift/ad/1924-bankers-thrift-horse-shoe-ad.png" data-lightbox="1924-ad">1924</a>
+  - name: Real Home Savings Bank (1)
+    category: Bank
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: Pressed Steel
+    year: 1920s
+    image: /images/banthrico/banksthrift/save-for-a-home-wbg-01.jpeg
+    note: 
+      - The front of the house is embossed with "SAVE FOR A HOME - Bankers Thrift Corp., Chicago"
+      - Ad from <a href="/images/banthrico/banksthrift/ad/1923-real-house-savings-bank-bankers-thrift.png" data-lightbox="1923-ad">1923</a>
+  - name: Real Home Savings Bank (2)
+    category: Bank
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: Pressed Steel
+    year: 1920s
+    issuer: First National Bank, Arcadia, FL
+    image: /images/banthrico/banksthrift/save-for-a-home-rbg-01.jpeg
+    note: 
+      - The front of the house is embossed with "SAVE FOR A HOME - Bankers Thrift Corp., Chicago"
+      - The back of the house is embossed with "First National Bank - ARCADIA, FlORIDA"
   - name: Theodore Roosevelt
     category: Bank
     manufacturer: Bankers' Thrift Corporation, Chicago
