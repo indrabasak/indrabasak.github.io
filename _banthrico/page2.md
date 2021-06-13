@@ -27,10 +27,11 @@ items:
     image: /images/banthrico/people/robert-e-lee-01.jpeg
   - name: Theodore Roosevelt
     category: People
-    manufacturer: Bankers' Thrift Corporation, Chicago
+    manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1922
-    image: /images/banthrico/people/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+    year: 1950s
+    issuer: Roosevelt Savings Bank, Brooklyn, NY
+    image: /images/banthrico/people/teddy-roosevelt-1950-01.jpeg
   - name: Thomas A. Edison
     category: People
     manufacturer: Banthrico, Chicago

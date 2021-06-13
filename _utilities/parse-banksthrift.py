@@ -9,8 +9,8 @@
 
 from common import create_pages
 
-INVENTORY_YAML_FILE = "../_data/banthrico.yml"
-INVENTORY_PAGES_LOCATION = "../_banthrico"
+INVENTORY_YAML_FILE = "../_data/banksthrift.yml"
+INVENTORY_PAGES_LOCATION = "../_banksthrift"
 PARTITION_LENGTH = 10
 
 create_pages(INVENTORY_YAML_FILE, INVENTORY_PAGES_LOCATION, PARTITION_LENGTH)

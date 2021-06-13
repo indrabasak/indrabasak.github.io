@@ -3,10 +3,11 @@ list:
   - category: People
     items:
       - name: Theodore Roosevelt
-        manufacturer: Bankers' Thrift Corporation, Chicago
+        manufacturer: Banthrico, Chicago
         material: Metal
-        year: 1922
-        image: /images/banthrico/people/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+        year: 1950s
+        issuer: Roosevelt Savings Bank, Brooklyn, NY
+        image: /images/banthrico/people/teddy-roosevelt-1950-01.jpeg
 
       - name: John F. Kennedy
         manufacturer: Banthrico, Chicago

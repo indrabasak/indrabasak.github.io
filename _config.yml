@@ -130,3 +130,7 @@ collections:
     output: true
     output_ext: .html
     permalink: /banthrico/:path/
+  banksthrift:
+    output: true
+    output_ext: .html
+    permalink: /banksthrift/:path/

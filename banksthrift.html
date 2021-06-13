@@ -1,0 +1,20 @@
+---
+layout: page
+title: Banks' Thrift Corporation, Chicago
+permalink: /banksthrift/
+---
+
+<div class="home">
+    <div class="call-out">
+        TODO
+    </div>
+</div>
+
+<div class="inventories">
+    {% assign pages = site.banksthrift | sort: "index" %}
+    {% for page in pages %}
+    <article class="inventory">
+        <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>
+    </article>
+    {% endfor %}
+</div>
