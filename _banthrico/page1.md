@@ -1,23 +1,55 @@
 ---
 layout: inventory-template
-title: People ~ Be - Ge
+title: People ~ Ab - Ge
 index: 1
 category: People
 items:
-  - name: Benjamin Franklin
+  - name: Abraham Lincoln (1)
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: None
+    year: 1940
+    issuer: None
+    image: /images/banthrico/people/abraham-lincoln-1940-01.jpeg
+    note: 
+      - 1940 version has Lincoln's long signature (Abraham spelled completely)
+  - name: Abraham Lincoln (2)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1974
+    issuer: Fidelity Savings &Loan Association, Valley City, ND
+    image: /images/banthrico/people/abraham-lincoln-1974-01.jpeg
+    note: 
+      - 1974 version has Lincoln's short signature
+  - name: Ben Franklin (1)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1950
     issuer: Franklin Bank, St Albans, VT
     image: /images/banthrico/people/ben-frankin-01.jpeg
-  - name: Chief Anacostia
+  - name: Ben Franklin (2)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1970s
+    issuer: Suffolk Franklin Savings Bank, Boston, MA
+    image: /images/banthrico/people/ben-franklin-1970-01.jpg
+  - name: Charlie Russell
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1962
+    issuer: Pondera Bank of Montana, Conrad, MT
+    image: /images/banthrico/people/charlie-russell-01.jpeg
+  - name: Davy Crockett
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
     year: None
-    issuer: Anacostia Federal Savings, Washington, DC
-    image: /images/banthrico/people/chief-anacostia-01.jpeg
+    issuer: The Omaha National Bank, NE
+    image: /images/banthrico/people/davy-crockett-01.jpeg
   - name: Douglas MacArthur
     category: People
     manufacturer: Banthrico, Chicago
@@ -39,4 +71,11 @@ items:
     year: 1947
     issuer: State Bank & Trust, Evanston, IL
     image: /images/banthrico/people/george-washington-1947-01.jpeg
+  - name: George Washinghton (2)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: None
+    issuer: 1 St Bank and Trust Company, Indianapolis, IN
+    image: /images/banthrico/people/george-washington-01.jpeg
 ---

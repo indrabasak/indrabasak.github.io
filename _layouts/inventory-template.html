@@ -19,7 +19,14 @@ layout: default
                     {% if item.material %}<p>Material: {{ item.material }}</p>{% endif %}
                     {% if item.year %}<p>Year: {{ item.year }}</p>{% endif %}
                     {% if item.issuer %}<p>Issuer: {{ item.issuer }}</p>{% endif %}
-                    {% if item.note %}<p>{{ item.note }}</p>{% endif %}
+                    {% if item.note %}
+                        <p>Note: </p>
+                        <ul>
+                        {% for note in item.note %}
+                            <li>{{ note }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
                 </div>
             </div>
         </div>

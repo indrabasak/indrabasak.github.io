@@ -1,41 +1,56 @@
 ---
 layout: inventory-template
-title: Mascot ~ Lo - Mi
+title: Fictional ~ An - Na
 index: 6
-category: Mascot
+category: Fictional
 items:
-  - name: Louisiana State University Tigers
-    category: Mascot
+  - name: Andy Costia
+    category: Fictional
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    issuer: American Bank & Trust Co., Baton Rouge, LA
-    image: /images/banthrico/mascot/lsu-tigers-01.jpeg
-  - name: Maine Bears
-    category: Mascot
+    year: None
+    issuer: Anacostia Federal Savings, Washington, DC
+    image: /images/banthrico/fictional/andy-costia-01.jpeg
+  - name: Annie Costia
+    category: Fictional
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    image: /images/banthrico/mascot/maine-bears-01.jpeg
-  - name: Michigan State Spartan
-    category: Mascot
+    year: None
+    issuer: Anacostia Federal Savings, Washington, DC
+    image: /images/banthrico/fictional/annie-costia-01.jpeg
+  - name: Chief Anacostia
+    category: Fictional
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    issuer: East Lansing State Bank, MI;  Ioter City Bank, MI
-    image: /images/banthrico/mascot/mich-state-spartans-01.jpeg
-  - name: Michigan Wolverine
-    category: Mascot
+    year: None
+    issuer: Anacostia Federal Savings, Washington, DC
+    image: /images/banthrico/fictional/chief-anacostia-01.jpeg
+  - name: Chief Scioto
+    category: Fictional
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    issuer: Pontiac State Bank, MI
-    image: /images/banthrico/mascot/michigan-wolverines-01.jpeg
-  - name: Minnesota Gophers
-    category: Mascot
+    year: None
+    issuer: Scioto Savings Association, Columbus, OH
+    image: /images/banthrico/fictional/chief-scioto-01.jpeg
+  - name: Dowagiac
+    category: Fictional
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: 1960s
-    issuer: None
-    image: /images/banthrico/mascot/minnesota-gophers-01.jpeg
+    year: None
+    issuer: First National Bank, Dowagiac, MI
+    image: /images/banthrico/fictional/dowagiac-01.jpeg
+  - name: Native American Chief
+    category: Fictional
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: None
+    issuer: The Multnomah Bank, Portland, OR
+    image: /images/banthrico/fictional/native-american-chief-01.jpeg
+  - name: Native American Man
+    category: Fictional
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1950s
+    issuer: The National Shawmut Bank, Boston, MA
+    image: /images/banthrico/fictional/native-american-man-01.jpeg
 ---

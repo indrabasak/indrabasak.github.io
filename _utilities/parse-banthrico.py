@@ -14,7 +14,7 @@ from glob import glob
 
 INVENTORY_YAML_FILE = "../_data/banthrico.yml"
 INVENTORY_PAGES_LOCATION = "../_banthrico"
-PARTITION_LENGTH = 5
+PARTITION_LENGTH = 10
 
 def print_item(category, item, file_out):
     file_out.write("  - name: " + item["name"] + "\n")
@@ -30,7 +30,11 @@ def print_item(category, item, file_out):
     if "image" in item.keys():
         file_out.write("    image: " + item["image"] + "\n")
     if "note" in item.keys():
-        file_out.write("    note: " + item["note"] + "\n")
+        notes = item["note"]
+        file_out.write("    note: \n")
+        for note in notes:
+            #file_out.write("    note: " + item["note"] + "\n")
+            file_out.write("      - " + note + "\n")
 
 
 def print_page(category, items, start_index, end_index, index, file_out):

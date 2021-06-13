@@ -1,39 +1,53 @@
 ---
 layout: inventory-template
-title: Mascot ~ Co - Io
+title: Mascot ~ Or - Wy
 index: 5
 category: Mascot
 items:
-  - name: Conroe High School Tigers
+  - name: Oregon Duck
     category: Mascot
     manufacturer: Banthrico, Chicago
     material: Metal
     year: 1960s
-    issuer: First National Bank, Conroe, TX
-    image: /images/banthrico/mascot/conroe-hs-tigers-01.jpeg
-  - name: Georgia Bulldogs
+    issuer: Citizen Bank of Oregon, OR
+    image: /images/banthrico/mascot/oregon-duck-01.jpeg
+  - name: Oregon State Beaver
     category: Mascot
     manufacturer: Banthrico, Chicago
     material: Metal
     year: 1960s
-    image: /images/banthrico/mascot/georgia-bulldogs-01.jpeg
-  - name: Georgia Tech Yellow Jackets
+    issuer: Citizen Bank of Corvallis, OR
+    image: /images/banthrico/mascot/oregon-state-beavers-01.jpeg
+  - name: Purdue Boilermakers
     category: Mascot
     manufacturer: Banthrico, Chicago
     material: Metal
     year: 1960s
-    issuer: Atlanta Federal Savings, Atlanta, GA
-    image: /images/banthrico/mascot/georgia-tech-yellow-jackets-01.jpeg
-  - name: Iowa Hawkeyes
+    issuer: Lafayette National Bank, IN
+    image: /images/banthrico/mascot/purdue-boilermakers-01.jpeg
+  - name: Rice Owl
+    category: Mascot
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1962
+    image: /images/banthrico/mascot/rice-owl-1962-01.jpeg
+  - name: Texas Longhorns
     category: Mascot
     manufacturer: Banthrico, Chicago
     material: Metal
     year: 1960s
-    image: /images/banthrico/mascot/iowa-hawkeyes-01.jpeg
-  - name: Iowa State Cyclones
+    image: /images/banthrico/mascot/texas-bevo-01.jpeg
+  - name: Wisconsin Badgers
     category: Mascot
     manufacturer: Banthrico, Chicago
     material: Metal
     year: 1960s
-    image: /images/banthrico/mascot/iowa-state-cyclones-01.jpeg
+    image: /images/banthrico/mascot/wisconsin-badgers-01.jpeg
+  - name: Wyoming Cowboys
+    category: Mascot
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1960s
+    issuer: None
+    image: /images/banthrico/mascot/wyoming-cowboys-01.jpeg
 ---
