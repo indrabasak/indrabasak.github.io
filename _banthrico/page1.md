@@ -47,7 +47,7 @@ items:
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
-    year: None
+    year: 1948
     issuer: The Omaha National Bank, NE
     image: /images/banthrico/people/davy-crockett-01.jpeg
   - name: Douglas MacArthur

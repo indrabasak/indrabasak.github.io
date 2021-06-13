@@ -99,7 +99,7 @@ list:
       - name: Davy Crockett
         manufacturer: Banthrico, Chicago
         material: Metal
-        year:
+        year: 1948
         issuer: The Omaha National Bank, NE
         image: /images/banthrico/people/davy-crockett-01.jpeg
 
@@ -338,3 +338,25 @@ list:
         year:
         issuer: First National Bank, Dowagiac, MI
         image: /images/banthrico/fictional/dowagiac-01.jpeg
+
+  - category: Miscellaneous
+    items:
+      - name: Drive-In Teller
+        manufacturer: Banthrico, Chicago
+        material: Plastic
+        year: 1978
+        issuer: South Weymouth Savings Bank, South Weymouth, MA
+        image: /images/banthrico/misc/drive-in-teller-01.jpeg
+        note:
+          - Mechanical Bank
+          - <a href="https://patents.google.com/patent/US4226044A/en?oq=US4226044A" target="_blank">Patent US4226044A</a>
+          - Made in Hong Kong
+
+      - name: Jack In The Bank
+        manufacturer: Banthrico, Chicago
+        material: Plastic
+        year: 1950s
+        issuer: South Weymouth Savings Bank, South Weymouth, MA
+        image: /images/banthrico/misc/jack-in-the-bank-01.jpeg
+        note:
+          - Mechanical Bank
