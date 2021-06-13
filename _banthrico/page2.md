@@ -1,9 +1,16 @@
 ---
 layout: inventory-template
-title: People ~ Jo - Th
+title: People ~ Ge - Th
 index: 2
 category: People
 items:
+  - name: George Washinghton (2)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: None
+    issuer: 1 St Bank and Trust Company, Indianapolis, IN
+    image: /images/banthrico/people/george-washington-01.jpeg
   - name: John F. Kennedy
     category: People
     manufacturer: Banthrico, Chicago

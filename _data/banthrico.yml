@@ -15,13 +15,6 @@ list:
         issuer: Merchants Co-operative Bank, Boston
         image: /images/banthrico/people/john-f-kennedy-01.jpeg
 
-      - name: Dwight Eisenhower
-        manufacturer: Banthrico, Chicago
-        material: Metal
-        year:
-        issuer: United Insurance Co., Chicago, IL
-        image: /images/banthrico/people/eisenhower-01.jpeg
-
       - name: Robert E. Lee
         manufacturer: Banthrico, Chicago
         material: Metal
@@ -67,6 +60,20 @@ list:
         image: /images/banthrico/people/abraham-lincoln-1974-01.jpeg
         note:
           - 1974 version has Lincoln's short signature
+
+      - name: Dwight Eisenhower (1)
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: United Insurance Co., Chicago, IL
+        image: /images/banthrico/people/eisenhower-01.jpeg
+
+      - name: Dwight Eisenhower (2)
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year: 1953
+        issuer: Lincoln First Federal Savings & Loan Association, Seattle, WA
+        image: /images/banthrico/people/eisenhower-1953-01.jpeg
 
       - name: Thomas A. Edison
         manufacturer: Banthrico, Chicago

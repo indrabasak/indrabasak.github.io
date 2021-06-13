@@ -57,13 +57,20 @@ items:
     year: 1946
     issuer: The Lee County Bank, Fort Myers, FL
     image: /images/banthrico/people/douglas-macarthur-01.jpeg
-  - name: Dwight Eisenhower
+  - name: Dwight Eisenhower (1)
     category: People
     manufacturer: Banthrico, Chicago
     material: Metal
     year: None
     issuer: United Insurance Co., Chicago, IL
     image: /images/banthrico/people/eisenhower-01.jpeg
+  - name: Dwight Eisenhower (2)
+    category: People
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: 1953
+    issuer: Lincoln First Federal Savings & Loan Association, Seattle, WA
+    image: /images/banthrico/people/eisenhower-1953-01.jpeg
   - name: George Washinghton (1)
     category: People
     manufacturer: Banthrico, Chicago
@@ -71,11 +78,4 @@ items:
     year: 1947
     issuer: State Bank & Trust, Evanston, IL
     image: /images/banthrico/people/george-washington-1947-01.jpeg
-  - name: George Washinghton (2)
-    category: People
-    manufacturer: Banthrico, Chicago
-    material: Metal
-    year: None
-    issuer: 1 St Bank and Trust Company, Indianapolis, IN
-    image: /images/banthrico/people/george-washington-01.jpeg
 ---
