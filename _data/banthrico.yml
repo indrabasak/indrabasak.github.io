@@ -361,3 +361,12 @@ list:
         image: /images/banthrico/misc/jack-in-the-bank-01.jpeg
         note:
           - Mechanical Bank
+
+      - name: Book Bank
+        manufacturer: Banthrico, Chicago
+        material: Pot Metal
+        year: 1950s
+        issuer: Safeway Brass Employees Association
+        image: /images/banthrico/misc/banthrico-book-bank-01.jpeg
+        note:
+          - size approximately 4 1/2" L x 3 1/2" W x 1" H

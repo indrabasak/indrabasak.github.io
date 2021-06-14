@@ -1,9 +1,18 @@
 ---
 layout: inventory-template
-title: Miscellaneous ~ Dr - Ja
+title: Miscellaneous ~ Bo - Ja
 index: 7
 category: Miscellaneous
 items:
+  - name: Book Bank
+    category: Miscellaneous
+    manufacturer: Banthrico, Chicago
+    material: Pot Metal
+    year: 1950s
+    issuer: Safeway Brass Employees Association
+    image: /images/banthrico/misc/banthrico-book-bank-01.jpeg
+    note: 
+      - size approximately 4 1/2" L x 3 1/2" W x 1" H
   - name: Drive-In Teller
     category: Miscellaneous
     manufacturer: Banthrico, Chicago
