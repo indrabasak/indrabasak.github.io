@@ -1,0 +1,17 @@
+---
+layout: inventory-template
+title: Bank ~ Do
+index: 1
+category: Bank
+items:
+  - name: Doughboy Hat
+    category: Bank
+    manufacturer: Stronghart Co., Chicago
+    material: Fabric and Metal
+    year: 1918
+    issuer: University State Bank, Des Moines, IO
+    image: /images/banthrico/stronghart/stronghart-doughboy-hat-02.jpeg
+    note: 
+      - The back of the hat is engraved with <a href="/images/banthrico/stronghart/stronghart-doughboy-hat-03.jpeg" data-lightbox="hat-03">STRONGHART CO., CHICAGO. U.S.A PATENTED</a>
+      - <a href="https://patents.google.com/patent/US1369675A/en?oq=US1369675A" target="_blank">Patent US1369675A</a>
+---
