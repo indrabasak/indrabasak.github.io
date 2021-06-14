@@ -134,3 +134,7 @@ collections:
     output: true
     output_ext: .html
     permalink: /banksthrift/:path/
+  stronghart:
+    output: true
+    output_ext: .html
+    permalink: /stronghart/:path/
