@@ -3,6 +3,7 @@ layout: inventory-template
 title: Fictional ~ An - Na
 index: 6
 category: Fictional
+home: banthrico
 items:
   - name: Andy Costia
     category: Fictional

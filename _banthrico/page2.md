@@ -3,6 +3,7 @@ layout: inventory-template
 title: People ~ Ge - Th
 index: 2
 category: People
+home: banthrico
 items:
   - name: George Washinghton (2)
     category: People

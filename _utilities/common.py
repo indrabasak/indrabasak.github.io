@@ -35,7 +35,7 @@ def print_item(category, item, file_out):
             file_out.write("      - " + note + "\n")
 
 
-def print_page(category, items, start_index, end_index, index, file_out):
+def print_page(category, home, items, start_index, end_index, index, file_out):
     file_out.write("---\n")
     file_out.write("layout: inventory-template\n")
     if start_index == end_index - 1:
@@ -49,6 +49,7 @@ def print_page(category, items, start_index, end_index, index, file_out):
                                                              "name"][:2] + "\n")
     file_out.write("index: " + str(index) + "\n")
     file_out.write("category: " + category + "\n")
+    file_out.write("home: " + home + "\n")
     file_out.write("items:\n")
 
     i = start_index
@@ -63,7 +64,7 @@ def delete_pages(location):
         os.unlink(f)
 
 
-def create_pages(inventory_file, inventory_pages_location, partition_length):
+def create_pages(inventory_file, inventory_pages_location, partition_length, home):
     with open(inventory_file, 'r') as stream:
         delete_pages(inventory_pages_location)
         try:
@@ -90,7 +91,7 @@ def create_pages(inventory_file, inventory_pages_location, partition_length):
 
                     page_name = inventory_pages_location + "/page" + str(global_page_index) + ".md"
                     file_out = open(page_name, "w")
-                    print_page(category, sorted_items, start_index, end_index, global_page_index, file_out)
+                    print_page(category, home, sorted_items, start_index, end_index, global_page_index, file_out)
                     file_out.close()
                     i = i + 1
                     global_page_index = global_page_index + 1

@@ -3,6 +3,7 @@ layout: inventory-template
 title: Mascot ~ Lo - Ok
 index: 4
 category: Mascot
+home: banthrico
 items:
   - name: Louisiana State University Tigers
     category: Mascot

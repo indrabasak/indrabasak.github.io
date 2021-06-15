@@ -3,6 +3,7 @@ layout: inventory-template
 title: Miscellaneous ~ Bo - Ja
 index: 7
 category: Miscellaneous
+home: banthrico
 items:
   - name: Book Bank
     category: Miscellaneous

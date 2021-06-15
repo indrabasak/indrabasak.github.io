@@ -3,6 +3,7 @@ layout: inventory-template
 title: Miscellaneous ~ Cl
 index: 2
 category: Miscellaneous
+home: banksthrift
 items:
   - name: Clock
     category: Miscellaneous

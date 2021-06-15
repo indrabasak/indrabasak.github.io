@@ -3,13 +3,24 @@ layout: default
 ---
 
 <article class="post">
+    {% if page.home %}
+    <div id="home-nav" class="clearfix nav-slide">
+        <div class="work">
+            <a class="prev" href="{{ site.baseurl }}/{{page.home}}">
+                <span class="slide-wrap">← {{page.home | capitalize}} Home</span>
+            </a>
+            <p/>
+        </div>
+    </div>
+    {% endif %}
+
     <div class="container">
         {% for item in page.items %}
         <div class="post-teaser">
             <div class="inventory_info">
                 {% if item.image %}
                 <div class="inventory_image">
-                    <a href="{{ item.image }}" data-lightbox="{{ item.image }}"><img src="{{ item.image }}"/></a>
+                    <a href="{{ item.image }}" data-lightbox="{{ item.name | replace: ' ', '-' }}"><img src="{{ item.image }}"/></a>
                 </div>
                 {% endif %}
                 <div class="inventory_meta">
@@ -32,17 +43,6 @@ layout: default
         </div>
         {% endfor %}
     </div>
-
-    <!-- This loops through the paginated posts -->
-<!--    {% for post in paginator.posts %}-->
-<!--    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>-->
-<!--    <p class="author">-->
-<!--        <span class="date">{{ post.date }}</span>-->
-<!--    </p>-->
-<!--    <div class="content">-->
-<!--        {{ post.content }}-->
-<!--    </div>-->
-<!--    {% endfor %}-->
 
     {% include pagination.html %}
 </article>

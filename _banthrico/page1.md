@@ -3,6 +3,7 @@ layout: inventory-template
 title: People ~ Ab - Ge
 index: 1
 category: People
+home: banthrico
 items:
   - name: Abraham Lincoln (1)
     category: People

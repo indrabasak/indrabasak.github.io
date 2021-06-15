@@ -3,6 +3,7 @@ layout: inventory-template
 title: Bank ~ Ba - Th
 index: 1
 category: Bank
+home: banksthrift
 items:
   - name: Barrel Bank (1)
     category: Bank
@@ -39,8 +40,8 @@ items:
     year: 1920s
     image: /images/banthrico/banksthrift/feed-the-goose-yellow-01.jpeg
     note: 
-      - The bottom says <a href="/images/banthrico/banksthrift/feed-the-goose-yellow-04.jpeg" data-lightbox="feed-goose-03">Bankers Thrift Corp. Chicago</a>
-      - The front says <a href="/images/banthrico/banksthrift/feed-the-goose-yellow-02.jpeg" data-lightbox="feed-goose-02">"Feed the Goose and You Can Truly Have A Golden Egg"</a>
+      - The bottom says <a href="/images/banthrico/banksthrift/feed-the-goose-yellow-04.jpeg" data-lightbox="Feed-The-Goose-(2)">Bankers Thrift Corp. Chicago</a>
+      - The front says <a href="/images/banthrico/banksthrift/feed-the-goose-yellow-02.jpeg" data-lightbox="Feed-The-Goose-(2)">"Feed the Goose and You Can Truly Have A Golden Egg"</a>
   - name: Horse Shoe Pocket Savings Bank
     category: Bank
     manufacturer: Bankers' Thrift Corporation, Chicago

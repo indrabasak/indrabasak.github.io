@@ -3,6 +3,7 @@ layout: inventory-template
 title: Mascot ~ Or - Wy
 index: 5
 category: Mascot
+home: banthrico
 items:
   - name: Oregon Duck
     category: Mascot

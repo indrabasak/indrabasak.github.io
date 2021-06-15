@@ -3,6 +3,7 @@ layout: inventory-template
 title: Mascot ~ Ai - Io
 index: 3
 category: Mascot
+home: banthrico
 items:
   - name: Airforce Academy Falcon
     category: Mascot
