@@ -12,6 +12,8 @@ list:
         note:
           - The back of the hat is engraved with <a href="/images/banthrico/stronghart/stronghart-doughboy-hat-03.jpeg" data-lightbox="Doughboy-Hat">STRONGHART CO., CHICAGO. U.S.A PATENTED</a>
           - <a href="https://patents.google.com/patent/US1369675A/en?oq=US1369675A" target="_blank">Patent US1369675A</a>
+          - It was promoted during World War I to encourage savings to buy US Liberty Bonds.
+          - It was modelled after the helmet worn by a Doughboy, a popular nickname for the American infantryman during World War I.
 
       - name: Simplex Round
         manufacturer: Stronghart Co., Chicago
@@ -57,4 +59,28 @@ list:
           - <a href="/images/banthrico/stronghart/stronghart-lux-bank-crown-sav-02.jpeg" data-lightbox="Lux-Home-Safe-1">Side view</a>
           - <a href="/images/banthrico/stronghart/stronghart-lux-bank-crown-sav-03.jpeg" data-lightbox="Lux-Home-Safe-1">Bottom of the bank</a> with the lid open.
           - Engraving on the bottom says <a href="/images/banthrico/stronghart/stronghart-lux-bank-crown-sav-04.jpeg" data-lightbox="Lux-Home-Safe-1">STRONGHART CO CHICAGO USA PATENTED</a>.
-#          - <a href="https://patents.google.com/patent/US1369675A/en?oq=US1369675A" target="_blank">Patent US1369675A</a>
+
+      - name: Bullet Bank (1)
+        manufacturer: Stronghart Co., Chicago
+        material: Metal
+        year: 1918
+        issuer: Park Savings Bank, Milwaukee, WI
+        image: /images/banthrico/stronghart/stronghart-bullet-bank-01.webp
+        note:
+          - Engraving on the bottom says <a href="/images/banthrico/stronghart/stronghart-bullet-bank-01.webp" data-lightbox="Bullet-Bank-(1)">MFG BY STRONGHART CO. PAT. APPLIED FOR CHICAGO</a>.
+          - <a href="/images/banthrico/stronghart/stronghart-bullet-bank-01.webp" data-lightbox="Bullet-Bank-(1)">Side view with the coin slot</a>
+          - Ad from <a href="/images/banthrico/stronghart/ad/1918-stronghart-bullet-bank-ad.png" data-lightbox="Bullet-Bank-(1)">1918</a>
+          - It was promoted during World War I to encourage savings to buy US Liberty Bonds.
+          - It has a a coin slot on the side and the bottom screws off.
+          - Dimension - 4” H x 1 1/8” D
+
+      - name: Ovalox Elliptical Pocket Bank
+        manufacturer: Stronghart Co., Chicago
+        material: Metal, Celluloid
+        year: 1921
+        issuer: Citizens Bank & Trust Co., Everett, WA
+        image: /images/banthrico/stronghart/ovalox-citizens-trust-01.jpeg
+        note:
+          - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-02.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">STRONGHART CO., CHGO, PAT</a>
+          - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-03.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">Coin slot</a>
+          - 2" diameter
