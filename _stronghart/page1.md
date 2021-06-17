@@ -13,8 +13,7 @@ items:
     issuer: Park Savings Bank, Milwaukee, WI
     image: /images/banthrico/stronghart/stronghart-bullet-bank-01.webp
     note: 
-      - Engraving on the bottom says <a href="/images/banthrico/stronghart/stronghart-bullet-bank-01.webp" data-lightbox="Bullet-Bank-(1)">MFG BY STRONGHART CO. PAT. APPLIED FOR CHICAGO</a>.
-      - <a href="/images/banthrico/stronghart/stronghart-bullet-bank-01.webp" data-lightbox="Bullet-Bank-(1)">Side view with the coin slot</a>
+      - Engraving on the bottom says <a href="/images/banthrico/stronghart/stronghart-bullet-bank-03.webp" data-lightbox="Bullet-Bank-(1)">MFG BY STRONGHART CO. PAT. APPLIED FOR CHICAGO</a>.
       - Ad from <a href="/images/banthrico/stronghart/ad/1918-stronghart-bullet-bank-ad.png" data-lightbox="Bullet-Bank-(1)">1918</a>
       - It was promoted during World War I to encourage savings to buy US Liberty Bonds.
       - It has a a coin slot on the side and the bottom screws off.
