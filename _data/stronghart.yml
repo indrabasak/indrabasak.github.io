@@ -83,3 +83,14 @@ list:
           - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-02.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">STRONGHART CO., CHGO, PAT</a>
           - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-03.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">Coin slot</a>
           - 2" diameter
+
+      - name: Quad Recording Bank
+        manufacturer: Stronghart Co., Chicago
+        material: Metal
+        year: 1921
+        issuer: Columbia National Bank, Pittsburgh, PA
+        image: /images/banthrico/stronghart/ovalox-citizens-trust-01.jpeg
+        note:
+          - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-02.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">STRONGHART CO., CHGO, PAT</a>
+          - Engraving on the bottom says <a href="/images/banthrico/stronghart/ovalox-citizens-trust-03.jpeg" data-lightbox=" Ovalox-Elliptical-Pocket-Bank">Coin slot</a>
+          - 2" diameter
