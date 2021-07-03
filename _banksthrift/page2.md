@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: Miscellaneous ~ Ch - Ed
+title: Miscellaneous ~ Ch - Th
 index: 2
 category: Miscellaneous
 home: banksthrift
@@ -52,4 +52,22 @@ items:
       - <a href="/images/banthrico/banksthrift/bank-thrift-edison-bronze-bust-02.jpeg" data-lightbox="Edision-Bust(3)">Right profile</a>
       - <a href="/images/banthrico/banksthrift/bank-thrift-edison-bronze-bust-03.jpeg" data-lightbox="Edision-Bust(3)">Left profile</a>
       - On the back is engraved <a href="/images/banthrico/banksthrift/bank-thrift-edison-bronze-bust-04.jpeg" data-lightbox="Edision-Bust(3)">R"Banker's Thrift Corp. Chicago"</a>
+  - name: Theodore Roosevelt (1)
+    category: Miscellaneous
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: White Metal
+    year: 1922
+    image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+    note: 
+      - Teddy Roosevelt bust is about 8.75" tall and base is 6.50" x 3.50". It weighs about 7 lbs.
+      - Designed by Louis Vincent Aronson
+  - name: Theodore Roosevelt (2)
+    category: Miscellaneous
+    manufacturer: Bankers' Thrift Corporation, Chicago
+    material: White Metal
+    year: 1922
+    image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-02.jpeg
+    note: 
+      - Teddy Roosevelt bust is about 8.75" tall and base is 6.50" x 3.50". It weighs about 7 lbs.
+      - Designed by Louis Vincent Aronson
 ---

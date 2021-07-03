@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: Bank ~ Ba - Th
+title: Bank ~ Ba - Re
 index: 1
 category: Bank
 home: banksthrift
@@ -82,10 +82,4 @@ items:
     note: 
       - The front of the house is embossed with "SAVE FOR A HOME - Bankers Thrift Corp., Chicago"
       - The back of the house is embossed with "First National Bank - ARCADIA, FlORIDA"
-  - name: Theodore Roosevelt
-    category: Bank
-    manufacturer: Bankers' Thrift Corporation, Chicago
-    material: White Metal
-    year: 1922
-    image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-01.jpeg
 ---

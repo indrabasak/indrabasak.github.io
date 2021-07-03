@@ -26,6 +26,15 @@ items:
     year: None
     issuer: Anacostia Federal Savings, Washington, DC
     image: /images/banthrico/fictional/chief-anacostia-01.jpeg
+  - name: Chief Pontiac
+    category: Fictional
+    manufacturer: Banthrico, Chicago
+    material: Metal
+    year: None
+    issuer: Federal Credit Union, Pontiac, MI
+    image: /images/banthrico/fictional/chief-pontiac-01.jpeg
+    note: 
+      - <a href="/images/banthrico/fictional/chief-pontiac-02.jpeg" data-lightbox="Chief-Pontiac(2)">Backside</a>
   - name: Chief Scioto
     category: Fictional
     manufacturer: Banthrico, Chicago

@@ -2,12 +2,6 @@ lastupdate: June 13, 2021
 list:
   - category: Bank
     items:
-      - name: Theodore Roosevelt
-        manufacturer: Bankers' Thrift Corporation, Chicago
-        material: White Metal
-        year: 1922
-        image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-01.jpeg
-
       - name: Feed The Goose (1)
         manufacturer: Bankers' Thrift Corporation, Chicago
         material: Pot Metal
@@ -87,6 +81,24 @@ list:
 
   - category: Miscellaneous
     items:
+      - name: Theodore Roosevelt (1)
+        manufacturer: Bankers' Thrift Corporation, Chicago
+        material: White Metal
+        year: 1922
+        image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-01.jpeg
+        note:
+          - Teddy Roosevelt bust is about 8.75" tall and base is 6.50" x 3.50". It weighs about 7 lbs.
+          - Designed by Louis Vincent Aronson
+
+      - name: Theodore Roosevelt (2)
+        manufacturer: Bankers' Thrift Corporation, Chicago
+        material: White Metal
+        year: 1922
+        image: /images/banthrico/banksthrift/1922-teddy-roosevelt-bankers-thrift-02.jpeg
+        note:
+          - Teddy Roosevelt bust is about 8.75" tall and base is 6.50" x 3.50". It weighs about 7 lbs.
+          - Designed by Louis Vincent Aronson
+
       - name: Clock
         manufacturer: Bankers' Thrift Corporation, Chicago
         material: Pressed Steel

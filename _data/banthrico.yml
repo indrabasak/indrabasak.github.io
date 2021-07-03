@@ -340,6 +340,15 @@ list:
         issuer: First National Bank, Dowagiac, MI
         image: /images/banthrico/fictional/dowagiac-01.jpeg
 
+      - name: Chief Pontiac
+        manufacturer: Banthrico, Chicago
+        material: Metal
+        year:
+        issuer: Federal Credit Union, Pontiac, MI
+        image: /images/banthrico/fictional/chief-pontiac-01.jpeg
+        note:
+          - <a href="/images/banthrico/fictional/chief-pontiac-02.jpeg" data-lightbox="Chief-Pontiac(2)">Backside</a>
+
   - category: Miscellaneous
     items:
       - name: Drive-In Teller
