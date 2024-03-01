@@ -30,3 +30,27 @@ If you are facing this issue in Mac Big Sur, reinstalling CommandLineTools can f
 sudo rm -rf /Library/Developer/CommandLineTools
 
 xcode-select --install
+//////////////////////////////////////
+March 1, 2024
+
+brew install ruby
+
+update .bash_profile and .zshrc with this line
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+sudo gem install bundler
+sudo gem install github-pages
+
+updated Gemfile with the following line; updated jekyll version and added csv and webrick
+gem "jekyll", "3.9.5"
+gem "csv"
+gem "webrick"
+
+sudo gem install "csv"
+sudo gem "webrick"
+
+to start the server
+bundle exec jekyll server
+
+
+
