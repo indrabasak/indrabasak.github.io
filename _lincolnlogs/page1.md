@@ -10,6 +10,7 @@ items:
   year: 1940s
   image: /images/lincoln-logs/1940s/ll-1t-01.png
   note:
+    - T stands for Timber
     - Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
     - Set 1T is entirely timber.
 - name: Large Lincoln Timbers Set No. 2T
@@ -18,6 +19,7 @@ items:
   year: 1940s
   image: /images/lincoln-logs/1940s/ll-1t-01.png
   note:
+    - T stands for Timber
     - Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
     - Set 2T is entirely timber.  
 - name: Large Lincoln Timbers Set No. 3T
@@ -26,16 +28,28 @@ items:
   year: 1940s
   image: /images/lincoln-logs/1940s/ll-1t-01.png
   note:
+    - T stands for Timber
     - Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
-    - Set 3T is entirely timber.  
+    - Set 3T is entirely timber. 
+- name: Large Lincoln Timbers Set No. 3LTF
+  manufacturer: J. L. Wright Inc.
+  material: Wood, Metal
+  year: 1940s
+  image: /images/lincoln-logs/1940s/ll-3ltf-01.jpeg
+  note:
+    - LTF stands for Logs, Timbers, and Figures.
+    - Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
+    - Set 3LTF is is a combination of Logs and Timbers together with Metal Figures 
+    - Image courtesy <a href="https://www.ponylope.com/bt-sets/bt-sets.html">Ponylope.com</a>
 - name: Large Lincoln Timbers Set No. 5LTF
   manufacturer: J. L. Wright Inc.
-  material: Wood
+  material: Wood, Metal, Fabric
   year: 1940s
   image: /images/lincoln-logs/1940s/ll-1t-01.png
   note:
+    - LTF stands for Logs, Timbers, and Figures.
     - Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
-    - Set 5LT is is a combination of Logs and Timbers together with a Metal Figures, and a Mesh Bag, serving as a container of Logs and Timbers when not in use.
+    - Set 5LTF is is a combination of Logs and Timbers together with Metal Figures, and a Mesh Bag, serving as a container of Logs and Timbers when not in use.
 - name: Original Lincoln Logs Set No. 3LF
   manufacturer: Lincoln Logs, 1750 N. Lawndale Ave., Chicago, IL
   material: Wood, Metal
