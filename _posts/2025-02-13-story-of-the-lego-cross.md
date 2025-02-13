@@ -110,12 +110,23 @@ craft a unique Christmas gift for his workers. He created a Christmas tree ornam
 and presented these to his employees in Billund just two days before Christmas in 1957. Measuring about two inches 
 in diameter, these ornaments held a special significance. OKC, unfortunately, passed away the following year.
 
+![Tree Ornament](/images/lego/cross/lego-angel.jpg?style=centerme)
+
+{:.image-caption}
+Christmas tree ornament in the shape of an angel, 1957
+
 It is likely that OKC's inspiration led to the release of the only religious-themed LEGO set, Church set 309, 
-in 1958. This set's design was based on the old Lutheran churches in Denmark at the time. A typical design of a 
-Lutheran church features a long, rectangular nave, with a prominent tower at the front. These structures are often 
-constructed from brick or stone, reflecting a timeless architectural style. An excellent example of the old 
-Lutheran church style is the Bethania Lutheran Church located in Solvang, California. There are many churches 
-throughout Denmark that share this architectural style.
+in 1958. This set's design was based on the old Lutheran churches in Denmark at the time. 
+
+![LEGO Church 309](/images/lego/cross/lego-church-309.jpg?style=centerme)
+
+{:.image-caption}
+LEGO Church Set 309 released in 1958
+
+A typical design of a Lutheran church features a long, rectangular nave, with a prominent tower at the front. 
+These structures are often constructed from brick or stone, reflecting a timeless architectural style. 
+An excellent example of the old Lutheran church style is the Bethania Lutheran Church located in Solvang, California. 
+There are many churches throughout Denmark that share this architectural style.
 
 ![Lutheran Church](/images/lego/cross/bethania-lutheran-church.jpg?style=centerme)
 
@@ -125,3 +136,5 @@ Bethania Lutheran Church located in Solvang, California
 The LEGO crosses, tree ornament, and the church are anomalies within their collection. LEGO often avoids direct 
 religious themes, they do include them in Advent calendars and architecture sets like Notre Dame and 
 St. Mark’s Basilica. Even the small church in the 2001 Advent Calendar set hints at this legacy. 
+
+{% include carousel.html name="lego-cross-06" data=site.data.story-of-lego-cross.lego-cross-v6 %}
