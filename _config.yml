@@ -138,6 +138,10 @@ collections:
     output: true
     output_ext: .html
     permalink: /stronghart/:path/
+  lego:
+    output: true
+    output_ext: .html
+    permalink: /lego/:path/
   lincolnlogs:
     output: true
     output_ext: .html

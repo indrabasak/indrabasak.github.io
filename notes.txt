@@ -52,5 +52,14 @@ sudo gem "webrick"
 to start the server
 bundle exec jekyll server
 
+//////////////////////////////////////
+Feb 12, 2025
 
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+sudo gem install bundler
+sudo gem update --system 3.6.3
+sudo gem install github-pages
+bumped jekyll version to 3.10.0 in Gemfile
 
+jekyll server
