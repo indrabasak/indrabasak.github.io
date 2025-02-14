@@ -54,8 +54,8 @@ I started sharing photos of the crosses. This marked the first occasion when the
 became aware of the LEGO crosses.
 
 These crosses, slightly off-white in color and made of plastic, are delicate enough to break if dropped from a 
-few feet. Measuring approximately seven inches in height and four inches in width, they emit a light green 
-glow in the dark. A notch on the back allows it to be elegantly hung on a wall.
+few feet. **Measuring approximately seven inches in height and four inches in width, they emit a light green 
+glow in the dark**. A notch on the back allows it to be elegantly hung on a wall.
 
 Over the years, I have encountered four distinct varieties of the cross, three of which are now part of my collection. 
 I learned from a German contact that Kirsten Stadelhofer at the LEGO Museum in Billund mentioned that the first 
