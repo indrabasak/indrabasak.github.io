@@ -34,6 +34,12 @@ with a song from a printed, blue LEGO songbook.”
 “HJEMLANDSTONER”, The blue songbook used at LEGO in Billund in the ‘50S. 
 Image courtesy [Miniland, Netherlands](http://www.miniland.nl/)
 
+```aiignore
+Hjemlandstoner (Voices from Home), since 1895 the classic folk songbook for house and congregational worship from 
+Indre Mission in Denmark. Its material supplements the hymnbook. The melody collections and supplements have 
+been published in 1900-88.
+```
+
 After acquiring my first cross, I reached out to the LEGO company to verify the authenticity.
 Jake McKee, who was the global community lead for LEGO at the time, confirmed that the LEGO Company did
 manufacture the cross. Ole Kirk Christiansen (OKC), the company's founder, was a devout man with strong ties
@@ -83,22 +89,23 @@ to "At the cross, the symbol of suffering, a candle was lit, a sun of grace."
 
 {% include carousel.html name="lego-cross-05" data=site.data.story-of-lego-cross.lego-cross-v5 %}
 
-```
+```aiignore
 Det lysende kors er en god og smuk gave til alle fra den yngste til den ældste.
-(The luminous cross is a good and beautiful gift for everyone from the youngest to the oldest.)
+>> The luminous cross is a good and beautiful gift for everyone from the youngest to the oldest.
 
 Køb  et eller flere eksemplarer til senere brug - husk: sma opmærksomhed skaber altid glæde.
-(Buy one or more copies for later use - remember: small attention always creates joy.)
+>> Buy one or more copies for later use - remember: small attention always creates joy.
 
 Glæd Dem selv - glæd andre med et lysende kors, og samtidig hjælper De os endnu engang i arbejdet for rejsning af
-(Rejoice yourself - rejoice others with a glowing cross, and at the same time help us once again in the work of raising)
+>> Make yourself happy - make others happy with a shining cross, and at the same time you help us 
+>> once again in the work of raising
 
 Danmarks Første idrætsungdomsskole på Hellebjerg
-(Denmark's First Sports Youth School at Hellebjerg)
+>> Denmark's First Sports Youth School at Hellebjerg
 ```
 
 {:.image-caption}
-Writing on the box inside with English translation
+Writing on the pamphlet that came with the box (with English translation)
 
 ![Hellebjerg School](/images/lego/cross/hellebjerg-school.jpg?style=centerme)
 
