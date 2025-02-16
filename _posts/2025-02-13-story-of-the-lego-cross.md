@@ -59,12 +59,10 @@ known for producing cute ceramic figures, salt and pepper shakers, and similar i
 I started sharing photos of the crosses. This marked the first occasion when the broader LEGO community 
 became aware of the LEGO crosses.
 
-```aiignore
 One reader, Martin Doncic, raised an interesting point about the crosses being well-known among collectors before 
 my discovery. His statement is likely accurate. The existence of these crosses was known among the Danish community 
 and especially among a specific age group. They were also probably popular among serious German LEGO collectors. 
 However, I have not come across any books or online posts mentioning them prior to 2002.
-```
 
 These crosses, slightly off-white in color and made of plastic, are delicate enough to break if dropped from a 
 few feet. **Measuring approximately seven inches in height and four inches in width, they emit a light green 
@@ -129,14 +127,12 @@ in diameter, these ornaments held a special significance. OKC, unfortunately, pa
 {:.image-caption}
 Christmas tree ornament in the shape of an angel, 1957
 
-```aiignore
 One of the readers of this article, Gabor Kocsis, reached out to inform me that he discovered a Hong Kong version 
 of the LEGO cross at a Danish flea market. These crosses are smaller than the original, measuring 17.6 cm by 11.2 cm 
 (6.93 inches  by 4.1 inches), and they also glow in the dark. The year of manufacture remains unknown. Interestingly, 
 while the Miniland site mentioned the reproduction of LEGO angels in Hong Kong, I was unaware of the crosses.
 Unlike the ornaments, the crosses were easy to identify as they say Hong Kong on the back.
-```
-<p/>
+
 {% include carousel.html name="lego-cross-07" data=site.data.story-of-lego-cross.lego-cross-v7 %}
 
 It is likely that OKC's inspiration led to the release of the only religious-themed LEGO set, Church set 309, 
