@@ -52,7 +52,7 @@ the book ["Getting Started with Lego Trains"](https://www.amazon.com/Getting-Sta
 {:.image-caption}
 The LEGO cross glows in the dark
 
-After acquiring the cross, I remained discreet about its existence in the broader LEGO community. It wasn't until 
+I remained discreet about its existence in the broader LEGO community after acquiring my first cross. It wasn't until 
 someone in [LUGNET](https://news.lugnet.com/general/?n=39055) inquired about owning the weirdest LEGO item 
 that I mentioned the LEGO crosses. Initially, everyone believed they were made by Lego Japan, a company 
 known for producing cute ceramic figures, salt and pepper shakers, and similar items. Their skepticism faded once 
