@@ -34,8 +34,6 @@ which provides a brief history of LEGO's origins:
 > on this. Prior to these proceedings Lego purchased from Mr, Page's executors any copyright still subsisting in the Page
 > designs."
 > 
-> ~ Decision of the Board delivered by Lord Oliver of Aylmerton
-> 
 > Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
 
 Another startling observation from the Privy Council's judgment was the acknowledgment by Godtfred Christiansen,
@@ -49,6 +47,8 @@ brick design, albeit with modifications to make it resemble a Danish brick.
 > 
 > This was based on the evidence of Mr. Godtfred Christiansen, the President of the appellant company, and 
 > on that of Mr. Berhnard Bodnia, who was responsible for making the moulds.
+> 
+> Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
 
 Adrian Lithgow of The Mail noted that Mrs. Oreline Page, the widow of Kiddicraft's inventor, Hilary Page, reminisced 
 about how her husband conceived the idea for the bricks shortly after the onset of World War II. Intrigued by children's play, 
@@ -83,3 +83,21 @@ making "Lego look-a-likes without changing a plastic molecule. However, U.S. Fed
 in the U.S. District Court in New Jersey ordered Tyco to stop advertising its "Super Blocks" as just like Lego's, 
 only cheaper." 
 [[Washington Post, Sep 1, 1987](https://www.washingtonpost.com/archive/business/1987/09/01/lego-tyco-each-declare-victory-in-battle-of-the-bricks/0d3f7283-37d7-4687-8f3e-ec5cb14d173b/)]
+
+My journey with Hilary Page began in the early 2000s, a time when I stumbled upon the lesser-known origins of LEGO and 
+discovered its roots in Kiddicraft's Self-Locking Bricks. Back in 1947, Hilary Page patented and released the 
+first Kiddicraft Self-Locking Building Brick sets, while LEGO's Automatic Binding Bricks made their debut two 
+years later, in 1949. Information about this creator of innovative toy inventor was scarce, both in print 
+and online. It seemed to me that Hilary Page was unjustly forgotten by history.
+
+With this in mind, I began to collect Kiddicraft brick sets, gradually expanding my collection to include other 
+Kiddicraft toys and even a book. I harbored the hope that one day I would share Hilary Page's extraordinary 
+story with the world. However, by late 2006, it felt as though my efforts were in vain. Chas Saunter had 
+already established an excellent [website dedicated to Hilary Page and his creations](https://www.hilarypagetoys.com/), 
+effectively retelling his story.
+
+The Brickfetish site does an excellent job of recounting the history of Kiddicraft and Hilary Page. 
+Rather than regurgitating the well-known facts about the inventor, I aim to shed light on lesser-known aspects. 
+Hilary Page was not just a toy inventor; he was also a child psychologist deeply invested in revolutionizing 
+the design of children's toys. He even advised parents against purchasing mechanical toys for children 
+under five and encouraged buying small dolls for little girls.
