@@ -17,11 +17,16 @@ LEGO, despite being a clone itself, hasn't hesitated to take legal action agains
 interlocking bricks. The article ["Lego vs. Tyco: The Battle of the Bricks”](https://www.retroist.com/p/lego-vs-tyco-the-battle-of-the-bricks) 
 details the legal conflict between LEGO and Tyco. In 1984, LEGO brought a case Tyco, the maker of "Super Blocks," 
 in 1984 for copyright infringements. Although Tyco was headquartered in New Jersey, USA, the case against them was 
-initiated in Hong Kong, the location where Tyco produced their brick molds. Although Tyco lost the case and only 
+initiated in Hong Kong, the location where Tyco produced their brick molds. Although Tyco lost the case, it only 
 had to pay legal fees. 
 
-Here's an interesting snippet at the beginning of the judgement by Lord Oliver in [Interlego A.G v Tyco Industries Inc & Ors](https://www.bailii.org/uk/cases/UKPC/1988/3.html),
-which provides a brief history of LEGO's origins:
+{% include carousel.html name="tyco-advertisements" data=site.data.kiddicraft-connection.tyco %}
+
+Allow me to share a fascinating tale that begins with a judgment by Lord Oliver in the case of
+Interlego A.G v Tyco Industries Inc & Ors. This judgment provides a brief yet compelling history of 
+LEGO's origins, mentioning that LEGO had previously acquired any existing copyright for the Kiddicraft brick 
+designs from the estate of Hilary Page.
+[[Interlego A.G v Tyco Industries Inc & Ors, 1988](https://www.bailii.org/uk/cases/UKPC/1988/3.html)]
 
 > "The system was originally designed by a Mr. Hilary Page who marketed it under the trade-name "Kiddicraft". It was 
 > the subject-matter of U.K. patents which expired in 1954 and 1959 respectively. The appellant is a Swiss company 
@@ -34,7 +39,7 @@ which provides a brief history of LEGO's origins:
 > on this. Prior to these proceedings Lego purchased from Mr, Page's executors any copyright still subsisting in the Page
 > designs."
 > 
-> Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
+> --- Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
 
 Another startling observation from the Privy Council's judgment was the acknowledgment by Godtfred Christiansen,
 President of LEGO, and Berhnard Bodnia, the brick mold maker, of their deliberate choice to replicate the Kiddicraft
@@ -43,30 +48,19 @@ brick design, albeit with modifications to make it resemble a Danish brick.
 > "The original decision made by the Christiansens was to make the bricks in the same way as the Kiddicraft brick, 
 > but to be designed to look like a Danish brick. Some changes became necessary in order to achieve the effect 
 > that was required, which included the introduction of sharp edges and flat knobs, and an alteration in the 
-> measurements from inches into millimetres to conform to the metric system that was used on the continent."
+> measurements from inches into millimetres to conform to the metric system that was used on the continent.
 > 
 > This was based on the evidence of Mr. Godtfred Christiansen, the President of the appellant company, and 
-> on that of Mr. Berhnard Bodnia, who was responsible for making the moulds.
+> on that of Mr. Berhnard Bodnia, who was responsible for making the moulds."
 > 
-> Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
+> --- Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
 
 Adrian Lithgow of The Mail noted that Mrs. Oreline Page, the widow of Kiddicraft's inventor, Hilary Page, reminisced 
 about how her husband conceived the idea for the bricks shortly after the onset of World War II. Intrigued by children's play, 
 he designed bricks that were subtly different from those of LEGO. Although he never fully pursued the concept, 
 the Christiansens in Denmark recognized its potential and implemented key adaptations. Tragically, 
 Mr. Hilary Page passed away in 1957, unaware of LEGO's eventual triumph. In 1981, LEGO reached an out-of-court settlement 
-of £45,000 with the new owners of Kiddicraft to resolve any remaining rights. [ The Mail, 1981](https://www.newspapers.com/clip/101087/lego-kiddicraft-settle/)
-
-{% include carousel.html name="tyco-advertisements" data=site.data.kiddicraft-connection.tyco %}
-
-> The "butterfly" ad was a print ads which showed a butterfly constructed out of both Lego and Tyco blocks. 
-> In large letters on either side of the butterfly appear the words: "Which part is Tyco? Which part is Lego? 
-> If you can't tell the difference, why pay more?" The ad goes on to include inter alia the statements, 
-> "Tyco looks like and feels like Lego" and "Tyco works with Lego."
-> 
-> Tyco Industries, Inc., Plaintiff, v. Lego Systems, Inc. and Interlego, A.G.,
-> 
-> UNITED STATES DISTRICT COURT FOR THE DISTRICT OF NEW JERSEY, August 24, 1987
+of £45,000 with the new owners of Kiddicraft to resolve any remaining rights. [[ The Mail, 1981](https://www.ornaverum.org/family/waddell-walter-wardlaw/page-lego-ghost.html)]
 
 <div align="center">
 <iframe width="728" height="410" src="https://www.youtube.com/embed/K0-BtGuyR90" title="80s commercial - Tyco Super Blocks (with Betty White)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -84,6 +78,15 @@ in the U.S. District Court in New Jersey ordered Tyco to stop advertising its "S
 only cheaper." 
 [[Washington Post, Sep 1, 1987](https://www.washingtonpost.com/archive/business/1987/09/01/lego-tyco-each-declare-victory-in-battle-of-the-bricks/0d3f7283-37d7-4687-8f3e-ec5cb14d173b/)]
 
+> The "butterfly" ad was a print ads which showed a butterfly constructed out of both Lego and Tyco blocks.
+> In large letters on either side of the butterfly appear the words: "Which part is Tyco? Which part is Lego?
+> If you can't tell the difference, why pay more?" The ad goes on to include inter alia the statements,
+> "Tyco looks like and feels like Lego" and "Tyco works with Lego."
+>
+> Tyco Industries, Inc., Plaintiff, v. Lego Systems, Inc. and Interlego, A.G.,
+>
+> --- UNITED STATES DISTRICT COURT FOR THE DISTRICT OF NEW JERSEY, August 24, 1987
+
 My journey with Hilary Page began in the early 2000s, a time when I stumbled upon the lesser-known origins of LEGO and 
 discovered its roots in Kiddicraft's Self-Locking Bricks. Back in 1947, Hilary Page patented and released the 
 first Kiddicraft Self-Locking Building Brick sets, while LEGO's Automatic Binding Bricks made their debut two 
@@ -96,8 +99,31 @@ story with the world. However, by late 2006, it felt as though my efforts were i
 already established an excellent [website dedicated to Hilary Page and his creations](https://www.hilarypagetoys.com/), 
 effectively retelling his story.
 
-The Brickfetish site does an excellent job of recounting the history of Kiddicraft and Hilary Page. 
-Rather than regurgitating the well-known facts about the inventor, I aim to shed light on lesser-known aspects. 
+The [Brickfetish](http://www.brickfetish.com/timeline/1947.html) site does an excellent job of recounting 
+the history of Kiddicraft and Hilary Page. Rather than regurgitating the well-known facts about the inventor, 
+I aim to shed light on lesser-known aspects. 
+
 Hilary Page was not just a toy inventor; he was also a child psychologist deeply invested in revolutionizing 
-the design of children's toys. He even advised parents against purchasing mechanical toys for children 
+the design of children's toys. He often advised parents against purchasing mechanical toys for children 
 under five and encouraged buying small dolls for little girls.
+
+One aspect that always bothered me was the mysterious circumstances surrounding Hilary Page's death. While many 
+sources, including Wikipedia, claim that he ended his life due to business struggles, fear of his company's 
+collapse, or lack of recognition, the inquest revealed a different narrative. It was mentioned that Mr. Page 
+had been working tirelessly for months on a production that was, paradoxically, too successful. The demand 
+far outstripped the supply, leading to immense pressure. This revelation added a twist to the story of a man who was, 
+perhaps, overwhelmed by the very success he had strived so hard to achieve. [West London Observer, June 28, 1957]
+
+> "Supplies were not meeting demand, but the extent of his worries was certainly unjustified."
+> 
+> --- Charles Warwick Alpass
+> 
+> West London Observer, June 28, 1957
+
+The same newspaper report also recounted the tragic discovery made by Mrs. Oreline Page. She found her husband 
+lifeless in his Ellis Street, Chelsea office, with a gas tap turned on. A poignant notice was pinned to the office door, 
+reading, “Beware—Gas.” 
+
+The night before his tragic end, Hilary Page wrote a letter to his loyal secretary, Mrs. Patricia Sykes-Wright. In it, 
+he entrusted her with the task of delivering this mysterious letter to the board. The contents of this final 
+message remained a secret, adding another layer of intrigue to his already compelling story.
