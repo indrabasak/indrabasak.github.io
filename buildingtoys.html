@@ -1,0 +1,20 @@
+---
+layout: page
+title: Other Building Toys
+permalink: /buildingtoys/
+---
+
+<div class="home">
+    <div class="call-out">
+        Other Building Toys
+    </div>
+</div>
+
+<div class="inventories">
+    {% assign pages = site.buildingtoys | sort: "index" %}
+    {% for page in pages %}
+    <article class="inventory">
+        <h4><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h4>
+    </article>
+    {% endfor %}
+</div>

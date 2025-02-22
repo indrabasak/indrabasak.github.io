@@ -146,3 +146,7 @@ collections:
     output: true
     output_ext: .html
     permalink: /lincolnlogs/:path/
+  buildingtoys:
+    output: true
+    output_ext: .html
+    permalink: /buildingtoys/:path/
