@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: S
+title: Qq ~ Tt
 index: 4
 home: buildingtoys
 items:
@@ -9,7 +9,7 @@ items:
     manufacturer: Samuel Friedrich Fischer (SFF), Germany
     material: Wood
     year: 1900s
-    image: /images/lego/cross/lego-church-309.jpg
+    image: /images/buildingtoys/sff-burgen-schlosser-01.jpg
     note:
       - The elaborate miniature construction set "Burgen und Schlösser" was crafted by the esteemed German company,
         SFF (Samuel Friedrich Fischer), established in 1850. This delightful set, nestled within a wooden box adorned

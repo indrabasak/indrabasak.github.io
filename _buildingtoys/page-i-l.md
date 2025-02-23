@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: I
+title: Ii ~ Ll
 index: 2
 home: buildingtoys
 items:   
@@ -9,7 +9,7 @@ items:
     manufacturer: Idema, W. Germany
     material: Polystyrene
     year: 1960s
-    image: /images/lego/cross/lego-church-309.jpg
+    image: /images/buildingtoys/idema-520-01.jpg
     note:
       - It is not clear how long these first Bakelite blocks were produced before they were replaced by the 
         Idema blocks made of polystyrene.
@@ -20,7 +20,7 @@ items:
     manufacturer: Idema, Mexico
     material: Polystyrene
     year: 1970s
-    image: /images/lego/cross/lego-church-309.jpg
+    image: /images/buildingtoys/idema-444-01.jpg
     note:
       - Idema blocks produced in Mexico
 ---

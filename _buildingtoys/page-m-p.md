@@ -1,6 +1,6 @@
 ---
 layout: inventory-template
-title: M
+title: Mm ~ Pp
 index: 4
 home: buildingtoys
 items:
@@ -9,7 +9,7 @@ items:
     manufacturer: Hausemann & Hötte N.V. in Amsterdam, Netherlands
     material: Wood, Cardboard
     year: 1950s
-    image: /images/lego/cross/lego-church-309.jpg
+    image: /images/buildingtoys/mobaco-jumbo-01.jpg
     note:
       - Mobaco was produced by the Dutch company N.V. Plaatmetaalindustrie van Mouwerik & Bal from 1924 to 1961
         in Zeist, The Netherlands. Known commonly as Moubal, the company specialized in sheet metal products
