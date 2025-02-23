@@ -24,7 +24,7 @@ items:
       - Sets are produced in a range of architectural styles including Roman, Egyptian and Post Modern.
 
   - name: Crandall Improved Building Blocks Set No. 3
-    category: Bricks that Stack
+    category: Other Construction Methods
     manufacturer: Charles M. Crandrall, Montrose, PA, USA
     material: Wood
     year: 1870s

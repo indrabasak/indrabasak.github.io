@@ -4,6 +4,18 @@ title: Mm ~ Pp
 index: 4
 home: buildingtoys
 items:
+
+  - name: Monkey Circus Picture Blocks
+    category: Bricks that Stack
+    manufacturer: McLouglin Bros., New York, New York, USA
+    material: Wood, Chromolithograph
+    year: 1858-1920
+    image: /images/buildingtoys/mcloughlin-bros-monkey-circus-01.jpg
+    note:
+      - McLoughlin Bros., Inc. was a New York manufacturing company active between 1858 and 1920. They were pioneers 
+        in color printing for children's books and produced board games, puzzles, and paper toys. The company 
+        was acquired by Milton Bradley in 1920.
+      
   - name: Mobaco Jumbo A Set
     category: Other Methods
     manufacturer: Hausemann & Hötte N.V. in Amsterdam, Netherlands

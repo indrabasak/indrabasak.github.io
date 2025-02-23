@@ -1,7 +1,7 @@
 ---
 layout: inventory-template
 title: Ii ~ Ll
-index: 2
+index: 3
 home: buildingtoys
 items:   
   - name: Idema No. 520
