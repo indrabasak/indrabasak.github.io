@@ -10,7 +10,7 @@ items:
     manufacturer: McLouglin Bros., New York, New York, USA
     material: Wood, Chromolithograph
     year: 1858-1920
-    image: /images/buildingtoys/mcloughlin-bros-monkey-circus-01.jpg
+    image: /images/buildingtoys/mcloughlin-bros-monkey-circus-01.webp
     note:
       - McLoughlin Bros., Inc. was a New York manufacturing company active between 1858 and 1920. They were pioneers 
         in color printing for children's books and produced board games, puzzles, and paper toys. The company 
@@ -21,7 +21,7 @@ items:
     manufacturer: Hausemann & Hötte N.V. in Amsterdam, Netherlands
     material: Wood, Cardboard
     year: 1950s
-    image: /images/buildingtoys/mobaco-jumbo-01.jpg
+    image: /images/buildingtoys/mobaco-jumbo-01.webp
     note:
       - Mobaco was produced by the Dutch company N.V. Plaatmetaalindustrie van Mouwerik & Bal from 1924 to 1961
         in Zeist, The Netherlands. Known commonly as Moubal, the company specialized in sheet metal products
