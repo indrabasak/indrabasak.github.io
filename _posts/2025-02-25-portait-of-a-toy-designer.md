@@ -67,8 +67,9 @@ the Swedish market, that Hitler launched his invasion of Poland.
 
 When Anne returned to the United States, toy makers and buyers became more interested in American-made toys. 
 As the war loomed, people in America started to avoid toys made in Germany, Italy, and Japan. In 1940, 
-Anne filed several patents for her wooden toys. It is said that two large toy companies manufactured her 
-toys, but she did her own marketing from her base in New York City. 
+Anne filed several patents for her wooden toys. Curiously, all her patents were filed under the name 
+Anne Farrell Herlihy. It is reported that two large toy companies manufactured her toys, but she did her own 
+marketing from her base in New York City. 
 
 {% include carousel.html name="chicken-pull-toy" data=site.data.anne-farrell.chicken-pull-toy %}
 
@@ -101,7 +102,7 @@ Image courtesy [All About Old Toys](https://oldwoodtoys.com/)
 I’m not sure why Anne’s toys are hard to find except for the Domino Blocks. The only other toys I have come 
 across are the building blocks and five pigs from one of her patents. I've seen pictures in publications of 
 wooden trains, automobiles, and rocking horses she designed. Anne made sturdy wooden toys with rounded corners, 
-built to last for generations. They remind me of the wooden toy tradition from Scandinavian countries.
+built to last for generations. They remind me of the wooden toy tradition from the Scandinavian countries.
 
 By the late 1950s, it seemed as though Anne had quietly stepped away from the world of toy design, her name
 fading from the pages of the industry's history. My search yielded no signs of her work beyond that period. 
