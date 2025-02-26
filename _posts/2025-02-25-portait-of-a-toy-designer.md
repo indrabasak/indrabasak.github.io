@@ -12,6 +12,8 @@ conceptualized and designed it? Such thoughts never crossed my mind until I enco
 from the 1950s, manufactured by A. C. Gilbert. On the back of the wooden box, an uncommon sight caught 
 my eye: it read, "Domino Blocks by Anne Farrell."
 
+{% include carousel.html name="domino-blocks" data=site.data.anne-farrell.domino-blocks %}
+
 It's remarkably rare for a toy designer's name to be prominently featured on their creation, and even more 
 so when it’s an A. C. Gilbert toy, considering that A. C. Gilbert himself is renowned for inventing the iconic 
 Erector Sets. The label sparked an interest in me, drawing me into the world of Anne Farrell, a visionary 
@@ -65,6 +67,11 @@ the Swedish market, that Hitler launched his invasion of Poland.
 
 {% include carousel.html name="duck-pull-toy" data=site.data.anne-farrell.duck-pull-toy %}
 
+![Patents](/images/anne-farrell/anne-farrell-patents.png?style=centerme)
+
+{:.image-caption}
+Patents filed under Anne Farrell Herlihy's name in 1940.
+
 When Anne returned to the United States, toy makers and buyers became more interested in American-made toys. 
 As the war loomed, people in America started to avoid toys made in Germany, Italy, and Japan. In 1940, 
 Anne filed several patents for her wooden toys. Curiously, all her patents were filed under the name 
@@ -77,8 +84,9 @@ She also began designing toys for Milton Bradley around this time. She split her
 production at Springfield and creating new, high-quality wooden toys in New York. Anne's toys were produced under 
 the Milton Bradley Laboratories brand, each meticulously packaged in a wooden box that proudly 
 bore the label: "Milton Bradley Laboratories, Springfield, MA, USA." The box also featured the tagline, 
-"TOYS THE WAY CHILDREN WANT THEM," and every toy inside was personally signed by Anne herself. 
-In 1942, she married John Daniel Ford, a U.S. Army Captain during World War II.
+"TOYS THE WAY CHILDREN WANT THEM," and every toy inside was personally signed by Anne herself. Anne traveled 
+extensively as an associate of the company, promoting her toys to parents and engaging in discussions about the 
+role of toys in modern educational theory. In 1942, she married John Daniel Ford, a U.S. Army Captain during World War II.
 
 ![Gilbert Catalog](/images/anne-farrell/1947-gilbert-catalog.png?style=centerme)
 
@@ -116,6 +124,8 @@ Charlevoix, Michigan, leaving behind a legacy of enduring wooden toys cherished 
 1.  Official Gazette US Patents, 1940
 
 1. Durney, Helen., _Good Design in Toys for Children_, vol 43, Design; Devoted to the Decorative Arts, 1941.
+
+1. Newton Graphic, September, 1941
 
 1. _Anne Farrell - Toy Lady_, Sales Management, 1943
 
