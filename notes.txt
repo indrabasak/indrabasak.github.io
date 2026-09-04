@@ -63,3 +63,14 @@ sudo gem install github-pages
 bumped jekyll version to 3.10.0 in Gemfile
 
 jekyll server
+
+////////////////////////////////
+Sep 3, 2026
+brew install ruby
+echo 'export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+rm -rf .jekyll-cache/ _site/ .bundle/ Gemfile.lock
+gem install bundler
+gem install github-pages
+gem install webrick

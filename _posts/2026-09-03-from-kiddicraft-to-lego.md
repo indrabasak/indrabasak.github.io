@@ -1,32 +1,32 @@
 ---
 layout: post
-title: "LEGO's Origins: The Kiddicraft Connection"
+title: "From Kiddicraft to LEGO: Tracing the Origins"
 published: false
 comments: true
 tags: [Kiddicraft, Hilary Page, LEGO]
 image: /images/entry/lego-cross-story.jpg
 ---
 
-It always amuses me when someone mentions that a particular brick or brand is a clone of LEGO. People either 
-misinformed or tend to forget that LEGO itself was the original clone. The other day, when I brought up this point 
-with someone, his retort was that it didn't matter; LEGO was the one that thrived and transformed their bricks into a 
-billion-dollar enterprise. While it is true that LEGO has thrived and become synonymous with toy building bricks, 
-it should not be forgotten that LEGO itself originated as a clone of Kiddicraft.
+It always amuses me when someone refers to a particular brick or brand as a LEGO clone. People either aren’t aware or 
+tend to forget that LEGO itself was originally a clone. The other day, when I raised this point in a discussion, 
+their response was that it didn’t matter — LEGO was the one that succeeded and turned its bricks into a billion-dollar 
+enterprise. While it’s true that LEGO has thrived and become synonymous with toy building bricks, it shouldn’t be 
+forgotten that LEGO itself originated as a clone of Kiddicraft.
 
-LEGO, despite being a clone itself, hasn't hesitated to take legal action against other companies producing similar 
-interlocking bricks. The article ["Lego vs. Tyco: The Battle of the Bricks”](https://www.retroist.com/p/lego-vs-tyco-the-battle-of-the-bricks) 
-details the legal conflict between LEGO and Tyco. In 1984, LEGO brought a case Tyco, the maker of "Super Blocks," 
-in 1984 for copyright infringements. Although Tyco was headquartered in New Jersey, USA, the case against them was 
-initiated in Hong Kong, the location where Tyco produced their brick molds. Although Tyco lost the case, it only 
-had to pay legal fees. 
+Despite having originated as a clone itself, LEGO has not hesitated to take legal action against other companies 
+producing similar interlocking bricks. The article ["Lego vs. Tyco: The Battle of the Bricks”](https://www.retroist.com/p/lego-vs-tyco-the-battle-of-the-bricks)
+describes the legal conflict between LEGO and Tyco. In 1984, LEGO brought a case against Tyco, the maker 
+of “Super Blocks,” for copyright infringement. Although Tyco was headquartered in New Jersey, USA, the case 
+was initiated in Hong Kong, where Tyco produced its brick molds. Although Tyco lost the case, it was only 
+required to pay legal fees.
 
 {% include carousel.html name="tyco-advertisements" data=site.data.kiddicraft-connection.tyco %}
 
-Allow me to share a fascinating tale that begins with a judgment by Lord Oliver in the case of
-Interlego A.G v Tyco Industries Inc & Ors. This judgment provides a brief yet compelling history of 
-LEGO's origins, mentioning that LEGO had previously acquired any existing copyright for the Kiddicraft brick 
-designs from the estate of Hilary Page.
-[[Interlego A.G v Tyco Industries Inc & Ors, 1988](https://www.bailii.org/uk/cases/UKPC/1988/3.html)]
+Let me share a brief but compelling account beginning with a judgment by Lord Oliver in Interlego A.G v Tyco 
+Industries Inc & Ors. In that judgment, they provide a concise history of LEGO’s origins, noting that LEGO 
+had previously acquired any existing copyright in the Kiddicraft brick designs from the estate of Hilary Page.
+
+A judgment excerpt from [[Interlego A.G v Tyco Industries Inc & Ors, 1988](https://www.bailii.org/uk/cases/UKPC/1988/3.html)],
 
 > "The system was originally designed by a Mr. Hilary Page who marketed it under the trade-name "Kiddicraft". It was 
 > the subject-matter of U.K. patents which expired in 1954 and 1959 respectively. The appellant is a Swiss company 
@@ -56,9 +56,9 @@ brick design, albeit with modifications to make it resemble a Danish brick.
 > --- Interlego A.G v. Tyco Industries Inc & Ors (Hong Kong) [1988] UKPC 3 (05 May 1988)
 
 Adrian Lithgow of The Mail noted that Mrs. Oreline Page, the widow of Kiddicraft's inventor, Hilary Page, reminisced 
-about how her husband conceived the idea for the bricks shortly after the onset of World War II. Intrigued by children's play, 
-he designed bricks that were subtly different from those of LEGO. Although he never fully pursued the concept, 
-the Christiansens in Denmark recognized its potential and implemented key adaptations. Tragically, 
+about how her husband conceived the idea for the bricks shortly after the onset of World War II. Intrigued by 
+children's play, he designed bricks that were subtly different from those of LEGO. Although he never fully 
+pursued the concept, the Christiansens in Denmark recognized its potential and implemented key adaptations. Tragically, 
 Mr. Hilary Page passed away in 1957, unaware of LEGO's eventual triumph. In 1981, LEGO reached an out-of-court settlement 
 of £45,000 with the new owners of Kiddicraft to resolve any remaining rights. [[ The Mail, 1981](https://www.ornaverum.org/family/waddell-walter-wardlaw/page-lego-ghost.html)]
 
@@ -127,3 +127,7 @@ reading, “Beware—Gas.”
 The night before his tragic end, Hilary Page wrote a letter to his loyal secretary, Mrs. Patricia Sykes-Wright. In it, 
 he entrusted her with the task of delivering this mysterious letter to the board. The contents of this final 
 message remained a secret, adding another layer of intrigue to his already compelling story.
+
+Ultimately, the story of LEGO and Kiddicraft is not one of simple heroes or villains, but of how innovation, 
+influence, and timing become intertwined in unexpected ways. Looking back, it serves as a reminder that even 
+the most iconic creations often rest on forgotten ideas, shaped as much by circumstance as by design.

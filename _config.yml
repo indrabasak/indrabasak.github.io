@@ -92,7 +92,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-lunr-js-search
+#  - jekyll-lunr-js-search # not supported by GitHub Pages; _includes/search-support.html is unused
 
 whitelist:
   - jekyll-paginate
@@ -142,6 +142,10 @@ collections:
     output: true
     output_ext: .html
     permalink: /lego/:path/
+  kiddicraft:
+    output: true
+    output_ext: .html
+    permalink: /kiddicraft/:path/
   lincolnlogs:
     output: true
     output_ext: .html
