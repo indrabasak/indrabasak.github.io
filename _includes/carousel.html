@@ -12,12 +12,14 @@
 
     <div class="carousel-inner" role="listbox">
         {% for picture in include.data %}
+        {% comment %} data entries may be a {url, title, caption} map or a bare image path {% endcomment %}
+        {% assign picture_url = picture.url | default: picture %}
         {% if forloop.first == true %}
         <div class="carousel-item active">
             {% if picture.title %}
-            <img src="{{ picture.url }}" alt="{{ picture.title }}" class="d-block">
+            <img src="{{ picture_url }}" alt="{{ picture.title }}" class="d-block">
             {% else %}
-            <img src="{{ picture.url }}">
+            <img src="{{ picture_url }}">
             {% endif %}
             {% if picture.caption %}
             <div class="carousel-caption mb-4 text-wrap">
@@ -28,9 +30,9 @@
         {% else %}
         <div class="carousel-item">
             {% if picture.title %}
-            <img src="{{ picture.url }}" alt="{{ picture.title }}" class="d-block">
+            <img src="{{ picture_url }}" alt="{{ picture.title }}" class="d-block">
             {% else %}
-            <img src="{{ picture.url }}">
+            <img src="{{ picture_url }}">
             {% endif %}
             {% if picture.caption %}
             <div class="carousel-caption mb-4 text-wrap">

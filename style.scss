@@ -1034,6 +1034,38 @@ img[src$="centerme"] {
   display: inline-block;
 }
 
+// slider needs more room than a lone thumbnail for its arrows
+.post-teaser .inventory_carousel {
+  width: 35%;
+}
+
+.post-teaser .inventory_carousel ~ .inventory_meta {
+  width: 59%;
+}
+
+.inventory_carousel .carousel-item {
+  height: 220px;
+}
+
+.inventory_carousel .carousel-item img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+// bootstrap's chevrons are white and vanish against light photos
+.inventory_carousel .carousel-control-prev-icon,
+.inventory_carousel .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+.inventory_carousel .carousel-control-prev,
+.inventory_carousel .carousel-control-next {
+  width: 12%;
+  opacity: 0.8;
+}
+
 .post-teaser .inventory_meta {
   width:70%;
   margin-left: 4%;

@@ -18,7 +18,12 @@ layout: default
         {% for item in page.items %}
         <div class="post-teaser">
             <div class="inventory_info">
-                {% if item.image %}
+                {% if item.images %}
+                {% assign carousel_name = item.name | slugify | append: '-' | append: forloop.index %}
+                <div class="inventory_image inventory_carousel">
+                    {% include carousel.html name=carousel_name data=item.images %}
+                </div>
+                {% elsif item.image %}
                 <div class="inventory_image">
                     <a href="{{ item.image }}" data-lightbox="{{ item.name | replace: ' ', '-' }}"><img src="{{ item.image }}"/></a>
                 </div>
