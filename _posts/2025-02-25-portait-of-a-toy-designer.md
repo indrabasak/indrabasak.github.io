@@ -4,7 +4,7 @@ title: "Anne Farrell: A Portrait of a Toy Designer"
 published: true
 comments: true
 tags: [Anne Farrell, toy designer, A. C. Gilbert, Milton Bradley]
-image: /images/entry/anne-farrell.png
+image: /images/entry/anne-farrell-02.png
 ---
 
 When you come across a toy, have you ever wondered about the mind behind its creation, the person who 

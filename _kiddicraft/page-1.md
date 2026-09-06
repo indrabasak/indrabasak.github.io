@@ -4,12 +4,13 @@ title: Kiddicraft Sets
 index: 1
 home: kiddicraft
 items:
-- name: Large Lincoln Timbers Set No. 1T
-manufacturer: J. L. Wright Inc.
-material: Wood
-year: 1940s
-image: /images/lincoln-logs/1940s/ll-1t-01.png
-note:
-- T stands for Timber
-- Lincoln Timbers are identical with Large Lincoln Logs except that they are square instead of round.
-- Set 1T is entirely timber.
+- name: Kiddicraft Self-Locking Building Bricks Set No. 1
+  category: Bricks that Interlock
+  manufacturer: Kiddicraft
+  material: Plastic
+  set: K 299
+  year: 1950s
+  image: /images/kiddicraft/kiddicraft-set-no-1-04.png
+  note:
+  - About the same size as a LEGO Duplo brick
+---

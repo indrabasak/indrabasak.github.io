@@ -27,6 +27,7 @@ layout: default
                     <h3>{{ item.name }}</h3>
                     <p>Category: {{ item.category }}</p>
                     <p>Manufacturer: {{ item.manufacturer }}</p>
+                    {% if item.set %}<p>Set Number: {{ item.set }}</p>{% endif %}
                     {% if item.material %}<p>Material: {{ item.material }}</p>{% endif %}
                     {% if item.year %}<p>Year: {{ item.year }}</p>{% endif %}
                     {% if item.issuer %}<p>Issuer: {{ item.issuer }}</p>{% endif %}

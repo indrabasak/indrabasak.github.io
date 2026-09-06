@@ -4,7 +4,7 @@ title: "From Kiddicraft to LEGO: Tracing the Origins"
 published: false
 comments: true
 tags: [Kiddicraft, Hilary Page, LEGO]
-image: /images/entry/lego-cross-story.jpg
+image: /images/entry/kiddicraft-lego-02.png
 ---
 
 It always amuses me when someone refers to a particular brick or brand as a LEGO clone. People either aren’t aware or 
@@ -87,11 +87,21 @@ only cheaper."
 >
 > --- UNITED STATES DISTRICT COURT FOR THE DISTRICT OF NEW JERSEY, August 24, 1987
 
+![Kiddicarft Self Locking Bricks Set No. 1](/images/kiddicraft/kiddicraft-set-no-1-04.png?style=centerme)
+
+{:.image-caption}
+Kiddicraft Self-Locking Bricks Set No. 1. Bricks about the size of a LEGO Duplo brick. The set was released in the 1950s.
+
 My journey with Hilary Page began in the early 2000s, a time when I stumbled upon the lesser-known origins of LEGO and 
 discovered its roots in Kiddicraft's Self-Locking Bricks. Back in 1947, Hilary Page patented and released the 
 first Kiddicraft Self-Locking Building Brick sets, while LEGO's Automatic Binding Bricks made their debut two 
 years later, in 1949. Information about this creator of innovative toy inventor was scarce, both in print 
 and online. It seemed to me that Hilary Page was unjustly forgotten by history.
+
+![Hilary Page](/images/kiddicraft/hilary-page-small-02.jpg?style=centerme)
+
+{:.image-caption}
+Hilary Page, the inventor of Kiddicraft's Self-Locking Bricks, which inspired LEGO's design.
 
 With this in mind, I began to collect Kiddicraft brick sets, gradually expanding my collection to include other 
 Kiddicraft toys and even a book. I harbored the hope that one day I would share Hilary Page's extraordinary 
@@ -102,6 +112,11 @@ effectively retelling his story.
 The [Brickfetish](http://www.brickfetish.com/timeline/1947.html) site does an excellent job of recounting 
 the history of Kiddicraft and Hilary Page. Rather than regurgitating the well-known facts about the inventor, 
 I aim to shed light on lesser-known aspects. 
+
+![Kiddicraft Sensible Toys](/images/kiddicraft/1950-kiddicraft-adv-01.png?style=centerme)
+
+{:.image-caption}
+Kiddicraft Sensible Toys advertisement from 1950.
 
 Hilary Page was not just a toy inventor; he was also a child psychologist deeply invested in revolutionizing 
 the design of children's toys. He often advised parents against purchasing mechanical toys for children 
@@ -122,12 +137,12 @@ perhaps, overwhelmed by the very success he had strived so hard to achieve. [Wes
 
 The same newspaper report also recounted the tragic discovery made by Mrs. Oreline Page. She found her husband 
 lifeless in his Ellis Street, Chelsea office, with a gas tap turned on. A poignant notice was pinned to the office door, 
-reading, “Beware—Gas.” 
+reading, “Beware — Gas.” 
 
 The night before his tragic end, Hilary Page wrote a letter to his loyal secretary, Mrs. Patricia Sykes-Wright. In it, 
 he entrusted her with the task of delivering this mysterious letter to the board. The contents of this final 
 message remained a secret, adding another layer of intrigue to his already compelling story.
 
-Ultimately, the story of LEGO and Kiddicraft is not one of simple heroes or villains, but of how innovation, 
-influence, and timing become intertwined in unexpected ways. Looking back, it serves as a reminder that even 
+Ultimately, the story of Kiddicraft and LEGO is not one of good versus evil, but of how innovation and timing 
+become intertwined in unexpected ways. Looking back, it serves as a reminder that even 
 the most iconic creations often rest on forgotten ideas, shaped as much by circumstance as by design.

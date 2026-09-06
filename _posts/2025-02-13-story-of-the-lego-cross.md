@@ -4,7 +4,7 @@ title: "A Legacy of Faith: The Story of the LEGO Cross"
 published: true
 comments: true
 tags: [LEGO, Cross, Church, Ole Kirk Christiansen]
-image: /images/entry/lego-cross-story.jpg
+image: /images/entry/lego-cross-story-02.png
 ---
 
 The first time I discovered the existence of the LEGO cross was in the fall of 2002, when I stumbled upon it on 
