@@ -16,11 +16,13 @@
         {% assign picture_url = picture.url | default: picture %}
         {% if forloop.first == true %}
         <div class="carousel-item active">
+            <a href="{{ picture_url }}">
             {% if picture.title %}
             <img src="{{ picture_url }}" alt="{{ picture.title }}" class="d-block">
             {% else %}
             <img src="{{ picture_url }}">
             {% endif %}
+            </a>
             {% if picture.caption %}
             <div class="carousel-caption mb-4 text-wrap">
                 {{ picture.caption }}
@@ -29,11 +31,13 @@
         </div>
         {% else %}
         <div class="carousel-item">
+            <a href="{{ picture_url }}">
             {% if picture.title %}
             <img src="{{ picture_url }}" alt="{{ picture.title }}" class="d-block">
             {% else %}
             <img src="{{ picture_url }}">
             {% endif %}
+            </a>
             {% if picture.caption %}
             <div class="carousel-caption mb-4 text-wrap">
                {{ picture.caption }}

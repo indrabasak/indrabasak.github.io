@@ -131,8 +131,21 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+            var href = this.getAttribute('href');
+            var title = this.getAttribute('title');
+            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+href+'\') center center / contain no-repeat;" title="'+title+'" ><img id="lightbox-img" src="'+href+'" alt="'+title+'" /></div><span id="lightbox-caption">'+title+'</span>';
             document.getElementById('lightbox').style.display = 'block';
+
+            var img = document.getElementById('lightbox-img');
+            var caption = document.getElementById('lightbox-caption');
+            var showDimensions = function() {
+                caption.textContent = title + ' (' + img.naturalWidth + ' × ' + img.naturalHeight + ' px)';
+            };
+            if (img.complete) {
+                showDimensions();
+            } else {
+                img.addEventListener('load', showDimensions);
+            }
 
             setGallery(this);
         });

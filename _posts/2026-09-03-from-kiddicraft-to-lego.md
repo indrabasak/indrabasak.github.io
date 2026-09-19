@@ -136,12 +136,10 @@ perhaps, overwhelmed by the very success he had strived so hard to achieve. [Wes
 > West London Observer, June 28, 1957
 
 The same newspaper report also recounted the tragic discovery made by Mrs. Oreline Page. She found her husband 
-lifeless in his Ellis Street, Chelsea office, with a gas tap turned on. A poignant notice was pinned to the office door, 
-reading, “Beware — Gas.” 
-
-The night before his tragic end, Hilary Page wrote a letter to his loyal secretary, Mrs. Patricia Sykes-Wright. In it, 
-he entrusted her with the task of delivering this mysterious letter to the board. The contents of this final 
-message remained a secret, adding another layer of intrigue to his already compelling story.
+lifeless in his Ellis Street, Chelsea office, with a gas tap turned on. The night before his tragic end, Hilary Page 
+wrote a letter to his loyal secretary, Mrs. Patricia Sykes-Wright. In it, he entrusted her with the task of delivering 
+this mysterious letter to the board. The contents of this final message remained a secret, adding another layer of 
+intrigue to his already compelling story.
 
 Ultimately, the story of Kiddicraft and LEGO is not one of good versus evil, but of how innovation and timing 
 become intertwined in unexpected ways. Looking back, it serves as a reminder that even 

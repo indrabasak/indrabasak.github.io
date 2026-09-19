@@ -25,6 +25,16 @@ items:
     - /images/kiddicraft/k263-01.png
     - /images/kiddicraft/k263-02.png
     - /images/kiddicraft/k263-03.png
+    
+- name: Kiddicraft Pyramid Rings
+  category: Baby Toys
+  manufacturer: Kiddicraft
+  material: Plastic
+  set: K 277
+  year: Unknown
+  images:
+    - /images/kiddicraft/k277-01.png
+    - /images/kiddicraft/k277-03.png
 
 - name: Kiddicraft Self-Locking Building Bricks Set No. 1
   category: Bricks that Interlock
@@ -53,12 +63,12 @@ items:
   note:
     - About the same size as a LEGO Duplo brick
 
-- name: Kiddi Weight
+- name: Kiddiweight/Kiddiscales
   category: Baby Toys
   manufacturer: Kiddicraft
   material: Plastic
   set: K 335
-  year: 1950s
+  year: First introduced in 1930s - 1940s
   images:
     - /images/kiddicraft/k335-01.png
     - /images/kiddicraft/k335-02.png
